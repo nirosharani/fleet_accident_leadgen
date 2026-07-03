@@ -3267,3 +3267,966 @@
 2026-07-03 11:09:00,224 | INFO     | __main__ | Duplicate article skipped: Who is Kamalpreet Singh? Another Indian trucker charged in Washington crash is an illegal migrant - financialexpress.com
 2026-07-03 11:09:00,225 | INFO     | __main__ | Duplicate article skipped: Indian-origin truck driver accused in Florida crash failed English, road sign tests - financialexpress.com
 2026-07-03 11:09:00,227 | INFO     | __main__ | Duplicate article skipped: 200,000 immigrant truck drivers, many Indian, face licence cancellations after fatal Florida crash crackdown - The Australia Today
+2026-07-03 11:20:31,907 | INFO     | __main__ | Initializing logger.
+2026-07-03 11:20:31,908 | INFO     | __main__ | Configuration loaded.
+2026-07-03 11:20:31,908 | INFO     | __main__ | Company watchlist loaded.
+2026-07-03 11:20:31,930 | INFO     | rss_scraper | Generated 43 search queries
+2026-07-03 11:20:33,191 | INFO     | rss_scraper | Fetched 73 entries from https://news.google.com/rss/search?q=Sun+Pharmaceutical+Industries+accident+India
+2026-07-03 11:20:33,944 | INFO     | rss_scraper | Fetched 18 entries from https://news.google.com/rss/search?q=Sun+Pharmaceutical+Industries+fleet+accident
+2026-07-03 11:20:34,856 | INFO     | rss_scraper | Fetched 79 entries from https://news.google.com/rss/search?q=Sun+Pharmaceutical+Industries+employee+transport
+2026-07-03 11:20:35,825 | INFO     | rss_scraper | Fetched 46 entries from https://news.google.com/rss/search?q=Sun+Pharmaceutical+Industries+vehicle+crash
+2026-07-03 11:20:36,883 | INFO     | rss_scraper | Fetched 76 entries from https://news.google.com/rss/search?q=Dr.+Reddy%27s+Laboratories+accident+India
+2026-07-03 11:20:37,585 | INFO     | rss_scraper | Fetched 4 entries from https://news.google.com/rss/search?q=Dr.+Reddy%27s+Laboratories+fleet+accident
+2026-07-03 11:20:38,443 | INFO     | rss_scraper | Fetched 31 entries from https://news.google.com/rss/search?q=Dr.+Reddy%27s+Laboratories+employee+transport
+2026-07-03 11:20:39,231 | INFO     | rss_scraper | Fetched 36 entries from https://news.google.com/rss/search?q=Dr.+Reddy%27s+Laboratories+vehicle+crash
+2026-07-03 11:20:40,308 | INFO     | rss_scraper | Fetched 46 entries from https://news.google.com/rss/search?q=Cipla+accident+India
+2026-07-03 11:20:41,440 | INFO     | rss_scraper | Fetched 0 entries from https://news.google.com/rss/search?q=Cipla+fleet+accident
+2026-07-03 11:20:42,281 | INFO     | rss_scraper | Fetched 6 entries from https://news.google.com/rss/search?q=Cipla+employee+transport
+2026-07-03 11:20:42,877 | INFO     | rss_scraper | Fetched 2 entries from https://news.google.com/rss/search?q=Cipla+vehicle+crash
+2026-07-03 11:20:44,043 | INFO     | rss_scraper | Fetched 54 entries from https://news.google.com/rss/search?q=Lupin+accident+India
+2026-07-03 11:20:44,716 | INFO     | rss_scraper | Fetched 0 entries from https://news.google.com/rss/search?q=Lupin+fleet+accident
+2026-07-03 11:20:45,467 | INFO     | rss_scraper | Fetched 1 entries from https://news.google.com/rss/search?q=Lupin+employee+transport
+2026-07-03 11:20:46,122 | INFO     | rss_scraper | Fetched 20 entries from https://news.google.com/rss/search?q=Lupin+vehicle+crash
+2026-07-03 11:20:47,622 | INFO     | rss_scraper | Fetched 51 entries from https://news.google.com/rss/search?q=Aurobindo+Pharma+accident+India
+2026-07-03 11:20:48,407 | INFO     | rss_scraper | Fetched 0 entries from https://news.google.com/rss/search?q=Aurobindo+Pharma+fleet+accident
+2026-07-03 11:20:49,208 | INFO     | rss_scraper | Fetched 7 entries from https://news.google.com/rss/search?q=Aurobindo+Pharma+employee+transport
+2026-07-03 11:20:49,871 | INFO     | rss_scraper | Fetched 15 entries from https://news.google.com/rss/search?q=Aurobindo+Pharma+vehicle+crash
+2026-07-03 11:20:50,858 | INFO     | rss_scraper | Fetched 65 entries from https://news.google.com/rss/search?q=Divis+Laboratories+accident+India
+2026-07-03 11:20:51,683 | INFO     | rss_scraper | Fetched 2 entries from https://news.google.com/rss/search?q=Divis+Laboratories+fleet+accident
+2026-07-03 11:20:52,321 | INFO     | rss_scraper | Fetched 10 entries from https://news.google.com/rss/search?q=Divis+Laboratories+employee+transport
+2026-07-03 11:20:53,355 | INFO     | rss_scraper | Fetched 26 entries from https://news.google.com/rss/search?q=Divis+Laboratories+vehicle+crash
+2026-07-03 11:20:54,570 | INFO     | rss_scraper | Fetched 8 entries from https://news.google.com/rss/search?q=Cadila+Healthcare+accident+India
+2026-07-03 11:20:55,467 | INFO     | rss_scraper | Fetched 0 entries from https://news.google.com/rss/search?q=Cadila+Healthcare+fleet+accident
+2026-07-03 11:20:56,259 | INFO     | rss_scraper | Fetched 3 entries from https://news.google.com/rss/search?q=Cadila+Healthcare+employee+transport
+2026-07-03 11:20:56,906 | INFO     | rss_scraper | Fetched 1 entries from https://news.google.com/rss/search?q=Cadila+Healthcare+vehicle+crash
+2026-07-03 11:20:57,711 | INFO     | rss_scraper | Fetched 18 entries from https://news.google.com/rss/search?q=Torrent+Pharmaceuticals+accident+India
+2026-07-03 11:20:58,134 | INFO     | rss_scraper | Fetched 0 entries from https://news.google.com/rss/search?q=Torrent+Pharmaceuticals+fleet+accident
+2026-07-03 11:20:58,960 | INFO     | rss_scraper | Fetched 4 entries from https://news.google.com/rss/search?q=Torrent+Pharmaceuticals+employee+transport
+2026-07-03 11:20:59,890 | INFO     | rss_scraper | Fetched 7 entries from https://news.google.com/rss/search?q=Torrent+Pharmaceuticals+vehicle+crash
+2026-07-03 11:21:00,808 | INFO     | rss_scraper | Fetched 41 entries from https://news.google.com/rss/search?q=Biocon+accident+India
+2026-07-03 11:21:01,917 | INFO     | rss_scraper | Fetched 0 entries from https://news.google.com/rss/search?q=Biocon+fleet+accident
+2026-07-03 11:21:02,658 | INFO     | rss_scraper | Fetched 17 entries from https://news.google.com/rss/search?q=Biocon+employee+transport
+2026-07-03 11:21:03,238 | INFO     | rss_scraper | Fetched 7 entries from https://news.google.com/rss/search?q=Biocon+vehicle+crash
+2026-07-03 11:21:04,187 | INFO     | rss_scraper | Fetched 41 entries from https://news.google.com/rss/search?q=Glenmark+Pharmaceuticals+accident+India
+2026-07-03 11:21:04,732 | INFO     | rss_scraper | Fetched 0 entries from https://news.google.com/rss/search?q=Glenmark+Pharmaceuticals+fleet+accident
+2026-07-03 11:21:05,414 | INFO     | rss_scraper | Fetched 3 entries from https://news.google.com/rss/search?q=Glenmark+Pharmaceuticals+employee+transport
+2026-07-03 11:21:06,152 | INFO     | rss_scraper | Fetched 11 entries from https://news.google.com/rss/search?q=Glenmark+Pharmaceuticals+vehicle+crash
+2026-07-03 11:21:07,391 | INFO     | rss_scraper | Fetched 79 entries from https://news.google.com/rss/search?q=+employee+transport+accident+India
+2026-07-03 11:21:08,695 | INFO     | rss_scraper | Fetched 79 entries from https://news.google.com/rss/search?q=+staff+bus+accident+India
+2026-07-03 11:21:09,652 | INFO     | rss_scraper | Fetched 76 entries from https://news.google.com/rss/search?q=+commercial+vehicle+crash+India
+2026-07-03 11:21:09,791 | INFO     | rss_scraper | Collected 917 unique articles from 1063 entries
+2026-07-03 11:21:09,816 | INFO     | __main__ | Duplicate article skipped: Sun Pharma, Alkem Labs, other pharma stocks gain despite stock market crash; Nifty Pharma rises for fourth day in a row - livemint.com
+2026-07-03 11:21:09,817 | INFO     | __main__ | Duplicate article skipped: India Sees Semaglutide Prices Crash to $15 Monthly Post Patent Expiry - NAVLIN DAILY
+2026-07-03 11:21:09,818 | INFO     | __main__ | Duplicate article skipped: Sun Pharma shares tumble 4% as firm closes in on $12-billion Organon acquisition. What’s spooking investor - The Economic Times
+2026-07-03 11:21:09,818 | INFO     | __main__ | Duplicate article skipped: Sun Pharma, Dr Reddy's, Glenmark launch generic semaglutide in India - Business Standard
+2026-07-03 11:21:09,819 | INFO     | __main__ | Duplicate article skipped: Speeding SUV kills food delivery agent on Sun Pharma Road - The Times of India
+2026-07-03 11:21:09,819 | INFO     | __main__ | Duplicate article skipped: Tata Steel worker died of chest and pelvis injuries - BBC
+2026-07-03 11:21:09,820 | INFO     | __main__ | Duplicate article skipped: Sensex crashes 1,000 points: Why is stock market falling today? - India Today
+2026-07-03 11:21:09,821 | INFO     | __main__ | Duplicate article skipped: Ozempic copies set to crash to $14 in India as generic GLP-1 era starts - Business Standard
+2026-07-03 11:21:09,821 | INFO     | __main__ | Duplicate article skipped: India's Sun Pharma flags revenue hit from IT 'incident' - Reuters
+2026-07-03 11:21:09,822 | INFO     | __main__ | Duplicate article skipped: Pharma stocks crash due to Trump tariffs - Value Research
+2026-07-03 11:21:09,823 | INFO     | __main__ | Duplicate article skipped: Sun Pharma, Coforge: Indian businesses go shopping abroad as growth slows at home - BBC
+2026-07-03 11:21:09,823 | INFO     | __main__ | Duplicate article skipped: Sun Pharma to acquire US-based Organon in $11.75 billion deal, among biggest overseas buys by Indian firm - The Times of India
+2026-07-03 11:21:09,824 | INFO     | __main__ | Duplicate article skipped: Dr Reddy’s, Sun Pharma and other pharma stocks fall up to 3% as Trump threatens 25% tariff on India - The Economic Times
+2026-07-03 11:21:09,825 | INFO     | __main__ | Duplicate article skipped: Sun Pharma share price: Why did stocks of India's top pharmaceutical firm fall? - India Today
+2026-07-03 11:21:09,825 | INFO     | __main__ | Duplicate article skipped: Sun Pharma hit by US tariff risk, but earnings impact to remain limited - Business Standard
+2026-07-03 11:21:09,826 | INFO     | __main__ | Duplicate article skipped: Sun Pharma shares rally 4% as Q3 profit surges 16% YoY; co announces interim dividend - The Economic Times
+2026-07-03 11:21:09,827 | INFO     | __main__ | Duplicate article skipped: Sun Pharmaceuticals to see drop in revenue owing to IT security incident - Business Standard
+2026-07-03 11:21:09,828 | INFO     | __main__ | Duplicate article skipped: Dr Reddy's, Sun: Pharma stocks can crash up to 30% on Trump's 100% tariff - Business Standard
+2026-07-03 11:21:09,828 | INFO     | __main__ | Duplicate article skipped: Sun, Lupin, Dr Reddy's drop up to 4%; why are pharma stocks falling today? - Business Standard
+2026-07-03 11:21:09,829 | INFO     | __main__ | Duplicate article skipped: Sun Pharma suffers IT breach, says core systems not affected - Fierce Pharma
+2026-07-03 11:21:09,830 | INFO     | __main__ | Duplicate article skipped: Trump’s 100% tariffs on branded drugs: Which Indian pharma stocks are most vulnerable? Experts weigh in - The Times of India
+2026-07-03 11:21:09,831 | INFO     | __main__ | Duplicate article skipped: Sun Pharma share slips 2% as USFDA flags 8 observations for Halol facility - Business Standard
+2026-07-03 11:21:09,836 | INFO     | __main__ | Duplicate article skipped: Sun Pharma shares in focus after muted Q2 earnings. Nuvama maintains hold with Rs 1,800 target - The Economic Times
+2026-07-03 11:21:09,837 | INFO     | __main__ | Duplicate article skipped: Drug Major Sun Pharma Hit By Ransomware Attack: 5 Facts - NDTV
+2026-07-03 11:21:09,838 | INFO     | __main__ | Duplicate article skipped: India’s largest drugmaker Sun Pharma weighs $10 billion Organon acquisition to deepen US presence, reports - Firstpost
+2026-07-03 11:21:09,838 | INFO     | __main__ | Duplicate article skipped: Sun Pharma to acquire US-listed Organon for $11.75 billion in one of India’s largest pharma deals - The Times of India
+2026-07-03 11:21:09,839 | INFO     | __main__ | Duplicate article skipped: Sun Pharma's Unloxcyt posts 50% response rate in skin cancer study - Business Standard
+2026-07-03 11:21:09,839 | INFO     | __main__ | Duplicate article skipped: 'Discover and Make in India' to drive innovation in pharma, says Dilip Shanghvi, Founder & Managing Direct - The Economic Times
+2026-07-03 11:21:09,840 | INFO     | __main__ | Duplicate article skipped: SPARC shares crash 19% after Psoriasis drug fails to deliver in trials - Moneycontrol.com
+2026-07-03 11:21:09,840 | INFO     | __main__ | Duplicate article skipped: Pharma stocks crash! Sun Pharma, Biocon, Cipla, Laurus Labs, Divis, Zydus Life, Alkem Labs, Dr. Reddy shares - India.Com
+2026-07-03 11:21:09,841 | INFO     | __main__ | Duplicate article skipped: Cyrus Mistry: Billionaire former Tata chairman dies in car crash - BBC
+2026-07-03 11:21:09,842 | INFO     | __main__ | Duplicate article skipped: Sun Pharma receives regulatory approval to sell generic Wegovy in India - Business Standard
+2026-07-03 11:21:09,842 | INFO     | __main__ | Duplicate article skipped: Sun Pharma, Cipla recall products in US over manufacturing issues: USFDA - The Economic Times
+2026-07-03 11:21:09,844 | INFO     | __main__ | Duplicate article skipped: Sun Pharma Eyes Stronger US Presence With USD 10 Billion Organon Acquisition - News18
+2026-07-03 11:21:09,845 | INFO     | __main__ | Duplicate article skipped: Trade Spotlight: How should you trade Goodluck India, CreditAccess, Sun Pharma, Gravita India, Ratnamani... - Moneycontrol.com
+2026-07-03 11:21:09,846 | INFO     | __main__ | Duplicate article skipped: Compliance review: Sun Pharma’s Halol plant gets 8 USFDA observations; company vows remedial steps after - The Times of India
+2026-07-03 11:21:09,847 | INFO     | __main__ | Duplicate article skipped: Pharma stocks in demand; Torrent hits new high; Natco up 6% on huge volumes - Business Standard
+2026-07-03 11:21:09,847 | INFO     | __main__ | Duplicate article skipped: LITU alumnus Kirti Ganorkar is Sun Pharma’s MD - The Times of India
+2026-07-03 11:21:09,848 | INFO     | __main__ | Duplicate article skipped: Pharma department refuses to name 30 doctors in bribery tangle - The Times of India
+2026-07-03 11:21:09,849 | INFO     | __main__ | Duplicate article skipped: Sun Pharma, Bayer partner for diabetes-linked kidney disease medicine - Business Standard
+2026-07-03 11:21:09,850 | INFO     | __main__ | Duplicate article skipped: Sun Pharma, officials including Dilip Shanghvi settle case of alleged market norms violation with Sebi - The Times of India
+2026-07-03 11:21:09,851 | INFO     | __main__ | Duplicate article skipped: Sun Pharma gets rights for marketing cerebral ischemic stroke drug Sovateltide under brand name Tyvalzi... - Medical Dialogues
+2026-07-03 11:21:09,852 | INFO     | __main__ | Duplicate article skipped: Sun Pharma Advanced Research Shares Crash 16%; What’s Triggering Investors Jitters? - Goodreturns
+2026-07-03 11:21:09,853 | INFO     | __main__ | Duplicate article skipped: Sensex ends 1,000 points as weak monsoon forecast, Iran uncertainty spook investors - India Today
+2026-07-03 11:21:09,854 | INFO     | __main__ | Duplicate article skipped: Sun Pharma partners with RCB as principal sponsor for 3 yrs, starting 2026 - Business Standard
+2026-07-03 11:21:09,854 | INFO     | __main__ | Duplicate article skipped: Information security incident occurred at Sun Pharma, impacted IT assets isolated - Medical Dialogues
+2026-07-03 11:21:09,855 | INFO     | __main__ | Duplicate article skipped: Sun Pharma Q3 result announced; profit rises nearly four-fold - The Times of India
+2026-07-03 11:21:09,855 | INFO     | __main__ | Duplicate article skipped: Sun Pharma eyes revenue hit due to ransomware attack - The Economic Times
+2026-07-03 11:21:09,856 | INFO     | __main__ | Duplicate article skipped: Curbs on Sun Pharma - Telegraph India
+2026-07-03 11:21:09,856 | INFO     | __main__ | Duplicate article skipped: Sun Pharma shares close at 548.70 on BSE and 549.50 on NSE - The Times of India
+2026-07-03 11:21:09,857 | INFO     | __main__ | Duplicate article skipped: 10 pharma firms launch semaglutide in India; Nomura sees ₹12k-cr mkt - Business Standard
+2026-07-03 11:21:09,858 | INFO     | __main__ | Duplicate article skipped: Pharma giants want to crash the skincare party. It will be a long haul. - livemint.com
+2026-07-03 11:21:09,859 | INFO     | __main__ | Duplicate article skipped: Sun Pharma shares fall 7.5% after whistleblower email to Sebi - livemint.com
+2026-07-03 11:21:09,859 | INFO     | __main__ | Duplicate article skipped: Fire disrupts production at GSK Pharma's contract manufacturing site - Business Standard
+2026-07-03 11:21:09,860 | INFO     | __main__ | Duplicate article skipped: Aurobindo incurring loss at China Plant, hopes to achieve break-even by Q4 - Business Standard
+2026-07-03 11:21:09,861 | INFO     | __main__ | Duplicate article skipped: Threat in Your Medicine Cabinet: The FDA’s Gamble on America’s Drugs - ProPublica
+2026-07-03 11:21:09,862 | INFO     | __main__ | Duplicate article skipped: Sensex settles 850 pts lower, Nifty below 24,750: US tariff worries among key factors behind market... - Moneycontrol.com
+2026-07-03 11:21:09,862 | INFO     | __main__ | Duplicate article skipped: Indian pharmaceutical giant warns of revenue loss, litigation after ransomware attack - The Record from Recorded Future News
+2026-07-03 11:21:09,863 | INFO     | __main__ | Duplicate article skipped: Sun Pharma Q4 preview: Analysts expect 18% jump in profit; check details - Business Standard
+2026-07-03 11:21:09,863 | INFO     | __main__ | Duplicate article skipped: Pharma Stocks in Red as Dalal Street Bleeds; Biocon, Piramal Pharma, Sun Pharma Among Top Losers; Know Reasons - Goodreturns
+2026-07-03 11:21:09,864 | INFO     | __main__ | Duplicate article skipped: After Sun Pharma stock crash, co-promoter likely to quit Jaypee Infra race - Business Standard
+2026-07-03 11:21:09,865 | INFO     | __main__ | Duplicate article skipped: Sun Pharma shares crash over 13% amid reports of fresh whistleblower complaint - The Statesman
+2026-07-03 11:21:09,866 | INFO     | __main__ | Duplicate article skipped: Sun Pharma launches Fexuprazan tablets 40 mg in India - Business Standard
+2026-07-03 11:21:09,867 | INFO     | __main__ | Duplicate article skipped: Black Friday: Sensex crashes over 1,000 pts, Nifty sinks below 22,900; Trump tariffs among key factors to... - Moneycontrol.com
+2026-07-03 11:21:09,868 | INFO     | __main__ | Duplicate article skipped: Stock Market Crash Today: Nifty Below 24,000, Sensex Tumbles 770 Points; Know Why Market is Falling? - Goodreturns
+2026-07-03 11:21:09,875 | INFO     | __main__ | Duplicate article skipped: Pharmaceutical giant Cencora reports cyberattack - The Record from Recorded Future News
+2026-07-03 11:21:09,876 | INFO     | __main__ | Duplicate article skipped: Sun Pharma cyber attack Confirmed, Hackers Access 17TB Data - The Cyber Express
+2026-07-03 11:21:09,877 | INFO     | __main__ | Duplicate article skipped: Sun Pharma founder Dilip Shanghvi's net worth takes a $14 billion nose dive in 2 years - IBTimes India
+2026-07-03 11:21:09,883 | INFO     | __main__ | Duplicate article skipped: Emcure Pharma Shares Fall on ED Thapar Controversy, Past Scrutiny - Whalesbook
+2026-07-03 11:21:09,884 | INFO     | __main__ | Duplicate article skipped: Rs 10,000-crore opportunity: Sun Pharma, Lupin, Torrent to lead 2026 weight-loss market as Ozempic patent expires - financialexpress.com
+2026-07-03 11:21:09,885 | INFO     | __main__ | Duplicate article skipped: Sun Pharma to acquire Russian company in Rs 410 crore deal - India TV News
+2026-07-03 11:21:09,885 | INFO     | __main__ | Duplicate article skipped: Speeding SUV driven by teen returning from wedding party kills delivery agent in Vadodara - The Indian Express
+2026-07-03 11:21:09,886 | INFO     | __main__ | Duplicate article skipped: ‘Toxic’ syrup banned in MP after 11 children die: Dy CM initially denied deaths; now orders seizure of syru... - Bhaskar English
+2026-07-03 11:21:09,887 | INFO     | __main__ | Duplicate article skipped: Why Demand for Car Accident Lawyers Is Surging and What It Means for Commercial Fleets - FieldLogix
+2026-07-03 11:21:09,887 | INFO     | __main__ | Duplicate article skipped: Juvenile e-bike rider struck on Manatee Avenue - Anna Maria Island Sun
+2026-07-03 11:21:09,888 | INFO     | __main__ | Duplicate article skipped: Multiple medical helicopters called to Darke County multi-vehicle crash - Dayton Daily News
+2026-07-03 11:21:09,889 | INFO     | __main__ | Duplicate article skipped: Teen driver killed in crash in Rolling Meadows industrial park - Chicago Sun-Times
+2026-07-03 11:21:09,890 | INFO     | __main__ | Duplicate article skipped: Police say medical issue likely factor in three-vehicle crash in Jamestown - Jamestown Sun
+2026-07-03 11:21:09,890 | INFO     | __main__ | Duplicate article skipped: 1 child dead after accident involving farm equipment - Springfield News-Sun
+2026-07-03 11:21:09,891 | INFO     | __main__ | Duplicate article skipped: Two killed in a horrific crash! - Daily Sun
+2026-07-03 11:21:09,891 | INFO     | __main__ | Duplicate article skipped: Fire crews, medical helicopters called to scene of multi-vehicle crash in Dauphin County - local21news.com
+2026-07-03 11:21:09,892 | INFO     | __main__ | Duplicate article skipped: Air India crash probe focuses on engine, flaps; India orders safety checks on 787 fleet - Reuters
+2026-07-03 11:21:09,893 | INFO     | __main__ | Duplicate article skipped: No accident insurance claim if driver is drunk: Consumer commission - The Times of India
+2026-07-03 11:21:09,893 | INFO     | __main__ | Duplicate article skipped: 10 most affordable accident insurance providers in the Philippines - Insurance Business
+2026-07-03 11:21:09,894 | INFO     | __main__ | Duplicate article skipped: Witness describes scene of chaos after women and child hit in Horseshoe Bay bus accident - Vancouver Sun
+2026-07-03 11:21:09,895 | INFO     | __main__ | Duplicate article skipped: Elderly man killed in crash involving LAPD vehicle - KTLA
+2026-07-03 11:21:09,896 | INFO     | __main__ | Duplicate article skipped: Insurance co can reject claim if vehicle is overloaded: NCDRC - Business Standard
+2026-07-03 11:21:09,896 | INFO     | __main__ | Duplicate article skipped: Juvenile injured in accident involving Harford sheriff’s deputy’s vehicle - Baltimore Sun
+2026-07-03 11:21:09,897 | INFO     | __main__ | Duplicate article skipped: Taneytown man dies in single-vehicle crash - Baltimore Sun
+2026-07-03 11:21:09,898 | INFO     | __main__ | Duplicate article skipped: Sun Pharma shares jump 7% as India's largest drugmaker to buy U.S. firm Organon in $11.75 billion deal - CNBC
+2026-07-03 11:21:09,899 | INFO     | __main__ | Duplicate article skipped: Sun Pharmaceutical acquires US-based Organon in $11.75 billion deal - Business Standard
+2026-07-03 11:21:09,900 | INFO     | __main__ | Duplicate article skipped: Sun Pharma wins trademark case against Navi Mumbai company - The Economic Times
+2026-07-03 11:21:09,900 | INFO     | __main__ | Duplicate article skipped: Sun Pharma Incorporates New USA Unit, Sun Pharma America - scanx.trade
+2026-07-03 11:21:09,902 | INFO     | __main__ | Duplicate article skipped: Sun Pharma to acquire U.S. firm Organon in $11.75 billion deal - The Hindu
+2026-07-03 11:21:09,902 | INFO     | __main__ | Duplicate article skipped: Sun Pharmaceutical Industries Ltd. Share Price Live Today - CNBC TV18
+2026-07-03 11:21:09,903 | INFO     | __main__ | Duplicate article skipped: Q4 results: Sun Pharma, Hindalco, Eicher Motors, NTPC Green, Fortis, Info Edge, Colgate, others to declare earnings on May 22 - Upstox
+2026-07-03 11:21:09,904 | INFO     | __main__ | Duplicate article skipped: From Tourism to Tea: How GST Reforms Will Transform Sikkim’s Economy - PIB
+2026-07-03 11:21:09,905 | INFO     | __main__ | Duplicate article skipped: Sun Pharma Schedules Q4FY26 Results Announcement and Earnings Call for 22 May 2026 - scanx.trade
+2026-07-03 11:21:09,905 | INFO     | __main__ | Duplicate article skipped: Sun Pharma most exposed Indian company to Trump's new tariff threat, warns Jefferies - The Economic Times
+2026-07-03 11:21:09,906 | INFO     | __main__ | Duplicate article skipped: Indian billionaire to visit Vietnam’s Ha Long Bay with 4,500 employees - Theinvestor
+2026-07-03 11:21:09,907 | INFO     | __main__ | Duplicate article skipped: Q2 Results: Sun Pharma, Grasim, Britannia, Blue Star, Astral, Delhivery, others to post earnings on Nov 5; check list - Upstox
+2026-07-03 11:21:09,907 | INFO     | __main__ | Duplicate article skipped: Dilip Shanghvi has built Sun Pharma by making bold bets. And he's not done yet - Forbes India
+2026-07-03 11:21:09,908 | INFO     | __main__ | Duplicate article skipped: Indian Pharma Billionaire Dilip Shanghvi Doubles Down On The U.S. With $11.8 Billion Acquisition - Forbes
+2026-07-03 11:21:09,909 | INFO     | __main__ | Duplicate article skipped: Sun Pharma Company Launches COVID-19 Drug Favipiravir In India - NDTV
+2026-07-03 11:21:09,910 | INFO     | __main__ | Duplicate article skipped: Vietnam should pay heed to culinary needs of Indian tourists: Vietravel exec - Theinvestor
+2026-07-03 11:21:09,910 | INFO     | __main__ | Duplicate article skipped: NCLT Approves Sun Pharma's Merger with Subsidiaries, Enhancing Corporate Structure - scanx.trade
+2026-07-03 11:21:09,911 | INFO     | __main__ | Duplicate article skipped: Sun Pharma moves Madras High Court challenging a 1998 G.O. declaring places within 5 km radius from Vedanthangal lake also to be a sanctuary - The Hindu
+2026-07-03 11:21:09,912 | INFO     | __main__ | Duplicate article skipped: Torrent Pharma seeks CCI nod to acquire majority stake in JB Chemicals in ₹19,500-crore deal - Upstox
+2026-07-03 11:21:09,913 | INFO     | __main__ | Duplicate article skipped: Freshers Biotechnology Manager Opportunity – at Sun Pharmaceuticals, Apply Now! - BioTecNika
+2026-07-03 11:21:09,913 | INFO     | __main__ | Duplicate article skipped: 4,500 tourists from Indian billionaire's company start Vietnam trip - VnExpress International
+2026-07-03 11:21:09,914 | INFO     | __main__ | Duplicate article skipped: Employment Dynamics in Indian Pharmaceutical Industry - The Financial World
+2026-07-03 11:21:09,915 | INFO     | __main__ | Duplicate article skipped: Sun Pharma Considers U.S. Manufacturing Expansion Amid Tariff Concerns and Strong Q2 Performance - scanx.trade
+2026-07-03 11:21:09,916 | INFO     | __main__ | Duplicate article skipped: Sun Pharma flags revenue hit from IT 'incident' - The Times of India
+2026-07-03 11:21:09,917 | INFO     | __main__ | Duplicate article skipped: Indian billionaire to bring 4,500 employees to Vietnam - Vietnam Investment Review - VIR
+2026-07-03 11:21:09,918 | INFO     | __main__ | Duplicate article skipped: Sun Pharma puts in place team to integrate Organon global operations - BusinessLine
+2026-07-03 11:21:09,919 | INFO     | __main__ | Duplicate article skipped: Sun Pharma, Cipla recall products in US over manufacturing issues: USFDA - Business Standard
+2026-07-03 11:21:09,920 | INFO     | __main__ | Duplicate article skipped: India’s Biggest Pharma Firm Said to Mull Bid for New York-Listed Organon - Bloomberg
+2026-07-03 11:21:09,921 | INFO     | __main__ | Duplicate article skipped: Sun Pharma Q3 Results: US sales at $477 million; operational performance strong - CNBC TV18
+2026-07-03 11:21:09,921 | INFO     | __main__ | Duplicate article skipped: Indian pharmaceutical billionaire brings 4,500 employees to visit Vietnam - VnExpress International
+2026-07-03 11:21:09,922 | INFO     | __main__ | Duplicate article skipped: Sun Pharma in focus on account of Israel-Palestine conflict - CNBC TV18
+2026-07-03 11:21:09,923 | INFO     | __main__ | Duplicate article skipped: Taro Shareholders Approve Merger with Sun Pharma - Newswire Canada
+2026-07-03 11:21:09,923 | INFO     | __main__ | Duplicate article skipped: Sun Pharma Advanced Research to cut workforce by 40% - The Economic Times
+2026-07-03 11:21:09,924 | INFO     | __main__ | Duplicate article skipped: Sun Pharmaceutical Industries Denies $10 Billion Organon Acquisition Rumors - scanx.trade
+2026-07-03 11:21:09,925 | INFO     | __main__ | Duplicate article skipped: AstraZeneca Pharma and Sun Pharma enter second brand partnership for SZC in India - CNBC TV18
+2026-07-03 11:21:09,925 | INFO     | __main__ | Duplicate article skipped: Sun Pharma to acquire 60% stake in animal healthcare company Vivaldis - CNBC TV18
+2026-07-03 11:21:09,926 | INFO     | __main__ | Duplicate article skipped: Sector scan: Sun Pharma set to shut down part of Vadodara R&D unit, 80 staff may lose jobs - The Indian Express
+2026-07-03 11:21:09,926 | INFO     | __main__ | Duplicate article skipped: Sun Pharma shuts 2 Gujarat R&D centres to cut costs, lets go of 85 scientists - The Times of India
+2026-07-03 11:21:09,928 | INFO     | __main__ | Duplicate article skipped: Sun Pharma names Kirti Ganorkar as MD; Dilip Shanghvi to stay on as exec chairman - CNBC TV18
+2026-07-03 11:21:09,928 | INFO     | __main__ | Duplicate article skipped: Sun Pharma's ex-Ranbaxy sales reps threaten all-India strike against new policies - Fierce Pharma
+2026-07-03 11:21:09,929 | INFO     | __main__ | Duplicate article skipped: Sun Pharma Q3FY26 Preview: Innovative portfolio, India market to drive growth - livemint.com
+2026-07-03 11:21:09,929 | INFO     | __main__ | Duplicate article skipped: Sun Pharma Advanced Research Company Schedules EGM for ₹600 Crore Convertible Warrant Issue - scanx.trade
+2026-07-03 11:21:09,930 | INFO     | __main__ | Duplicate article skipped: Indian pharma stocks fall after Trump's new drug tariffs; mostly 'sentimental', say analysts - Reuters
+2026-07-03 11:21:09,931 | INFO     | __main__ | Duplicate article skipped: Sun Pharma's psoriasis drug delivers positive results in arthritis trials - Business Standard
+2026-07-03 11:21:09,932 | INFO     | __main__ | Duplicate article skipped: Sun Pharma signs licensing pact with Philogen for cancer medication - Business Standard
+2026-07-03 11:21:09,933 | INFO     | __main__ | Duplicate article skipped: This Indian billionaire started with Rs 10,000, two employees, now fifth richest Indian, his net worth is Rs - India.Com
+2026-07-03 11:21:09,934 | INFO     | __main__ | Duplicate article skipped: Embattled Sun Pharma's Dilip Shanghvi, with Rs 1 salary, ranks among lowest-paid pharma CEOs - Fierce Pharma
+2026-07-03 11:21:09,935 | INFO     | __main__ | Duplicate article skipped: Indian drugmakers with big US exposure as Trump plans pharmaceutical import tariffs - Reuters
+2026-07-03 11:21:09,935 | INFO     | __main__ | Duplicate article skipped: FDA warns India's Sun Pharma over standards at Halol plant - Reuters
+2026-07-03 11:21:09,936 | INFO     | __main__ | Duplicate article skipped: Sun Pharma to acquire Merck spinoff Organon for $11.75B - NJBIZ
+2026-07-03 11:21:09,937 | INFO     | __main__ | Duplicate article skipped: Strait of Hormuz standoff puts supply of America's generic drug prescriptions at risk - CNBC
+2026-07-03 11:21:09,938 | INFO     | __main__ | Duplicate article skipped: Able Laboratories Fraud Case: What Have We Learnt? - Chromatography Online
+2026-07-03 11:21:09,938 | INFO     | __main__ | Duplicate article skipped: First group of 4,500 Indian tourists visits Ha Long Bay - Viet Nam National Authority of Tourism - Cục Du lịch Quốc gia Việt Nam
+2026-07-03 11:21:09,939 | INFO     | __main__ | Duplicate article skipped: A pharmaceutical company is trying to block Colorado’s first-in-the-nation drug price cap in court - The Colorado Sun
+2026-07-03 11:21:09,940 | INFO     | __main__ | Duplicate article skipped: Pharma companies look to boost employee retention - Pharmafile
+2026-07-03 11:21:09,940 | INFO     | __main__ | Duplicate article skipped: Sun Pharma to acquire oncology therapy company Checkpoint in US - domain-b.com
+2026-07-03 11:21:09,942 | INFO     | __main__ | Duplicate article skipped: Ranjeet Gangwar Appointed as Cluster HR Head (Mohali, Toansa & Paontasahib) at Sun Pharma - hrtoday.in
+2026-07-03 11:21:09,942 | INFO     | __main__ | Duplicate article skipped: Meet woman, daughter-in-law of India’s richest pharma billionaire, she works for Rs 4570000000000 company as… - India.Com
+2026-07-03 11:21:09,943 | INFO     | __main__ | Duplicate article skipped: Sun Pharma picks company veteran to tackle U.S. troubles - Nikkei Asia
+2026-07-03 11:21:09,944 | INFO     | __main__ | Duplicate article skipped: Sun Pharma- Ranbaxy merger: Is it a win-win deal? - Business Standard
+2026-07-03 11:21:09,945 | INFO     | __main__ | Duplicate article skipped: Top 10 companies for CSR in Healthcare in India 2023 - The CSR Journal
+2026-07-03 11:21:09,946 | INFO     | __main__ | Duplicate article skipped: Sudhir Valia: The numbers guy in Suzlon-Shanghvi deal - livemint.com
+2026-07-03 11:21:09,946 | INFO     | __main__ | Duplicate article skipped: Why Shanghvi hired his boss - Fortune India
+2026-07-03 11:21:09,947 | INFO     | __main__ | Duplicate article skipped: 8 Pharma Jobs for Those Who Love to Travel - BioSpace
+2026-07-03 11:21:09,948 | INFO     | __main__ | Duplicate article skipped: Fierce Biotech M&A Tracker 2023: BMS, AbbVie drop billions for neuropsychiatry biotechs - Fierce Biotech
+2026-07-03 11:21:09,949 | INFO     | __main__ | Duplicate article skipped: Hundreds of bus drivers walk off job in Victoria - ABC News & Headlines – Australian Broadcasting Corporation
+2026-07-03 11:21:09,950 | INFO     | __main__ | Duplicate article skipped: Port Fairy's Sun Pharma plant slashes workforce - The Standard | Warrnambool, VIC
+2026-07-03 11:21:09,951 | INFO     | __main__ | Duplicate article skipped: Sun Pharma workers consider strike as wage talks break down - The Standard | Warrnambool, VIC
+2026-07-03 11:21:09,952 | INFO     | __main__ | Duplicate article skipped: Sun Pharma Q4 Results 2024 Date and Time: Dividend news, quarterly earnings preview, expectations - ET Now
+2026-07-03 11:21:09,953 | INFO     | __main__ | Duplicate article skipped: Sun Pharma Q4 profit rises 26% to Rs 2,714 crore, revenue grows 13%, dividend announced - financialexpress.com
+2026-07-03 11:21:09,954 | INFO     | __main__ | Duplicate article skipped: US Tariff concerns: Jefferies explains why Sun Pharma could face the biggest hit—But not the worst outcome - financialexpress.com
+2026-07-03 11:21:09,955 | INFO     | __main__ | Duplicate article skipped: Sun Pharma Advanced Research Company Ltd is Rated Strong Sell - MarketsMojo
+2026-07-03 11:21:09,956 | INFO     | __main__ | Duplicate article skipped: Sun Pharma Names Kirti Ganorkar as Managing Director in Leadership Overhaul - Times Now
+2026-07-03 11:21:09,956 | INFO     | __main__ | Duplicate article skipped: Top 20 Best Healthcare Companies In India 2023 - inventiva.co.in
+2026-07-03 11:21:09,957 | INFO     | __main__ | Duplicate article skipped: Who is Vidhi Sanghvi, the heiress of the Rs 4 lakh crore pharma company? What is her relationship with... - illustrated Daily News
+2026-07-03 11:21:09,958 | INFO     | __main__ | Duplicate article skipped: Monroe police respond to rollover crash on Main Street - The Monroe Sun
+2026-07-03 11:21:09,958 | INFO     | __main__ | Duplicate article skipped: Woman driving Thar mows down young man: Fatal crash reported between Akshar Chowk & Sun Pharma Road - Bhaskar English
+2026-07-03 11:21:09,959 | INFO     | __main__ | Duplicate article skipped: Sensex falls 600 points: 3 reasons why stock market is falling today - India Today
+2026-07-03 11:21:09,960 | INFO     | __main__ | Duplicate article skipped: Pedestrian, 72, left with critical injuries after crash with cyclist in Vancouver - Vancouver Sun
+2026-07-03 11:21:09,962 | INFO     | __main__ | Duplicate article skipped: Driver booked after BMW moving at 250 kmph crashes into divider in Maharashtra, two killed - livemint.com
+2026-07-03 11:21:09,962 | INFO     | __main__ | Duplicate article skipped: Road traffic injuries - World Health Organization (WHO)
+2026-07-03 11:21:09,963 | INFO     | __main__ | Duplicate article skipped: Stocks to Watch: Bajaj Auto, Vodafone Idea, Sun Pharma and more - CNBC TV18
+2026-07-03 11:21:09,964 | INFO     | __main__ | Duplicate article skipped: NHP identifies Sparks woman who died in Sun Valley Blvd. crash - KTVN
+2026-07-03 11:21:09,965 | INFO     | __main__ | Duplicate article skipped: Sun Pharma slips 5% in 2 days, nears 52-wk low; why drug stock trades weak? - Business Standard
+2026-07-03 11:21:09,965 | INFO     | __main__ | Duplicate article skipped: Auto shares trades weak: M&M, TVS, Ashok Leyland down up to 4%; here's why - Business Standard
+2026-07-03 11:21:09,966 | INFO     | __main__ | Duplicate article skipped: Five hurt in three-vehicle crash on I-90 in Madison - WMTV 15 NEWS
+2026-07-03 11:21:09,967 | INFO     | __main__ | Duplicate article skipped: The 4 Best Infant Car Seats of 2026 | Reviews by Wirecutter - The New York Times
+2026-07-03 11:21:09,969 | INFO     | __main__ | Duplicate article skipped: Sun Pharma Q4 Preview: PAT may grow 6% YoY; domestic business to drive revenue - The Economic Times
+2026-07-03 11:21:09,970 | INFO     | __main__ | Duplicate article skipped: Sensex crashes 1,000 pts, Nifty below 24,650 on profit booking after Monday's rally; IT, FMCG drag - Moneycontrol.com
+2026-07-03 11:21:09,971 | INFO     | __main__ | Duplicate article skipped: Stocks to Watch, January 1, 2025: Auto stocks, ITC, Sun Pharma, Piramal Ent - Business Standard
+2026-07-03 11:21:09,972 | INFO     | __main__ | Duplicate article skipped: Budget 2026 jitters spark sell-off on Dalal Street: Sensex crashes over 2400 pts, Nifty down 1% - BusinessLine
+2026-07-03 11:21:09,973 | INFO     | __main__ | Duplicate article skipped: Steps to Take After a Car Accident - AARP
+2026-07-03 11:21:09,973 | INFO     | __main__ | Duplicate article skipped: US probes Tesla's Full Self-Driving software in 2.4 mln cars after fatal crash - Reuters
+2026-07-03 11:21:09,974 | INFO     | __main__ | Duplicate article skipped: One killed, several injured in Crown Point crash - Sun Community News
+2026-07-03 11:21:09,975 | INFO     | __main__ | Duplicate article skipped: Motorcyclist injured after car runs red light near Brownsville Highway - Kitsap Sun
+2026-07-03 11:21:09,975 | INFO     | __main__ | Duplicate article skipped: Officials: 5 injured, including 3 trapped, after multiple vehicle crash near Hanover - The Evening Sun
+2026-07-03 11:21:09,976 | INFO     | __main__ | Duplicate article skipped: Motorcyclist airlifted after two-vehicle crash results in two injuries in Penn Township - The Evening Sun
+2026-07-03 11:21:09,977 | INFO     | __main__ | Duplicate article skipped: Hochul’s Insurance Push Follows Uber’s National Playbook — As The Company Spends Big on Her Re-Election - Streetsblog New York City
+2026-07-03 11:21:09,979 | INFO     | __main__ | Duplicate article skipped: Victim airlifted after car wraps around tree during Sunday night crash on Route 116 - The Evening Sun
+2026-07-03 11:21:09,979 | INFO     | __main__ | Duplicate article skipped: Woman dies, 3 injured in Fort Lauderdale car crash - Sun Sentinel
+2026-07-03 11:21:09,981 | INFO     | __main__ | Duplicate article skipped: Four kids among 6 hospitalised after man killed in Chinese takeaway crash - The Sun
+2026-07-03 11:21:09,982 | INFO     | __main__ | Duplicate article skipped: Tour bus crash in California kills 13, closes I-10 - The Desert Sun
+2026-07-03 11:21:09,982 | INFO     | __main__ | Duplicate article skipped: Driver suffering ‘medical emergency’ crashes into a Starbucks, injuring 5 in McHenry - Chicago Sun-Times
+2026-07-03 11:21:09,983 | INFO     | __main__ | Duplicate article skipped: Andhra Horror: Telangana-Nellore bus engulfed in flames after colliding with tipper near Rayavaram, at least 14 killed - financialexpress.com
+2026-07-03 11:21:09,984 | INFO     | __main__ | Duplicate article skipped: Dr Reddy’s shares fall 2% after Goldman Sachs downgrades, Citi turns cautious - The Economic Times
+2026-07-03 11:21:09,986 | INFO     | __main__ | Duplicate article skipped: Top stocks in news: IRFC, Hindalco, Dr Reddys, Waaree, RVNL, Hexaware, Lupin, Schaeffler - Business Today
+2026-07-03 11:21:09,986 | INFO     | __main__ | Duplicate article skipped: Cyber fraud: Dr Reddy's Laboratories loses Rs 2.16 cr after fraudsters hack email communication - The Economic Times
+2026-07-03 11:21:09,987 | INFO     | __main__ | Duplicate article skipped: Dr Reddy’s Labs Q4 net profit plunges 86% - The Times of India
+2026-07-03 11:21:09,988 | INFO     | __main__ | Duplicate article skipped: Money is an outcome, not the goal: Dr Reddy’s GV Prasad - Forbes India
+2026-07-03 11:21:09,989 | INFO     | __main__ | Duplicate article skipped: Over Rs 2 Cr Semaglutide Theft at Dr Reddy's Srikakulam Unit, Staff Among 8 Arrested - Medical Dialogues
+2026-07-03 11:21:09,990 | INFO     | __main__ | Duplicate article skipped: Mumbai: Parsi priest defrauded of Rs 16.9 cr in share fraud; 3 booked for forging demat documents, EOW la - The Times of India
+2026-07-03 11:21:09,990 | INFO     | __main__ | Duplicate article skipped: 8 held for Semaglutide theft from Dr Reddy’s lab; 2 cr drug seized - The Times of India
+2026-07-03 11:21:09,992 | INFO     | __main__ | Duplicate article skipped: Dr. Reddy’s Laboratories shares in focus after acquiring India trademarks for two HRT drugs for $32 millio - The Economic Times
+2026-07-03 11:21:09,992 | INFO     | __main__ | Duplicate article skipped: US tariffs, FII selling among reasons why Sensex, Nifty are falling today - Business Standard
+2026-07-03 11:21:09,993 | INFO     | __main__ | Duplicate article skipped: Tariff worries, Sun Pharma Q1 miss: Why are pharma stocks falling today? - Business Standard
+2026-07-03 11:21:09,994 | INFO     | __main__ | Duplicate article skipped: Dr Reddy's Q4 results: PAT down 86% at ₹221 crore, revenue drops 11.51% - Business Standard
+2026-07-03 11:21:09,995 | INFO     | __main__ | Duplicate article skipped: Dr Reddy's confirms ransomware attack, says recovering & restoring data, ops - The Times of India
+2026-07-03 11:21:09,996 | INFO     | __main__ | Duplicate article skipped: Oct 22 incident involved a ransomware attack: Dr. Reddy’s - The Hindu
+2026-07-03 11:21:09,996 | INFO     | __main__ | Duplicate article skipped: Dr. Reddy's scolded for maintenance shortfalls in new FDA Form 483 filing - Fierce Pharma
+2026-07-03 11:21:09,997 | INFO     | __main__ | Duplicate article skipped: Dr Reddy’s forced to shut down all production units due to data breach - The News Minute
+2026-07-03 11:21:09,998 | INFO     | __main__ | Duplicate article skipped: Man dies after being hit by truck - The Times of India
+2026-07-03 11:21:09,999 | INFO     | __main__ | Duplicate article skipped: Dr. Reddy’s Laboratories shares slide 6% on receiving non-compliance notice on Semaglutide filing - The Economic Times
+2026-07-03 11:21:10,001 | INFO     | __main__ | Duplicate article skipped: Here's why Dr. Reddy's share slipped 8%, hit 52-week low on Monday, April 7 - Business Standard
+2026-07-03 11:21:10,002 | INFO     | __main__ | Duplicate article skipped: Dr Reddy's isolates all data center services in wake of cyber-attack - livemint.com
+2026-07-03 11:21:10,002 | INFO     | __main__ | Duplicate article skipped: Q2 results today: Dr Reddy's Labs, ITC Hotels, NACL Industries on Oct 24 - Business Standard
+2026-07-03 11:21:10,004 | INFO     | __main__ | Duplicate article skipped: India's Dr Reddy's plans to launch generic obesity drugs in 87 countries next year, CEO says - Reuters
+2026-07-03 11:21:10,004 | INFO     | __main__ | Duplicate article skipped: Dr Reddy’s isolates data centre servers after detecting cyberattack - livemint.com
+2026-07-03 11:21:10,006 | INFO     | __main__ | Duplicate article skipped: India's Dr Reddy's isolates data center services after cyberattack - Reuters
+2026-07-03 11:21:10,006 | INFO     | __main__ | Duplicate article skipped: Dr Reddy's provides update on cyber-attack - livemint.com
+2026-07-03 11:21:10,007 | INFO     | __main__ | Duplicate article skipped: Dr Reddys suffers cyber-attack, temporarily shuts operations across globe - Medical Dialogues
+2026-07-03 11:21:10,008 | INFO     | __main__ | Duplicate article skipped: Dr. Reddy's shuts 'key' plants worldwide after potential cyberattack hits COVID work - Fierce Pharma
+2026-07-03 11:21:10,008 | INFO     | __main__ | Duplicate article skipped: Dr Reddy's offices, plants shut after data breach; working with Russia on COVID-19 vaccine - Business Today
+2026-07-03 11:21:10,009 | INFO     | __main__ | Duplicate article skipped: US hunting gun accident: Telangana student Aryan Reddy tragically killed on his birthday - livemint.com
+2026-07-03 11:21:10,009 | INFO     | __main__ | Duplicate article skipped: Weekend Bu‌l‌l‌‌ion Wrap: Gold & Sil‌‌ver Crash as US Jo‌‌bs Dat‌‌a Crushes Rate Cut Hopes - HDFC Sky
+2026-07-03 11:21:10,010 | INFO     | __main__ | Duplicate article skipped: Stock market crash today: BSE Sensex ends 964 points down; Nifty50 below 24,000 - The Times of India
+2026-07-03 11:21:10,011 | INFO     | __main__ | Duplicate article skipped: Freak accident in Rajkot: Viral video shows bus ramming into vehicles and pedestrians at traffic signal; 3 dead, 2 hurt - livemint.com
+2026-07-03 11:21:10,012 | INFO     | __main__ | Duplicate article skipped: Month after kid’s death, Bachupally road still a death trap, rue residents - The Times of India
+2026-07-03 11:21:10,012 | INFO     | __main__ | Duplicate article skipped: Trump’s 100% tariffs on pharma: Sun Pharma, Biocon, Cipla & other pharmaceutical stocks tank; jitters on - The Times of India
+2026-07-03 11:21:10,013 | INFO     | __main__ | Duplicate article skipped: Two Indian women from Telangana killed as car crashes, falls into gorge in California - livemint.com
+2026-07-03 11:21:10,014 | INFO     | __main__ | Duplicate article skipped: Deadly Air India plane crash could spark fear of flying: All about aerophobia and how to cope with it - livemint.com
+2026-07-03 11:21:10,015 | INFO     | __main__ | Duplicate article skipped: Air India plane crash: Ahmedabad police release list of injured people | Check all 25 names here - livemint.com
+2026-07-03 11:21:10,017 | INFO     | __main__ | Duplicate article skipped: ‘What’s going on with Lamborghini?’ Gautam Singhania shares Mumbai car accident video, questions its traction - livemint.com
+2026-07-03 11:21:10,018 | INFO     | __main__ | Duplicate article skipped: Noida techie death: Truck driver who survived accident at same spot weeks earlier says police ‘did nothing’ - livemint.com
+2026-07-03 11:21:10,019 | INFO     | __main__ | Duplicate article skipped: Air India crash: 80 victims identified via DNA tests; 33 bodies handed over to kin three days after tragedy - livemint.com
+2026-07-03 11:21:10,020 | INFO     | __main__ | Duplicate article skipped: Shocking CCTV footage: Telangana MBBS student dies in freak motorbike crash in Vietnam - livemint.com
+2026-07-03 11:21:10,021 | INFO     | __main__ | Duplicate article skipped: India in 2 Minutes for the Week of Feb 20 - tabla.com.sg
+2026-07-03 11:21:10,021 | INFO     | __main__ | Duplicate article skipped: Bengaluru-bound bus catches fire in Andhra Pradesh's Kurnool, leaves 20 dead, 12 injured; PM Modi expresses condolences - livemint.com
+2026-07-03 11:21:10,022 | INFO     | __main__ | Duplicate article skipped: Sensex drops 790pts from day high, Nifty below 25100: Why are markets down? - Business Standard
+2026-07-03 11:21:10,023 | INFO     | __main__ | Duplicate article skipped: Air India plane crash probe panel denies filing initial report, says findings to be made public by July 12 - livemint.com
+2026-07-03 11:21:10,023 | INFO     | __main__ | Duplicate article skipped: Stock Market Crash: Nifty 50 slips below 24,400 on US-Iran war panic — Key support levels and trading strategy explained - livemint.com
+2026-07-03 11:21:10,024 | INFO     | __main__ | Duplicate article skipped: Groww Invest pays over ₹34 Lakh to settle Sebi case linked to tech glitch - Business Standard
+2026-07-03 11:21:10,025 | INFO     | __main__ | Duplicate article skipped: Air India Plane Crash: Flight operations suspended, Ahmedabad airport closed until further notice - livemint.com
+2026-07-03 11:21:10,026 | INFO     | __main__ | Duplicate article skipped: 'Thought Pakistan fired missile’: Students feared attack when Air India flight crashed into BJ Medical College hostel - livemint.com
+2026-07-03 11:21:10,027 | INFO     | __main__ | Duplicate article skipped: Odisha Train Accident: State govt handing over identified bodies to relatives - livemint.com
+2026-07-03 11:21:10,027 | INFO     | __main__ | Duplicate article skipped: Odisha train accident: Cause of accident identified that killed 275 passengers. Here are top 10 updates you need to know - livemint.com
+2026-07-03 11:21:10,028 | INFO     | __main__ | Duplicate article skipped: Air India Ahmedabad plane crash: Rohit Sharma says ‘really sad and disturbing’; Hardik Pandya, Jasprit Bumrah react - livemint.com
+2026-07-03 11:21:10,029 | INFO     | __main__ | Duplicate article skipped: Air India Plane Crash: Tata Group announces ₹1 crore to families of each passenger killed in Ahmedabad tragedy - livemint.com
+2026-07-03 11:21:10,029 | INFO     | __main__ | Duplicate article skipped: Mamata Banerjee suffers 'major injury' after fall; PM Modi wishes quick recovery - livemint.com
+2026-07-03 11:21:10,030 | INFO     | __main__ | Duplicate article skipped: Dr Reddy's Labs Shares Crash On Profit Slump: Five Things To Know - NDTV Profit
+2026-07-03 11:21:10,032 | INFO     | __main__ | Duplicate article skipped: Air India plane crash: Moments before Ahmedabad tragedy, pilot gave a final message. Here's what he said - livemint.com
+2026-07-03 11:21:10,032 | INFO     | __main__ | Duplicate article skipped: Air India AI171 crash report details cockpit situation: The ‘01 seconds’ that led to Mayday call - livemint.com
+2026-07-03 11:21:10,034 | INFO     | __main__ | Duplicate article skipped: Air India Delhi–Pune flight suffers bird hit; airline cancels return journey, offers refunds - livemint.com
+2026-07-03 11:21:10,035 | INFO     | __main__ | Duplicate article skipped: Dr Reddy's Laboratories inks pact with Amgen to commercialise three drugs in India - The Economic Times
+2026-07-03 11:21:10,036 | INFO     | __main__ | Duplicate article skipped: Eaton - Manufacturing Today India
+2026-07-03 11:21:10,037 | INFO     | __main__ | Duplicate article skipped: Stock Market Crash Today: Sensex Tanks 943 Points, Nifty Slips Below 24,000 After US-Iran Peace Talks Fail - LatestLY
+2026-07-03 11:21:10,038 | INFO     | __main__ | Duplicate article skipped: '1 ml of Cetirizine to an Infant Can Prove To Be Catastrophic': Dr Sivaranjani Santosh Who Fought Long - LatestLY
+2026-07-03 11:21:10,039 | INFO     | __main__ | Duplicate article skipped: Ozempic prices set to crash as Semaglutide patent expires next week - Pakistan Today
+2026-07-03 11:21:10,039 | INFO     | __main__ | Duplicate article skipped: Dr Reddy's isolates data centres services following cyber-attack - India TV News
+2026-07-03 11:21:10,040 | INFO     | __main__ | Duplicate article skipped: Stocks to Watch Today, May 13: Tata Power, Dr Reddys Labs, Texmaco Rail, Maruti Suzuki, Hindustan Zinc and others - ET Now
+2026-07-03 11:21:10,041 | INFO     | __main__ | Duplicate article skipped: Dr Reddy's share price falls over 10 per cent: Here's the reason why - India TV News
+2026-07-03 11:21:10,042 | INFO     | __main__ | Duplicate article skipped: Dr Reddy's Kin Hit and Run, Injure Three - The New Indian Express
+2026-07-03 11:21:10,042 | INFO     | __main__ | Duplicate article skipped: 8-year-old Hyderabad girl killed in accident caused by pothole-ridden road - The News Minute
+2026-07-03 11:21:10,043 | INFO     | __main__ | Duplicate article skipped: Andhra Pradesh: Former CM YS Jagan Mohan Reddy's car seized by police after convoy runs over man during rally - livemint.com
+2026-07-03 11:21:10,044 | INFO     | __main__ | Duplicate article skipped: Human error causes Google self-driving car crash - livemint.com
+2026-07-03 11:21:10,045 | INFO     | __main__ | Duplicate article skipped: Dr. Reddy's Laboratories Allots 10,275 Equity Shares Under Employee Stock Options Scheme - scanx.trade
+2026-07-03 11:21:10,046 | INFO     | __main__ | Duplicate article skipped: What pay ratios in NIFTY50 companies tell us about income inequality in India - Ideas for India
+2026-07-03 11:21:10,047 | INFO     | __main__ | Duplicate article skipped: MakeMyTrip partners with OpenAI to improve AI-led travel bookings - Business Standard
+2026-07-03 11:21:10,048 | INFO     | __main__ | Duplicate article skipped: Dr. Reddy's Laboratories Allots 3,675 Equity Shares Under Employee Stock Option Plan - scanx.trade
+2026-07-03 11:21:10,049 | INFO     | __main__ | Duplicate article skipped: Olectra Greentech Appoints Suhas Athma as VP-Human Resources - Autocar Professional
+2026-07-03 11:21:10,050 | INFO     | __main__ | Duplicate article skipped: RateGain Shares Up 1.53% on Launch of AI-Powered SoHo Platform - HDFC Sky
+2026-07-03 11:21:10,051 | INFO     | __main__ | Duplicate article skipped: Working on providing visa-on-arrival on reciprocal basis: Tourism minister - Business Standard
+2026-07-03 11:21:10,052 | INFO     | __main__ | Duplicate article skipped: Drug heist busted: Pharma staff among eight held for stealing over Rs 2 crore worth Semaglutide powder at - The Times of India
+2026-07-03 11:21:10,053 | INFO     | __main__ | Duplicate article skipped: Dr. Reddy's Laboratories Receives GST Authority Tax Demand Orders Worth ₹2.20 Crore for FY 2019-22 - scanx.trade
+2026-07-03 11:21:10,053 | INFO     | __main__ | Duplicate article skipped: Biocon and Dr. Reddy's Lab make it to 'Science' magazine's Top Employers List again - The New Indian Express
+2026-07-03 11:21:10,054 | INFO     | __main__ | Duplicate article skipped: Dr Reddy’s slashing jobs to cut costs by 25%, asks several Rs 1 crore+ earners to resign; co denies report - The Economic Times
+2026-07-03 11:21:10,055 | INFO     | __main__ | Duplicate article skipped: Dr Reddy's to cut workforce by 25%; high-salaried workers to be impacted: Report - Hindustan Times
+2026-07-03 11:21:10,056 | INFO     | __main__ | Duplicate article skipped: 'Factually incorrect': Dr Reddy clears air amid workforce reduction rumors - The Times of India
+2026-07-03 11:21:10,056 | INFO     | __main__ | Duplicate article skipped: Dr. Reddy's Laboratories Receives SEC Letter Concluding Investigation Without Enforcement Action - scanx.trade
+2026-07-03 11:21:10,057 | INFO     | __main__ | Duplicate article skipped: Pharma major Dr. Reddy's plans 'business continuity' in Russia - The Times of India
+2026-07-03 11:21:10,058 | INFO     | __main__ | Duplicate article skipped: Dr Reddy's Laboratories Receives FDA Form 483 with Five Observations at Bachupally Biologics Facility - scanx.trade
+2026-07-03 11:21:10,058 | INFO     | __main__ | Duplicate article skipped: Dr Reddy's Laboratories Invests ₹5.65 Billion in Russian Subsidiary - scanx.trade
+2026-07-03 11:21:10,059 | INFO     | __main__ | Duplicate article skipped: Dr Reddy's gets over Rs 2,395 crore show cause notice from I-T authority - Business Standard
+2026-07-03 11:21:10,060 | INFO     | __main__ | Duplicate article skipped: Dr Reddy's Laboratories: Eight Arrested in ₹2 Crore Semaglutide Theft Case - scanx.trade
+2026-07-03 11:21:10,061 | INFO     | __main__ | Duplicate article skipped: Haleon to sell nicotine replacement therapy business outside US for $633 mln - Reuters
+2026-07-03 11:21:10,062 | INFO     | __main__ | Duplicate article skipped: Coal India plans $1.5 bn industrial water transport corridor in east - Business Standard
+2026-07-03 11:21:10,062 | INFO     | __main__ | Duplicate article skipped: Stocks to watch: Dr Reddy's, Mphasis, IDBI Bank, Wardwizard, Dalmia Bharat - livemint.com
+2026-07-03 11:21:10,063 | INFO     | __main__ | Duplicate article skipped: DTC current, ex-employees not covered by 1992 scheme set to receive pension - livemint.com
+2026-07-03 11:21:10,064 | INFO     | __main__ | Duplicate article skipped: Dr Lal PathLabs unveils pilot project to transport blood samples via drones - Business Standard
+2026-07-03 11:21:10,065 | INFO     | __main__ | Duplicate article skipped: Dr. Reddys completes first implementation phase of Werum PAS-X - Manufacturing Chemist
+2026-07-03 11:21:10,066 | INFO     | __main__ | Duplicate article skipped: OYO appoints CEO for its China unit - China Travel News
+2026-07-03 11:21:10,067 | INFO     | __main__ | Duplicate article skipped: Here’s a look at the top employers in South Africa - IOL
+2026-07-03 11:21:10,068 | INFO     | __main__ | Duplicate article skipped: Dr. Reddy’s becomes first Indian pharma company to debut on the Dow Jones Sustainability World Index - financialexpress.com
+2026-07-03 11:21:10,069 | INFO     | __main__ | Duplicate article skipped: Dr Reddy's Q4 PAT crashes 86% on generic Revlimid shock in US market - Business Standard
+2026-07-03 11:21:10,070 | INFO     | __main__ | Duplicate article skipped: 3 Injured In Jalavihar RO Plant Blast - Deccan Chronicle
+2026-07-03 11:21:10,071 | INFO     | __main__ | Duplicate article skipped: Kiyosaki Warns of Market Crash, Backs Gold and Silver - HDFC Sky
+2026-07-03 11:21:10,072 | INFO     | __main__ | Duplicate article skipped: Bloodbath on D-Street: Sensex settles over 1,300 pts lower, Nifty ends near 23,850; four key factors... - Moneycontrol.com
+2026-07-03 11:21:10,073 | INFO     | __main__ | Duplicate article skipped: Q4 Results This Week: Bharti Airtel, HAL, Tata Motors, Cochin Shipyard, Premier Energies, ITC Hotels And More - NDTV Profit
+2026-07-03 11:21:10,073 | INFO     | __main__ | Duplicate article skipped: HAL Share Price Falls 3% After Tejas LCA Crash at Dubai Air Show - HDFC Sky
+2026-07-03 11:21:10,074 | INFO     | __main__ | Duplicate article skipped: Delhi BMW accident: Finance Ministry official killed, three injured as car hits motorcycle on Ring Road - livemint.com
+2026-07-03 11:21:10,075 | INFO     | __main__ | Duplicate article skipped: Eye hosp doctor falls off ORR flyover after car crash, dies - The Times of India
+2026-07-03 11:21:10,075 | INFO     | __main__ | Duplicate article skipped: Sensex crashes 765 points, investors lose ₹5 lakh crore in a day— 10 key highlights from the Indian stock market today - livemint.com
+2026-07-03 11:21:10,076 | INFO     | __main__ | Duplicate article skipped: Viral Video: Kerala CM Pinarayi Vijayan's convoy gets into multi-car crash to save scooter rider who took sudden turn - livemint.com
+2026-07-03 11:21:10,077 | INFO     | __main__ | Duplicate article skipped: How will Sona BLW's JV with JNT unlock ₹1,670 crore TAM? Stock up 3% - Business Standard
+2026-07-03 11:21:10,078 | INFO     | __main__ | Duplicate article skipped: Indian vaccine makers bank on boosters as demand crashes - Reuters
+2026-07-03 11:21:10,079 | INFO     | __main__ | Duplicate article skipped: 5 medical staff die in road accident on Agra-Lucknow Expressway - The Times of India
+2026-07-03 11:21:10,080 | INFO     | __main__ | Duplicate article skipped: Head-on crash linked to discovery of dentist Preethi Reddy's body in suitcase | Sydney - The Guardian
+2026-07-03 11:21:10,080 | INFO     | __main__ | Duplicate article skipped: Police interviewed dead dentist's ex-boyfriend before he died in car crash - ABC News & Headlines – Australian Broadcasting Corporation
+2026-07-03 11:21:10,081 | INFO     | __main__ | Duplicate article skipped: Late Sell-Off Shakes Dalal Street, Sensex Crashes 852 Pts While Nifty Drops 205 Points Below Key 24,200 Level - Free Press Journal
+2026-07-03 11:21:10,082 | INFO     | __main__ | Duplicate article skipped: Stock Market Today: Sensex Falls 268 Points, Nifty at 25,797.80 as IT Stocks Decline - Analytics Insight
+2026-07-03 11:21:10,084 | INFO     | __main__ | Duplicate article skipped: Cipla advertises Reactin Plus, FDA says recall stock in state - The Times of India
+2026-07-03 11:21:10,085 | INFO     | __main__ | Duplicate article skipped: Cipla - 10 well-known stocks down up to 70% in a year amid FII selloff. Do you own any? - The Economic Times
+2026-07-03 11:21:10,086 | INFO     | __main__ | Duplicate article skipped: 84% of Indians attempted to lose weight at some point, but 4.7% sustained results: Study - India Today - India Today
+2026-07-03 11:21:10,087 | INFO     | __main__ | Duplicate article skipped: Stocks to Watch for March 4: ONGC, HPCL, Petronet, IGL, Cipla, Tata Motors CV, M&M and more - CNBC TV18
+2026-07-03 11:21:10,087 | INFO     | __main__ | Duplicate article skipped: Cipla's leadership change: Achin Gupta to succeed Umang Vohra - The Times of India
+2026-07-03 11:21:10,088 | INFO     | __main__ | Duplicate article skipped: Stocks To Watch, October 24: Oil & gas stocks, defence stocks, Moschip Tech, Colgate, ITC Hotels, Tata Motors PVs, Cipla, Premier Energies - Upstox
+2026-07-03 11:21:10,089 | INFO     | __main__ | Duplicate article skipped: Cipla facility hit with scathing FDA report detailing shoddy record-keeping, power outages and more - Fierce Pharma
+2026-07-03 11:21:10,089 | INFO     | __main__ | Duplicate article skipped: Cipla to deliver essential medicines through drones in Himachal Pradesh - Business Standard
+2026-07-03 11:21:10,090 | INFO     | __main__ | Duplicate article skipped: Read why Chhattisgarh HC quashed Cipla's blacklisting over non-supply of Remdesivir during the COVID-19 second wave - SCC Online
+2026-07-03 11:21:10,091 | INFO     | __main__ | Duplicate article skipped: Stocks to Watch: Tata Motors, Cipla, Colgate-Palmolive, Hero MotoCorp and more - CNBC TV18
+2026-07-03 11:21:10,092 | INFO     | __main__ | Duplicate article skipped: Stock to buy today: Cipla (₹1,571) – BUY - BusinessLine
+2026-07-03 11:21:10,093 | INFO     | __main__ | Duplicate article skipped: Cipla introduces drone-powered critical medicine delivery in Himachal - Business Standard
+2026-07-03 11:21:10,093 | INFO     | __main__ | Duplicate article skipped: 2 contract workers dead at Cipla’s Verna unit - The Times of India
+2026-07-03 11:21:10,094 | INFO     | __main__ | Duplicate article skipped: After Mumbai billboard tragedy, MCD to audit conditions of Delhi hoardings - Business Standard
+2026-07-03 11:21:10,095 | INFO     | __main__ | Duplicate article skipped: Goa: 2 contract workers dead at Cipla's Verna unit - The Times of India
+2026-07-03 11:21:10,096 | INFO     | __main__ | Duplicate article skipped: Cipla’s new film reinforces its commitment to reach every patient - ET BrandEquity
+2026-07-03 11:21:10,096 | INFO     | __main__ | Duplicate article skipped: Mumbai: Cipla files complaint against e-sale of fake Covid medicines - The Times of India
+2026-07-03 11:21:10,097 | INFO     | __main__ | Duplicate article skipped: Cipla, CSIR-IICT join hands for COVID-19 drugs - The Hindu
+2026-07-03 11:21:10,098 | INFO     | __main__ | Duplicate article skipped: Mumbai hoarding collapse: Retired couple stopping for petrol found dead - Business Standard
+2026-07-03 11:21:10,098 | INFO     | __main__ | Duplicate article skipped: Cipla is future ready after 2020’s onslaught of challenges - HR Katha
+2026-07-03 11:21:10,099 | INFO     | __main__ | Duplicate article skipped: South district hospital starts palliative care service - The Times of India
+2026-07-03 11:21:10,100 | INFO     | __main__ | Duplicate article skipped: Suicide is now the top cause of death among Indians aged 15 to 29 - Business Standard
+2026-07-03 11:21:10,102 | INFO     | __main__ | Duplicate article skipped: Breakout Stocks: How are Cipla, Zomato and InfoEdge looking on charts for Monday’s trade? - The Economic Times
+2026-07-03 11:21:10,102 | INFO     | __main__ | Duplicate article skipped: 'Paper chor': Rahul Gandhi's new attack on BJP after 'vote chori' charge; points to exam leaks, unemploym - The Times of India
+2026-07-03 11:21:10,103 | INFO     | __main__ | Duplicate article skipped: Cipla’s manufacturing facility reopens after looting incident - Mail & Guardian
+2026-07-03 11:21:10,104 | INFO     | __main__ | Duplicate article skipped: Cipla global quality chief on data integrity violations: ‘Bosses pushing juniors need to be whacked’ - The Indian Express
+2026-07-03 11:21:10,105 | INFO     | __main__ | Duplicate article skipped: Cipla Healthâ€™s Cipladine Launches â€˜Life ka First Aidâ€™ Campaign around World First Aid Day - Adgully.com
+2026-07-03 11:21:10,106 | INFO     | __main__ | Duplicate article skipped: Dr Yusuf K Hamied: India's generics king - BioSpectrum Asia
+2026-07-03 11:21:10,107 | INFO     | __main__ | Duplicate article skipped: Firms give bereavement leave to help staff cope with loss - The Times of India
+2026-07-03 11:21:10,108 | INFO     | __main__ | Duplicate article skipped: Cipla board approves retirement of its chief MK Hamied - Firstpost
+2026-07-03 11:21:10,109 | INFO     | __main__ | Duplicate article skipped: Stock Market Crash: Biggest single-day Nifty fall in 21 months wipes out ₹13 lakh crore market cap - CNBC TV18
+2026-07-03 11:21:10,110 | INFO     | __main__ | Duplicate article skipped: US attacks Venezuela: 9 listed Indian companies that could see an impact - The Economic Times
+2026-07-03 11:21:10,111 | INFO     | __main__ | Duplicate article skipped: Diabetes drug Insulin ‘Basaglar KwikPen’ will no longer be sold in India. Here’s why - Northeast Live
+2026-07-03 11:21:10,112 | INFO     | __main__ | Duplicate article skipped: 2 duped of Rs 3.6cr & Rs 84L on pretext of ‘investment’ - The Times of India
+2026-07-03 11:21:10,113 | INFO     | __main__ | Duplicate article skipped: IndiGo flight has a brush with aerobridge in Jaipur, no injury reported - Business Standard
+2026-07-03 11:21:10,114 | INFO     | __main__ | Duplicate article skipped: How a Muslim-Jewish romance shaped one of India’s biggest pharma giants - Dawn
+2026-07-03 11:21:10,115 | INFO     | __main__ | Duplicate article skipped: Cipla seeks to exit Quality Chemical in Shs112b buyout - Daily Monitor
+2026-07-03 11:21:10,116 | INFO     | __main__ | Duplicate article skipped: Why Did Cipla Share Price Crash by 5% Today? Check the Reason - Trade Brains
+2026-07-03 11:21:10,117 | INFO     | __main__ | Duplicate article skipped: Cipla Reports Record FY26 Revenue of ₹28,163 Cr; Appoints New CEO - Whalesbook
+2026-07-03 11:21:10,118 | INFO     | __main__ | Duplicate article skipped: Cipla share price in focus: Citi turns bullish with 90-day catalyst watch, sees upside from US triggers and India recovery - MSN
+2026-07-03 11:21:10,119 | INFO     | __main__ | Duplicate article skipped: Inhalable Insulin Now in India: Cipla Launches Afrezza, Check Price, Dosage, Availability - NewsX
+2026-07-03 11:21:10,120 | INFO     | __main__ | Duplicate article skipped: Cipla Drugs Recall Exposes India's Weak Drug Safety Net. Is India's Drug Approval System A Joke? How Indian Regulators Are Letting Pharmaceutical Giants Get Away With Murder - inventiva.co.in
+2026-07-03 11:21:10,120 | INFO     | __main__ | Duplicate article skipped: Cipla Foundation sets up a dedicated state-of-the-art chemistry laboratory at IISER Pune - Punekar News
+2026-07-03 11:21:10,121 | INFO     | __main__ | Duplicate article skipped: Metro city employees may get up to ₹15,000 monthly transport allowance tax relief - People Matters - HR News
+2026-07-03 11:21:10,122 | INFO     | __main__ | Duplicate article skipped: Yatra secures corporate travel mandate for pharma giant Cipla - ET TravelWorld
+2026-07-03 11:21:10,123 | INFO     | __main__ | Duplicate article skipped: Cipla announces initiatives to tackle COVID-19 pandemic in Siliguri - expresshealthcare.in
+2026-07-03 11:21:10,124 | INFO     | __main__ | Duplicate article skipped: Cipla donates Rs 25 crores for COVID-19 relief fund - Express Pharma
+2026-07-03 11:21:10,125 | INFO     | __main__ | Duplicate article skipped: Cipla Company stop - Moovit
+2026-07-03 11:21:10,126 | INFO     | __main__ | Duplicate article skipped: Morning Buzz: Torrent enters the race for Cipla, India launches car crash test rating, and more - Forbes India
+2026-07-03 11:21:10,127 | INFO     | __main__ | Duplicate article skipped: Toxic gas leaks from Palghar chemical unit; 458 persons evacuated - Business Standard
+2026-07-03 11:21:10,128 | INFO     | __main__ | Duplicate article skipped: Enabling Employee Safety in Pharmaceutical Manufacturing - lupin.com
+2026-07-03 11:21:10,129 | INFO     | __main__ | Duplicate article skipped: Experienced information security incident that affected select internal IT systems: Lupin - ET HealthWorld
+2026-07-03 11:21:10,130 | INFO     | __main__ | Duplicate article skipped: Stocks To Watch: TCS, Lupin, Suzlon Energy, HDFC, Power Grid, PNB Housing Finance - NDTV Profit
+2026-07-03 11:21:10,131 | INFO     | __main__ | Duplicate article skipped: Top stocks to buy today: Stock market recommendations for April 28, 2026 - check list - The Times of India
+2026-07-03 11:21:10,132 | INFO     | __main__ | Duplicate article skipped: Yes Bank reports fraudulent transactions on its Multi-Currency Prepaid Forex Card network - Business Standard
+2026-07-03 11:21:10,133 | INFO     | __main__ | Duplicate article skipped: Jabalpur Boat Accident: Death Toll Rises To 7 After Tourist Boat Capsizes In Madhya Pradesh Tragedy - DNA India
+2026-07-03 11:21:10,134 | INFO     | __main__ | Duplicate article skipped: Stocks to Watch Today (November 24, 2025): Tata Motors PV, Tata Steel, Hindalco, IndiGo, HAL, Lupin and more - Zee Business
+2026-07-03 11:21:10,136 | INFO     | __main__ | Duplicate article skipped: Jabalpur Boat Accident: New Video Of Jabalpur Boat Tragedy Shows Safety Lapses | Jabalpur News - DNA India
+2026-07-03 11:21:10,137 | INFO     | __main__ | Duplicate article skipped: Jharkhand Plane Crash: 2 Planes Had Taken Off From Ranchi Minutes Before Air Ambulance Crash - DNA India
+2026-07-03 11:21:10,137 | INFO     | __main__ | Duplicate article skipped: Goa News: Bhopal Man Dies After Thar Rams Into Car, FIR Registered |Goa Thar Accident | Goa Accident - DNA India
+2026-07-03 11:21:10,138 | INFO     | __main__ | Duplicate article skipped: France Plane Crash: Skydiving Plane Crashes In France, Killing 11, Say Officials - DNA India
+2026-07-03 11:21:10,139 | INFO     | __main__ | Duplicate article skipped: US News: Indian-Origin Delta Pilot Dies Hours After Wedding, Honeymoon Helicopter Crash - DNA India
+2026-07-03 11:21:10,139 | INFO     | __main__ | Duplicate article skipped: Jharkhand Plane Crash: Family Borrowed 7 Lakh For Air Ambulance, Tragic Journey To Save 1 Killed 7 - DNA India
+2026-07-03 11:21:10,140 | INFO     | __main__ | Duplicate article skipped: Indian air force plane crashes in Telangana, 2 pilots dead! | air force aircraft crash - DNA India
+2026-07-03 11:21:10,141 | INFO     | __main__ | Duplicate article skipped: Saudi Helicopter Crash: Saudi Aramco Chopper Crashes In Ras Tanura, All 14 On Board Killed - DNA India
+2026-07-03 11:21:10,142 | INFO     | __main__ | Duplicate article skipped: Pune Porsche Accident: Police Arrest Accused Teen's Mother Shivani Agarwal For 'Tampering Evidence' - DNA India
+2026-07-03 11:21:10,143 | INFO     | __main__ | Duplicate article skipped: 7 die in car accident in Bengaluru - DNA India
+2026-07-03 11:21:10,144 | INFO     | __main__ | Duplicate article skipped: Jharkhand Plane Crash: Why There Was No Black Box On Jharkhand Air Ambulance That Crashed 7 - DNA India
+2026-07-03 11:21:10,145 | INFO     | __main__ | Duplicate article skipped: Jharkhand Plane Crash: Redbird Airways Employee Reacts On Jharkhand Air Ambulance Crash - DNA India
+2026-07-03 11:21:10,146 | INFO     | __main__ | Duplicate article skipped: Kanchanjunga Express Train Accident: Drone Visuals Show Crash Site, Restoration Work Going On - DNA India
+2026-07-03 11:21:10,147 | INFO     | __main__ | Duplicate article skipped: Haryana School Bus Accident: Principal Among Three Arrested, Show Cause Notice Issued To School - DNA India
+2026-07-03 11:21:10,148 | INFO     | __main__ | Duplicate article skipped: Assam News: IAF AN-32 Aircraft Crashes At Jorhat Air Base; Fire Breaks Out - DNA India
+2026-07-03 11:21:10,149 | INFO     | __main__ | Duplicate article skipped: Andhra Pradesh: 5 dead, 4 injured in road accident in AP's Nellore - DNA India
+2026-07-03 11:21:10,150 | INFO     | __main__ | Duplicate article skipped: PM Narendra Modi arrives at the site of Odisha Train Accident to take stock of the situation - DNA India
+2026-07-03 11:21:10,151 | INFO     | __main__ | Duplicate article skipped: Haryana School Bus Accident: Locals Tried To Stop Drunk Driver, Snatched Key, But School Stepped In - DNA India
+2026-07-03 11:21:10,152 | INFO     | __main__ | Duplicate article skipped: Jharkhand Plane Crash: Police Recount Night Rescue In Chatra After Jharkhand Air Ambulane Crash - DNA India
+2026-07-03 11:21:10,152 | INFO     | __main__ | Duplicate article skipped: Jharkhand Plane Crash Who Was Captain Vivek Bhagat Pilot Of Air Ambulance That Crashed In Chatra - DNA India
+2026-07-03 11:21:10,153 | INFO     | __main__ | Duplicate article skipped: Kullu bus accident: Death toll reaches 12, CM announces compensation - DNA India
+2026-07-03 11:21:10,154 | INFO     | __main__ | Duplicate article skipped: Jharkhand Plane Crash Chief Of Redbird Airways Expresses Grief Over Jharkhand Air Ambulance Crash - DNA India
+2026-07-03 11:21:10,155 | INFO     | __main__ | Duplicate article skipped: Maharashtra: BJP MLA's son among 7 medical students killed in car accident - DNA India
+2026-07-03 11:21:10,155 | INFO     | __main__ | Duplicate article skipped: 1 dead, several injured in bus accident on Chandigarh-Manali highway - DNA India
+2026-07-03 11:21:10,156 | INFO     | __main__ | Duplicate article skipped: Ladakh incident: Last rites of Lance havildar Muhammad Shylaj performed in Kerala - DNA India
+2026-07-03 11:21:10,157 | INFO     | __main__ | Duplicate article skipped: Delhi News: Swiss Flight's Engine Fails, Catches Fire During Takeoff In Delhi Airport, 6 Injured - DNA India
+2026-07-03 11:21:10,158 | INFO     | __main__ | Duplicate article skipped: Punjabi actor Deep Sidhu dies in road accident near Sonipat - DNA India
+2026-07-03 11:21:10,159 | INFO     | __main__ | Duplicate article skipped: Several injured in firecracker accident during festival in Kerala - DNA India
+2026-07-03 11:21:10,160 | INFO     | __main__ | Duplicate article skipped: Gurdaspur: Batala MLA Amansher Singh Kalsi's 3 relatives died in a car accident - DNA India
+2026-07-03 11:21:10,161 | INFO     | __main__ | Duplicate article skipped: 5 killed in a bus accident on Agra-Lucknow expressway - DNA India
+2026-07-03 11:21:10,162 | INFO     | __main__ | Duplicate article skipped: Bihar News: Patna-Bound Train Catches Fire At Sasaram Station; Panic On Platform - DNA India
+2026-07-03 11:21:10,163 | INFO     | __main__ | Duplicate article skipped: Mumbai: Two killed in road accident on Western Express Highway - DNA India
+2026-07-03 11:21:10,164 | INFO     | __main__ | Duplicate article skipped: Noida News: Man Shot Dead Outside Home In Broad Daylight In Greater Noida, Incident Caught On CCTV - DNA India
+2026-07-03 11:21:10,165 | INFO     | __main__ | Duplicate article skipped: Jabalpur Boat Accident: Death Toll Rises To 9, Search Operations On At Bargi Dam - DNA India
+2026-07-03 11:21:10,166 | INFO     | __main__ | Duplicate article skipped: People injured in Agra bus accident are safe: DM - DNA India
+2026-07-03 11:21:10,167 | INFO     | __main__ | Duplicate article skipped: Air India Flight: Delhi-Bengaluru Air India AI2651 Aircraft Grounded After Suffering A Tail Strike - DNA India
+2026-07-03 11:21:10,168 | INFO     | __main__ | Duplicate article skipped: Actor and TDP leader Nandamuri Harikrishna dies in road accident - DNA India
+2026-07-03 11:21:10,169 | INFO     | __main__ | Duplicate article skipped: 5 dead in road accident in UP's Rampur - DNA India
+2026-07-03 11:21:10,169 | INFO     | __main__ | Duplicate article skipped: Jabalpur Boat Accident: Pilot’s Claim vs Viral AI Image | Who's Telling The Truth? | Bargi Dam News - DNA India
+2026-07-03 11:21:10,170 | INFO     | __main__ | Duplicate article skipped: 5 Killed, 10 Injured in Haryana's Ambala-Delhi Highway Bus Accident - DNA India
+2026-07-03 11:21:10,171 | INFO     | __main__ | Duplicate article skipped: Allegations against me are completely baseless: Ashish Mishra on Lakhimpur Kheri incident - DNA India
+2026-07-03 11:21:10,172 | INFO     | __main__ | Duplicate article skipped: 4 injured after blast occurs at chemical factory in AP's Nellore - DNA India
+2026-07-03 11:21:10,173 | INFO     | __main__ | Duplicate article skipped: Not single incident reported in Ayodhya: Circle Officer - DNA India
+2026-07-03 11:21:10,173 | INFO     | __main__ | Duplicate article skipped: Louvre heist: Viral conspiracy theory finds theft to be PR stunt for Now You See Me 3, Ocean’s 14 - financialexpress.com
+2026-07-03 11:21:10,174 | INFO     | __main__ | Duplicate article skipped: Watch: UP police lathicharge, slap, kick women in Firozabad - DNA India
+2026-07-03 11:21:10,175 | INFO     | __main__ | Duplicate article skipped: Lupin Secures SBTi Validation for Emission Reduction Targets - Lupin | Press Release - lupin.com
+2026-07-03 11:21:10,176 | INFO     | __main__ | Duplicate article skipped: The Cast of Netflix's 'Lupin' Got to Spend a Night in the Louvre Museum - Yahoo
+2026-07-03 11:21:10,177 | INFO     | __main__ | Duplicate article skipped: Steven Lupin Recognized in the 2024 Edition of Best Lawyers in America - citybiz
+2026-07-03 11:21:10,178 | INFO     | __main__ | Duplicate article skipped: Man killed in Holmes County crash - mypanhandle.com
+2026-07-03 11:21:10,179 | INFO     | __main__ | Duplicate article skipped: Dear Lupin by Roger Mortimer and Charlie Mortimer - review - The Guardian
+2026-07-03 11:21:10,180 | INFO     | __main__ | Duplicate article skipped: Enterprise man killed trying to pass in no-passing zone - WTVY
+2026-07-03 11:21:10,181 | INFO     | __main__ | Duplicate article skipped: Fiat to Launch Limited-Edition Lupin III Car - Anime News Network
+2026-07-03 11:21:10,182 | INFO     | __main__ | Duplicate article skipped: Woman dead, two injured in dirt road crash in Adelanto - Victorville Daily Press
+2026-07-03 11:21:10,183 | INFO     | __main__ | Duplicate article skipped: Fans make same plea after long-awaited return of Lupin - HELLO! Magazine
+2026-07-03 11:21:10,184 | INFO     | __main__ | Duplicate article skipped: 'He's going to crash' - Shocking police chase video of car's 80mph smash as driver AVOIDS jail - The Bolton News
+2026-07-03 11:21:10,185 | INFO     | __main__ | Duplicate article skipped: Dangerous driver jailed after Dudley crash - Dudleynews.co.uk
+2026-07-03 11:21:10,186 | INFO     | __main__ | Duplicate article skipped: Homicide by vehicle charges filed against driver in fatal Route 309 crash - North Penn Now
+2026-07-03 11:21:10,187 | INFO     | __main__ | Duplicate article skipped: Roundabout reprise - The Acorn
+2026-07-03 11:21:10,188 | INFO     | __main__ | Duplicate article skipped: Thailand Train Crash: At Least 8 Dead, 32 Injured In Bangkok After Freight Train Hits Bus - DNA India
+2026-07-03 11:21:10,189 | INFO     | __main__ | Duplicate article skipped: 25 Years Before Deadpool, Ryan Reynolds Made His Acting Debut in This Forgotten Anime - Comic Book Resources
+2026-07-03 11:21:10,190 | INFO     | __main__ | Duplicate article skipped: 5 Forgotten Anime Characters Who Used to Be Popular - Comic Book Resources
+2026-07-03 11:21:10,190 | INFO     | __main__ | Duplicate article skipped: 10 Best Male Anime Protagonists of the 1990s, Ranked - Comic Book Resources
+2026-07-03 11:21:10,191 | INFO     | __main__ | Duplicate article skipped: Everything Studio Ghibli Fans Need to Know About Lupin the Third - Comic Book Resources
+2026-07-03 11:21:10,192 | INFO     | __main__ | Duplicate article skipped: Top 10 Best Phantom Thieves in Anime, Ranked - Comic Book Resources
+2026-07-03 11:21:10,193 | INFO     | __main__ | Duplicate article skipped: 8 Anime References In Creed III - Comic Book Resources
+2026-07-03 11:21:10,193 | INFO     | __main__ | Duplicate article skipped: Aurobindo Pharma stock jumps 2% after US FTC approves Lannett acquisition - Business Standard
+2026-07-03 11:21:10,195 | INFO     | __main__ | Duplicate article skipped: Fire at subsidiary unit temporarily hits production: Aurobindo Pharma - The Economic Times
+2026-07-03 11:21:10,196 | INFO     | __main__ | Duplicate article skipped: Air ambulance crash, Ajit Pawar incident: RTI exposes DGCA 40% staff shortfall -- INDIA TODAY EXCLUSIVE - Business Today
+2026-07-03 11:21:10,197 | INFO     | __main__ | Duplicate article skipped: Sensex settles 600 pts lower, Nifty below 24,600: Trump's tariffs among key factors behind market fall - Moneycontrol.com
+2026-07-03 11:21:10,198 | INFO     | __main__ | Duplicate article skipped: Massive fire breaks out at chemical godown in Thane; official injured - Business Standard
+2026-07-03 11:21:10,199 | INFO     | __main__ | Duplicate article skipped: Government sets minimum import price for penicillin, salts; Aurobindo Pharma stock up - Moneycontrol.com
+2026-07-03 11:21:10,201 | INFO     | __main__ | Duplicate article skipped: Fire incident forces Aurobindo arm Lyfius to temporarily pause Pen-G production at Kakinada plant - The Times of India
+2026-07-03 11:21:10,202 | INFO     | __main__ | Duplicate article skipped: Hospital fires expose deep safety lapses, weak enforcement across India - Business Standard
+2026-07-03 11:21:10,202 | INFO     | __main__ | Duplicate article skipped: Aurobindo Pharma's US arm incorporates new subsidiary called Cresedemo Pharma - The Times of India
+2026-07-03 11:21:10,203 | INFO     | __main__ | Duplicate article skipped: BMW overtakes Mercedes in Q1 as luxury car market shows flat growth - Business Standard
+2026-07-03 11:21:10,204 | INFO     | __main__ | Duplicate article skipped: Aurobindo stock crashes 12% after director’s arrest - The Times of India
+2026-07-03 11:21:10,205 | INFO     | __main__ | Duplicate article skipped: Aurobindo Pharma reports accident in Unit 6 of Apitoria Pharma - Business Standard
+2026-07-03 11:21:10,206 | INFO     | __main__ | Duplicate article skipped: Aurobindo Pharma in focus: Why has the stock gained 3% in trade today? - Business Standard
+2026-07-03 11:21:10,207 | INFO     | __main__ | Duplicate article skipped: Aurobindo Pharma arm CuraTeQ gets positive EMA opinion for biosimilar Zefylti - The Times of India
+2026-07-03 11:21:10,208 | INFO     | __main__ | Duplicate article skipped: Aurobindo inaugurates TheraNym Biologics’ facility in Hyd - The Times of India
+2026-07-03 11:21:10,208 | INFO     | __main__ | Duplicate article skipped: Aurobindo arm Theranym to invest $150-175M in new biologic drug substance unit for MSD - The Times of India
+2026-07-03 11:21:10,209 | INFO     | __main__ | Duplicate article skipped: Stocks to Watch, June 5: Ola Electric, Maruti, Inox Clean, CG Power, TVS SCS, Aurobindo Pharma - BusinessLine
+2026-07-03 11:21:10,210 | INFO     | __main__ | Duplicate article skipped: Aurobindo Group's residential unit eyes $225 million India bond issue to fund acquisition - The Economic Times
+2026-07-03 11:21:10,211 | INFO     | __main__ | Duplicate article skipped: Top stocks to buy or sell today: Stock market recommendations for March 10, 2026 - check list - The Times of India
+2026-07-03 11:21:10,212 | INFO     | __main__ | Duplicate article skipped: Aurobindo Pharma announces schedule, record date for its Rs 800 crore share buyback - The Economic Times
+2026-07-03 11:21:10,214 | INFO     | __main__ | Duplicate article skipped: Stocks to Watch today: ACME Solar, Gravita India, Kalpataru, Raymond Realty - Business Standard
+2026-07-03 11:21:10,215 | INFO     | __main__ | Duplicate article skipped: Weekly Review: Nifty Falls 2% Amid Fuel Hike & Oil Crisis - Liquide Blog
+2026-07-03 11:21:10,216 | INFO     | __main__ | Duplicate article skipped: Dr Reddy’s, Sun Pharma, Aurobindo recall products in US due to manufacturing issues - The Indian Express
+2026-07-03 11:21:10,217 | INFO     | __main__ | Duplicate article skipped: Pharma sector can deliver 100 new drugs by 2047: Zydus chairman - Business Standard
+2026-07-03 11:21:10,218 | INFO     | __main__ | Duplicate article skipped: Maruti Suzuki to set up advanced manufacturing labs at 5 Gujarat ITIs - Business Standard
+2026-07-03 11:21:10,219 | INFO     | __main__ | Duplicate article skipped: 4-member DGCA team visits Ajit Pawar plane crash site in Baramati - Business Standard
+2026-07-03 11:21:10,220 | INFO     | __main__ | Duplicate article skipped: Toll in Mumbai ferry accident rises to 14, navy chief expresses condolence - Business Standard
+2026-07-03 11:21:10,221 | INFO     | __main__ | Duplicate article skipped: Andhra to terminate ambulance contract with Aurobindo group | India News - Hindustan Times
+2026-07-03 11:21:10,222 | INFO     | __main__ | Duplicate article skipped: US FDA uncovers fresh faults at India's second-biggest drugmaker Aurobindo Pharma - The Economic Times
+2026-07-03 11:21:10,223 | INFO     | __main__ | Duplicate article skipped: AI scare triggers worst FII fortnightly exit from IT stocks since July 2025 - Business Standard
+2026-07-03 11:21:10,223 | INFO     | __main__ | Duplicate article skipped: Aurobindo Pharma says Rs 420-cr deal to acquire 51 pc in Cronus Pharma cancelled - The Times of India
+2026-07-03 11:21:10,225 | INFO     | __main__ | Duplicate article skipped: Four suffer burn injuries after hot liquid steel falls on them at Vizag Steel Plant - The News Minute
+2026-07-03 11:21:10,225 | INFO     | __main__ | Duplicate article skipped: Aurobindo Pharma Foundation may take over 108 ambulance service - The Times of India
+2026-07-03 11:21:10,226 | INFO     | __main__ | Duplicate article skipped: Aurobindo Pharma arm signs pact with Medicines Patent Pool to develop anti-cancer drug - The Economic Times
+2026-07-03 11:21:10,228 | INFO     | __main__ | Duplicate article skipped: Stocks in news: ZEE, Bajaj Auto, Tata Motors, Metropolis Healthcare, Aurobindo Pharma - The Economic Times
+2026-07-03 11:21:10,229 | INFO     | __main__ | Duplicate article skipped: Air India crash initial report out: Probe reveals chilling cockpit audio, what exactly happened; Top 10 pointers - Business Today
+2026-07-03 11:21:10,230 | INFO     | __main__ | Duplicate article skipped: Aurobindo Pharma to invest Rs 420 cr in veterinary firm Cronus for 51% stake - Business Today
+2026-07-03 11:21:10,231 | INFO     | __main__ | Duplicate article skipped: IT Stocks Crash: Index set for worst month since September 2008; Check upside potential now - CNBC TV18
+2026-07-03 11:21:10,232 | INFO     | __main__ | Duplicate article skipped: Why stock market crashed today: 4 factors behind BSE Sensex, Nifty50 fall - Rs 10 lakh crore investor wea - The Times of India
+2026-07-03 11:21:10,234 | INFO     | __main__ | Duplicate article skipped: Before Balasore disaster, 11 incidents of train collisions in five years - Business Standard
+2026-07-03 11:21:10,235 | INFO     | __main__ | Duplicate article skipped: Top 14 Pharma Stocks To Buy In India June 2026 - Samco
+2026-07-03 11:21:10,256 | INFO     | __main__ | Duplicate article skipped: Plane crash: Air India Express hires US-based firm to recover baggage - Business Standard
+2026-07-03 11:21:10,257 | INFO     | __main__ | Duplicate article skipped: Aurobindo Pharma becomes India's 2nd-biggest overtaking Dr Reddy's with ₹33,653cr - NewsBytes
+2026-07-03 11:21:10,258 | INFO     | __main__ | Duplicate article skipped: Sebi allows employees to WFH, advises departments to defer conclaves - Business Standard
+2026-07-03 11:21:10,259 | INFO     | __main__ | Duplicate article skipped: Andhra Pradesh pharma company explosion: Death toll rises to 17; CM Naidu to visit site today - The New Indian Express
+2026-07-03 11:21:10,260 | INFO     | __main__ | Duplicate article skipped: Freeths advises Milpharm Limited on its acquisition of Uxbridge office building - Freeths
+2026-07-03 11:21:10,261 | INFO     | __main__ | Duplicate article skipped: Scores of companies raided by central agencies bought electoral bonds - The News Minute
+2026-07-03 11:21:10,262 | INFO     | __main__ | Duplicate article skipped: Reddy’s trademark - Ramprasad Reddy: The story of a clerk-turned-billionaire pharmacist - The Economic Times
+2026-07-03 11:21:10,264 | INFO     | __main__ | Duplicate article skipped: Adani Ports secures top position for its climate actions, environmental performance - Business Today
+2026-07-03 11:21:10,265 | INFO     | __main__ | Duplicate article skipped: KCR identifies land for eco friendly pharma city near Hyderabad - The News Minute
+2026-07-03 11:21:10,266 | INFO     | __main__ | Duplicate article skipped: Aurobindo gets US FTC nod to acquire Lannett Co for $250 million - The Times of India
+2026-07-03 11:21:10,269 | INFO     | __main__ | Duplicate article skipped: Aurobindo Pharma share crashes 20% to hit 52-week low on USFDA observations; Lupin, Glenmark fall up to 9% - Business Today
+2026-07-03 11:21:10,271 | INFO     | __main__ | Duplicate article skipped: How Telugu pharma, liquor tycoons played key role in Delhi liquor scam - theweek.in
+2026-07-03 11:21:10,272 | INFO     | __main__ | Duplicate article skipped: Aurobindo Pharma vice-chairman escapes kidnap attempt - livemint.com
+2026-07-03 11:21:10,273 | INFO     | __main__ | Duplicate article skipped: Depression drug recalled over mislabeled strength of pills - Atlanta Journal-Constitution
+2026-07-03 11:21:10,275 | INFO     | __main__ | Duplicate article skipped: Stocks To Buy: SBI Securities recommends buying these midcap stocks for up to 51% upside - CNBC TV18
+2026-07-03 11:21:10,276 | INFO     | __main__ | Duplicate article skipped: FDA approves generic Strattera for pediatric, adult ADHD patients - MDEdge
+2026-07-03 11:21:10,278 | INFO     | __main__ | Duplicate article skipped: FDA recalls depression medication Mirtazapine - WAVE News
+2026-07-03 11:21:10,280 | INFO     | __main__ | Duplicate article skipped: RECALL: Depression medication Mirtazapine recalled due to label error on declared strength - FOX 10 Phoenix
+2026-07-03 11:21:10,282 | INFO     | __main__ | Duplicate article skipped: JBM Ecolife Mobility gets Rs 5,500 cr order for e-buses under PM e-Bus Sewa - Business Standard
+2026-07-03 11:21:10,283 | INFO     | __main__ | Duplicate article skipped: Two employees of Divis hospitalised after inhaling chemical fumes - The Hindu
+2026-07-03 11:21:10,286 | INFO     | __main__ | Duplicate article skipped: Ajit Pawar plane crash: What led to accident? From sequence of events to aircraft details - all you need to know - livemint.com
+2026-07-03 11:21:10,287 | INFO     | __main__ | Duplicate article skipped: One dead in Divis Laboratories explosion - The Times of India
+2026-07-03 11:21:10,289 | INFO     | __main__ | Duplicate article skipped: Stock market crash: RIL to SBI— Magnificent 7 stocks in India lose ₹3.28 lakh crore in 2 days as Nifty tanks 4% - livemint.com
+2026-07-03 11:21:10,290 | INFO     | __main__ | Duplicate article skipped: Janakpuri biker death case: First arrest made, contractor's call records reveal fresh details - Latest updates - livemint.com
+2026-07-03 11:21:10,292 | INFO     | __main__ | Duplicate article skipped: Thane tragedy: 11 killed, two injured as van rams into cement mixer in Maharashtra - livemint.com
+2026-07-03 11:21:10,295 | INFO     | __main__ | Duplicate article skipped: Faridabad: Chaos on NH-19 as drunk driver in Scorpio crashes into multiple vehicles - livemint.com
+2026-07-03 11:21:10,297 | INFO     | __main__ | Duplicate article skipped: Noida techie ‘struggled for 2 hours, people made videos,’ says father; Junior engineer sacked after 27-year old dies - livemint.com
+2026-07-03 11:21:10,298 | INFO     | __main__ | Duplicate article skipped: YouTuber Anurag Dobhals condition turns 'serious' after car crash incident, manager shares health update - livemint.com
+2026-07-03 11:21:10,300 | INFO     | __main__ | Duplicate article skipped: Recent helicopter crashes spark calls for overhaul of safety protocols - livemint.com
+2026-07-03 11:21:10,301 | INFO     | __main__ | Duplicate article skipped: Death toll in Jabalpur hit-and-run accident mounts to five; villagers protest with bodies of victims - livemint.com
+2026-07-03 11:21:10,303 | INFO     | __main__ | Duplicate article skipped: Telangana factory fire: Death toll from Sigachi pharma factory explosion rises to 42 - livemint.com
+2026-07-03 11:21:10,305 | INFO     | __main__ | Duplicate article skipped: PM Modi describes Kurnool tragedy as ‘deeply painful’; announces ₹2 lakh aid for victims' family - livemint.com
+2026-07-03 11:21:10,307 | INFO     | __main__ | Duplicate article skipped: Mumbai BEST bus crash: Girl who began her first job died on way back home; driver says ‘I was confused’ — 5 points - livemint.com
+2026-07-03 11:21:10,309 | INFO     | __main__ | Duplicate article skipped: NHAI releases guidelines to address accident-prone spots on national highways - livemint.com
+2026-07-03 11:21:10,311 | INFO     | __main__ | Duplicate article skipped: Janakpuri biker death: Family alleges police negligence after 25-year-old falls into Delhi Jal Board pit - livemint.com
+2026-07-03 11:21:10,313 | INFO     | __main__ | Duplicate article skipped: Pune Porsche case: Police book Juvenile's father, grandfather in suicide abetment case - livemint.com
+2026-07-03 11:21:10,315 | INFO     | __main__ | Duplicate article skipped: Azerbaijan plane crash: 39 dead, 28 injured in tragic accident. Check key updates - livemint.com
+2026-07-03 11:21:10,316 | INFO     | __main__ | Duplicate article skipped: Moments before landing, Nepal helicopter tilts tail-up, spins out of control, crashes - Dramatic video viral - livemint.com
+2026-07-03 11:21:10,319 | INFO     | __main__ | Duplicate article skipped: India registers strong protest with Sri Lanka over fisherman death due to collision between Indian boat and navy ship - livemint.com
+2026-07-03 11:21:10,320 | INFO     | __main__ | Duplicate article skipped: Azerbaijan Airlines crash reason: Russia responds with warning after reports link Moscow to plane crash - livemint.com
+2026-07-03 11:21:10,322 | INFO     | __main__ | Duplicate article skipped: Faith Winter no more! Democrat Senator from Colorado killed in multi-vehicle car crash - livemint.com
+2026-07-03 11:21:10,323 | INFO     | __main__ | Duplicate article skipped: Odisha train accident: ‘Mistaken’ signal likely to be reason behind mishap, reveals probe - livemint.com
+2026-07-03 11:21:10,325 | INFO     | __main__ | Duplicate article skipped: South Korea plane crash: Tragedy strikes ahead of New Year, plane bursts into flames after skidding | In pics - livemint.com
+2026-07-03 11:21:10,326 | INFO     | __main__ | Duplicate article skipped: 'Left engine was...': Air India CEO Campbell Wilson says Dreamliner was ‘well-maintained’ before crash - livemint.com
+2026-07-03 11:21:10,330 | INFO     | __main__ | Duplicate article skipped: 'One of the worst crashes…': Three members of Indian-origin family, 2 others killed in car accident in Texas - livemint.com
+2026-07-03 11:21:10,333 | INFO     | __main__ | Duplicate article skipped: Delhi Palam fire: 9 dead; was a short circuit the cause? CM Rekha Gupta, L-G order probe, fire audit - livemint.com
+2026-07-03 11:21:10,335 | INFO     | __main__ | Duplicate article skipped: Haryana: 7 family members found dead in parked car in Panchkula; what suicide note reveals - livemint.com
+2026-07-03 11:21:10,337 | INFO     | __main__ | Duplicate article skipped: Andhra Pradesh: 15 killed as reactor explosion sparks fire at pharma company in Anakapalle; CM Naidu orders probe - livemint.com
+2026-07-03 11:21:10,339 | INFO     | __main__ | Duplicate article skipped: Former Uttarakhand CM Harish Rawat escapes unhurt in car accident en route to Dehradun from Delhi - livemint.com
+2026-07-03 11:21:10,340 | INFO     | __main__ | Duplicate article skipped: South Korea plane crash: ‘Should I say my last words’, Jeju Air passenger's desperate message moments before disaster - livemint.com
+2026-07-03 11:21:10,342 | INFO     | __main__ | Duplicate article skipped: Attention passengers! Red Fort metro reopens after Delhi blast incident — Check which gates will be open here - livemint.com
+2026-07-03 11:21:10,344 | INFO     | __main__ | Duplicate article skipped: N. Chandrasekaran gets open letter over absence at Captain Sumeet Sabharwal’s funeral: ‘Is this New India?’ - livemint.com
+2026-07-03 11:21:10,347 | INFO     | __main__ | Duplicate article skipped: Centre sets up panel to probe Air India Express aircraft crash - livemint.com
+2026-07-03 11:21:10,349 | INFO     | __main__ | Duplicate article skipped: Salman Khan’s Rakhi sister, Shweta Rohira, suffers fractured bones in bike accident, promises to come back stronger - livemint.com
+2026-07-03 11:21:10,351 | INFO     | __main__ | Duplicate article skipped: ‘Tell my family…’: Before death by suicide, Ola Krutrim engineer Nikhil Somwanshi sent a final message to his roommate - livemint.com
+2026-07-03 11:21:10,355 | INFO     | __main__ | Duplicate article skipped: Air India ‘Pee-gate’ 2.0: Passenger urinates on man in Delhi-Bangkok flight - livemint.com
+2026-07-03 11:21:10,356 | INFO     | __main__ | Duplicate article skipped: Mid-air scare: United Airlines Boeing 787 Dreamliner declares 'Mayday' over engine failure, stays in air for 2 hours - livemint.com
+2026-07-03 11:21:10,358 | INFO     | __main__ | Duplicate article skipped: Accident of suicide? Teenager falls from 50 metres while parasailing; last moments captured on camera - livemint.com
+2026-07-03 11:21:10,363 | INFO     | __main__ | Duplicate article skipped: Big trouble in Little India - livemint.com
+2026-07-03 11:21:10,365 | INFO     | __main__ | Duplicate article skipped: Air India begins inspection of fuel control switches in Boeing 787 fleet — Here's all we know - livemint.com
+2026-07-03 11:21:10,367 | INFO     | __main__ | Duplicate article skipped: After PM's appeal, power ministry asks PSUs to promote work from home, cut foreign travel - livemint.com
+2026-07-03 11:21:10,370 | INFO     | __main__ | Duplicate article skipped: Finance ministry asks banks, insurance companies for cost cutting, move to EVs - livemint.com
+2026-07-03 11:21:10,372 | INFO     | __main__ | Duplicate article skipped: India issues travel advisory as WHO declares Ebola outbreak a public health emergency of international concern - livemint.com
+2026-07-03 11:21:10,374 | INFO     | __main__ | Duplicate article skipped: US Government Shutdown: Jobs, travel, social security — what all is affected as deadlock drags on - livemint.com
+2026-07-03 11:21:10,375 | INFO     | __main__ | Duplicate article skipped: Vijay Thalapathy poll promises: 8 gm gold, 6 LPG cylinders — what's in TVK manifesto for women, MSMEs, govt staff - livemint.com
+2026-07-03 11:21:10,377 | INFO     | __main__ | Duplicate article skipped: Q3 results today: ONGC, Divis Laboratories, Aurobindo Pharma, MCX and more in focus - livemint.com
+2026-07-03 11:21:10,379 | INFO     | __main__ | Duplicate article skipped: Bharat Bandh: Will public services and transport get hit on July 9? What we know - livemint.com
+2026-07-03 11:21:10,381 | INFO     | __main__ | Duplicate article skipped: Maharashtra: What comes under essential services and what doesn't. Full list - livemint.com
+2026-07-03 11:21:10,383 | INFO     | __main__ | Duplicate article skipped: BEST: Our red Cadillac - livemint.com
+2026-07-03 11:21:10,386 | INFO     | __main__ | Duplicate article skipped: It was true in 2008, will be true in 2026, and even in 2036: Hold good stocks for wealth creation; 10 stocks that fit the bill - The Economic Times
+2026-07-03 11:21:10,389 | INFO     | __main__ | Duplicate article skipped: NASA engineer died in fiery Alabama car crash last year; death adds to mystery over US scientists’ disappearances - livemint.com
+2026-07-03 11:21:10,391 | INFO     | __main__ | Duplicate article skipped: Who was Vince Zampella? Head of Battlefield, key figure behind Call of Duty series dies in Ferrari crash - livemint.com
+2026-07-03 11:21:10,394 | INFO     | __main__ | Duplicate article skipped: Brad Everett Young, 'Grey's Anatomy' actor, dies at 46 in a car accident in Los Angeles - livemint.com
+2026-07-03 11:21:10,396 | INFO     | __main__ | Duplicate article skipped: Prince William shares unseen photo with Princess Diana to mark Mother's Day, says ‘remembering my mother every day’ - livemint.com
+2026-07-03 11:21:10,399 | INFO     | __main__ | Duplicate article skipped: This Tata Group stock beat Sensex for a decade, surged 1,154% in 4 yrs - Business Standard
+2026-07-03 11:21:10,400 | INFO     | __main__ | Duplicate article skipped: Dense fog alert! Multiple vehicles collide on Delhi-Meerut Expressway, 6 injured - Details here - livemint.com
+2026-07-03 11:21:10,402 | INFO     | __main__ | Duplicate article skipped: M&M, Divi’s Labs, Ashok Leyland and 7 Other Stocks to Announce Q3 Results Today - Trade Brains
+2026-07-03 11:21:10,404 | INFO     | __main__ | Duplicate article skipped: Cadila Health Care Ltd v. Cadila Pharmaceuticals Ltd: Landmark Supreme Court Judgment on Pharmaceutical Trademark Confusion and Deceptive Similarity - Legal Service India
+2026-07-03 11:21:10,407 | INFO     | __main__ | Duplicate article skipped: Torrent Pharmaceuticals surpasses Zydus Cadila in m-cap - The Times of India
+2026-07-03 11:21:10,409 | INFO     | __main__ | Duplicate article skipped: India’s COVID cases spiral as health system staggers - Al Jazeera
+2026-07-03 11:21:10,411 | INFO     | __main__ | Duplicate article skipped: Coronavirus outbreak: Cadila Healthcare dismisses reports of workers at plant getting COVID-19 - Business Today
+2026-07-03 11:21:10,414 | INFO     | __main__ | Duplicate article skipped: Clipping The DG’s and CCI’s Investigative Power: Recent Trends - SCC Online
+2026-07-03 11:21:10,416 | INFO     | __main__ | Duplicate article skipped: Indravadan Modi: A Medicine man, Founder of Cadila Pharmaceuticals Limited - SugerMint
+2026-07-03 11:21:10,418 | INFO     | __main__ | Duplicate article skipped: Suncity Endeavours Collaborates With Sougata Patra To Introduce AI-Enabled Healthcare Technology Platform In India - Outlook India
+2026-07-03 11:21:10,420 | INFO     | __main__ | Duplicate article skipped: A classic rolls past - Mumbai Mirror
+2026-07-03 11:21:10,422 | INFO     | __main__ | Duplicate article skipped: Cadila Healthcare's New Covid-19 Vaccine Gives Booster Shot To Company Chairman's Wealth - Forbes
+2026-07-03 11:21:10,424 | INFO     | __main__ | Duplicate article skipped: Air cargo operators, airports planning steps to ensure smooth transport of Covid-19 vaccines - ET HealthWorld
+2026-07-03 11:21:10,426 | INFO     | __main__ | Duplicate article skipped: Coronavirus: Will the lockdown create a supply shock that India simply can’t afford? - The Economic Times
+2026-07-03 11:21:10,429 | INFO     | __main__ | Duplicate article skipped: Cadila crashes the gliptin market with 'most affordable anti diabetic drug' - The Economic Times
+2026-07-03 11:21:10,431 | INFO     | __main__ | Duplicate article skipped: Sensex jumps 53 pts; pharma stocks in demand - Business Standard
+2026-07-03 11:21:10,434 | INFO     | __main__ | Duplicate article skipped: Cheaper generics capture 20% of weight-loss mkt - The Times of India
+2026-07-03 11:21:10,436 | INFO     | __main__ | Duplicate article skipped: Torrent Pharmaceuticals - Signatureglobal among 3 stocks showing bullish RSI upswing - The Economic Times
+2026-07-03 11:21:10,438 | INFO     | __main__ | Duplicate article skipped: Domestic companies launch semaglutide jabs at affordable prices - The Times of India
+2026-07-03 11:21:10,440 | INFO     | __main__ | Duplicate article skipped: Troubled Torrent plant in India gets FDA 'official action' letter - Fierce Pharma
+2026-07-03 11:21:10,442 | INFO     | __main__ | Duplicate article skipped: FDA cites troubled Torrent plant for sanitary issues and failures to properly inspect equipment defects - Fierce Pharma
+2026-07-03 11:21:10,443 | INFO     | __main__ | Duplicate article skipped: Ahmedabad-based Torrent Pharma executive killed in Mexico - The Times of India
+2026-07-03 11:21:10,447 | INFO     | __main__ | Duplicate article skipped: Ahmedabad-based Torrent Pharma's director killed by robbers in Mexico, looted over Rs 8 lakh - The Economic Times
+2026-07-03 11:21:10,449 | INFO     | __main__ | Duplicate article skipped: Anti-COVID pill to be rolled out shortly; eight vaccines, four treatments now in India's arsenal - The New Indian Express
+2026-07-03 11:21:10,451 | INFO     | __main__ | Duplicate article skipped: Different drugs, identical names. Nepal’s regulatory body is clueless - The Kathmandu Post
+2026-07-03 11:21:10,453 | INFO     | __main__ | Duplicate article skipped: Torrent buys 67% stake in IPL franchise Gujarat Titans for Rs 5,000 cr - Business Standard
+2026-07-03 11:21:10,456 | INFO     | __main__ | Duplicate article skipped: Torrent Pharma Q1 net profit rises 20% on broad-based growth - The Times of India
+2026-07-03 11:21:10,458 | INFO     | __main__ | Duplicate article skipped: Pharma mergers: Torrent to acquire majority stake in JB Chemicals for Rs 19,500 crore, open offer to foll - The Times of India
+2026-07-03 11:21:10,460 | INFO     | __main__ | Duplicate article skipped: Torrent Pharmaceuticals Shelcal 500 found substandard, Co claims it was counterfeited - The Economic Times
+2026-07-03 11:21:10,462 | INFO     | __main__ | Duplicate article skipped: Centre fixes prices of 71 key drug formulations, including cancer medicines - The Times of India
+2026-07-03 11:21:10,464 | INFO     | __main__ | Duplicate article skipped: Torrent acquires derma company Curatio in Rs 2,000 crore deal - The Times of India
+2026-07-03 11:21:10,466 | INFO     | __main__ | Duplicate article skipped: Key diabetes drug to cost up to 90% less in a few days - The Times of India
+2026-07-03 11:21:10,468 | INFO     | __main__ | Duplicate article skipped: ONGC enters JV with Japan's Mitsui for ethane shipping; acquires 50% stake - Business Standard
+2026-07-03 11:21:10,471 | INFO     | __main__ | Duplicate article skipped: Torrent to acquire KKR’s stake in JB Pharma for US$1.4 billion - The Business Times
+2026-07-03 11:21:10,473 | INFO     | __main__ | Duplicate article skipped: Sensex slumps over 1,036 pts; auto shares drop - Business Standard
+2026-07-03 11:21:10,474 | INFO     | __main__ | Duplicate article skipped: Dividend alert! Last date to buy Bajaj Auto, GSK Pharma and 10 other stocks for solid payouts. Details her - The Economic Times
+2026-07-03 11:21:10,476 | INFO     | __main__ | Duplicate article skipped: 4 pharma firm officials die, driver hurt as car hits truck in Pinjore | Hindustan Times - Hindustan Times
+2026-07-03 11:21:10,478 | INFO     | __main__ | Duplicate article skipped: Torrent Pharma to acquire majority stake in KKR-backed JB Chemicals at ₹25,689 crore valuation — Details here - livemint.com
+2026-07-03 11:21:10,480 | INFO     | __main__ | Duplicate article skipped: River Indie earns Rs 100 crore revenue — Here’s what makes it special - financialexpress.com
+2026-07-03 11:21:10,482 | INFO     | __main__ | Duplicate article skipped: Biocon Employee Passes Away in Suspected Workplace Suicide - Medical Dialogues
+2026-07-03 11:21:10,485 | INFO     | __main__ | Duplicate article skipped: Biocon Employee, 26, Found Dead At Bengaluru Office - NDTV
+2026-07-03 11:21:10,487 | INFO     | __main__ | Duplicate article skipped: Bengaluru shocker: 26-year-old Biocon employee dies after jumping from office building - The Times of India
+2026-07-03 11:21:10,489 | INFO     | __main__ | Duplicate article skipped: Biocon employee falls from 5th floor at Bengaluru campus, dies; Kiran Mazumdar-Shaw says she is shocked - livemint.com
+2026-07-03 11:21:10,491 | INFO     | __main__ | Duplicate article skipped: 26-year-old Biocon employee falls to death from fifth floor in Bengaluru, probe on | Bengaluru - Hindustan Times
+2026-07-03 11:21:10,492 | INFO     | __main__ | Duplicate article skipped: Biocon employee in Bengaluru falls to death from office building, police suspect suicide - The Indian Express
+2026-07-03 11:21:10,495 | INFO     | __main__ | Duplicate article skipped: 26-year-old Biocon employee dies by suicide after jumping from office building in Bengaluru - Business Today
+2026-07-03 11:21:10,497 | INFO     | __main__ | Duplicate article skipped: Budget 2026 impact on stock market: Which are the top stocks in focus? Check list - The Times of India
+2026-07-03 11:21:10,498 | INFO     | __main__ | Duplicate article skipped: Biocon employee jumps from company building in Bengaluru - The Economic Times
+2026-07-03 11:21:10,500 | INFO     | __main__ | Duplicate article skipped: ‘I am shocked’: Biocon chief Kiran Mazumdar-Shaw expresses condolences after employee falls to death from fifth floor | India News - Hindustan Times
+2026-07-03 11:21:10,502 | INFO     | __main__ | Duplicate article skipped: Shardul Amarchand Advises Biocon on USD 1.2 Billion Biologics Integration | SCC Times - SCC Online
+2026-07-03 11:21:10,504 | INFO     | __main__ | Duplicate article skipped: Heading home, Biocon scientist dies in accident - The Hindu
+2026-07-03 11:21:10,506 | INFO     | __main__ | Duplicate article skipped: Biocon chief highlights Bengaluru ‘creaking’ infra - The Times of India
+2026-07-03 11:21:10,508 | INFO     | __main__ | Duplicate article skipped: Massive Traffic Jam On Bengaluru's Outer Ring Road After BMTC Bus Breaks Down - NDTV
+2026-07-03 11:21:10,509 | INFO     | __main__ | Duplicate article skipped: 'Why are roads so bad': Senior Karnataka ministers go after Kiran Mazumdar-Shaw as she flags Bengaluru ci - The Times of India
+2026-07-03 11:21:10,511 | INFO     | __main__ | Duplicate article skipped: 'We lack pride': Kiran Mazumdar-Shaw blasts Bengaluru garbage problem; Biocon chief stands firm after DK - The Times of India
+2026-07-03 11:21:10,513 | INFO     | __main__ | Duplicate article skipped: 'Why are roads so bad?': Kiran Mazumdar-Shaw slams Bengaluru infra again; ministers fume - The Times of India
+2026-07-03 11:21:10,515 | INFO     | __main__ | Duplicate article skipped: ‘Fabricated news’, says Biocon chief Kiran Mazumdar-Shaw on repairing Bengaluru roads - The Times of India
+2026-07-03 11:21:10,517 | INFO     | __main__ | Duplicate article skipped: Biocon Fire: Fire breaks out at Biocon’s research arm Syngene | Bengaluru News - The Times of India
+2026-07-03 11:21:10,520 | INFO     | __main__ | Duplicate article skipped: Bengaluru infrastructure row: Days after sparring, Biocon chief Kiran Mazumdar-Shaw meets CM Siddaramaiah - The Times of India
+2026-07-03 11:21:10,522 | INFO     | __main__ | Duplicate article skipped: Bengaluru: Biocon employee dies in bus accident - Deccan Chronicle
+2026-07-03 11:21:10,524 | INFO     | __main__ | Duplicate article skipped: “Not Australia, but India rejected me for being a woman”: Kiran Mazumdar-Shaw clarifies how gender bias le - The Economic Times
+2026-07-03 11:21:10,525 | INFO     | __main__ | Duplicate article skipped: Want to be remembered more than just woman of science: Kiran Mazumdar-Shaw - The New Indian Express
+2026-07-03 11:21:10,527 | INFO     | __main__ | Duplicate article skipped: Bajaj Finance, Biocon & more: Top stocks to buy on December 9 — Check list - The Times of India
+2026-07-03 11:21:10,529 | INFO     | __main__ | Duplicate article skipped: Kiran Mazumdar-Shaw eyes crown of world’s top insulin supplier for Biocon - The Economic Times
+2026-07-03 11:21:10,531 | INFO     | __main__ | Duplicate article skipped: Major fire ravages Biocon subsidiary complex in India - Pharmafile
+2026-07-03 11:21:10,533 | INFO     | __main__ | Duplicate article skipped: IISc Study Links Metro Use to Better Health - Passionate In Marketing
+2026-07-03 11:21:10,535 | INFO     | __main__ | Duplicate article skipped: Fix Bengaluru roads: Kiran Mazumdar-Shaw 'offers funds', Congress MP Chidambaram says problem is executio - The Times of India
+2026-07-03 11:21:10,537 | INFO     | __main__ | Duplicate article skipped: Biocon scientist killed in accident on NICE road - Bangalore Mirror
+2026-07-03 11:21:10,539 | INFO     | __main__ | Duplicate article skipped: Biocon’s next chapter: Kiran Mazumdar-Shaw names niece Claire as heir in 5-year transition plan - Firstpost
+2026-07-03 11:21:10,541 | INFO     | __main__ | Duplicate article skipped: 25 women to get STEM career boost with Biocon-supported initiative - Deccan Herald
+2026-07-03 11:21:10,542 | INFO     | __main__ | Duplicate article skipped: Fire at Bangalore Bioinnovation Centre: Karnataka IT minister meets affected startups, Kiran Mazumdar-Shaw... - Moneycontrol.com
+2026-07-03 11:21:10,543 | INFO     | __main__ | Duplicate article skipped: How Biocon's Kiran Mazumdar Shaw became the Mythbreaker - Deccan Chronicle
+2026-07-03 11:21:10,546 | INFO     | __main__ | Duplicate article skipped: ‘India can’t get its act together’: Bengaluru roads, garbage in spotlight as Kiran Shaw’s Chinese guest questions govt - The Indian Express
+2026-07-03 11:21:10,548 | INFO     | __main__ | Duplicate article skipped: DGCA suspends approval for flying training firm Alchemist Aviation - Business Standard
+2026-07-03 11:21:10,550 | INFO     | __main__ | Duplicate article skipped: Karnataka govt suspends 2 officials over unnatural death of 5 tigers - Business Standard
+2026-07-03 11:21:10,552 | INFO     | __main__ | Duplicate article skipped: Biocon founder Kiran Mazumdar-Shaw backs two cancer startups - The Times of India
+2026-07-03 11:21:10,554 | INFO     | __main__ | Duplicate article skipped: Serum Institute to invest $300 mn in Biocon's unit, provide access to 100 mn vaccine doses annually - Siliconindia
+2026-07-03 11:21:10,557 | INFO     | __main__ | Duplicate article skipped: Kiran Mazumdar Shaw: Woman entrepreneur behind the success of Biocon Ltd - SugerMint
+2026-07-03 11:21:10,558 | INFO     | __main__ | Duplicate article skipped: Vehicle with no FC and permit; insurer still has to pay compensation: HC - Business Standard
+2026-07-03 11:21:10,560 | INFO     | __main__ | Duplicate article skipped: Who was Anantha Kumar? 26-year-old Biocon employee jumps from office building in Bengaluru - financialexpress.com
+2026-07-03 11:21:10,562 | INFO     | __main__ | Duplicate article skipped: Biocon facilitates end-to-end public transport for employees to shift from private vehicles - Moneycontrol.com
+2026-07-03 11:21:10,564 | INFO     | __main__ | Duplicate article skipped: Biocon wants its employees to take the bus & metro in Bengaluru. Here is how - Deccan Herald
+2026-07-03 11:21:10,565 | INFO     | __main__ | Duplicate article skipped: Shift to Metro boosts health and travel satisfaction, finds Biocon-IISc study - The Hindu
+2026-07-03 11:21:10,567 | INFO     | __main__ | Duplicate article skipped: Toyota Mobility Foundation, Biocon, and WRI India launch a tech-driven nudge program to encourage employees to make public transport the preferred choice for daily commuting - WebWire
+2026-07-03 11:21:10,569 | INFO     | __main__ | Duplicate article skipped: ‘Phenomenal’ response to Corporate Commute Nudge initiative at Biocon, Bengaluru - The Statesman
+2026-07-03 11:21:10,571 | INFO     | __main__ | Duplicate article skipped: Bengaluru traffic mess: Nitin Gadkari promised to repair Hosur Road by April-end, says Biocon chief Kiran - The Times of India
+2026-07-03 11:21:10,573 | INFO     | __main__ | Duplicate article skipped: How heavy traffic pressure is straining Bengaluru’s key highway infrastructure - The Times of India
+2026-07-03 11:21:10,575 | INFO     | __main__ | Duplicate article skipped: Biocon Foundation Signs MoU with Bangalore Metro to Contribute Towards Building Metro Station in Hebbagodi - Biocon
+2026-07-03 11:21:10,578 | INFO     | __main__ | Duplicate article skipped: High fares, weak last-mile links curb Bengaluru Metro Yellow Line’s full benefits: IISc study - Moneycontrol.com
+2026-07-03 11:21:10,580 | INFO     | __main__ | Duplicate article skipped: Engineered For Innovation (VIDEO) - Asian Scientist Magazine
+2026-07-03 11:21:10,582 | INFO     | __main__ | Duplicate article skipped: From funding stations to painting pillars, here’s how corporates are boarding the Bengaluru Metro - Moneycontrol.com
+2026-07-03 11:21:10,585 | INFO     | __main__ | Duplicate article skipped: Bengaluru: Vehicles crawl on E-City expressway as curbs imposed - The Times of India
+2026-07-03 11:21:10,589 | INFO     | __main__ | Duplicate article skipped: Bengaluru firms adopt incentives and penalties to tackle rising traffic congestion - The Hans India
+2026-07-03 11:21:10,591 | INFO     | __main__ | Duplicate article skipped: Bengaluru’s Electronics City Flyover Closed for Nighttime Maintenance; Check Timings - NativePlanet
+2026-07-03 11:21:10,593 | INFO     | __main__ | Duplicate article skipped: Crime Files - Bangalore Mirror
+2026-07-03 11:21:10,595 | INFO     | __main__ | Duplicate article skipped: Rajasthan: South Indian film producer R.B. Chaudhary killed in road accident near Pali - tennews.in
+2026-07-03 11:21:10,597 | INFO     | __main__ | Duplicate article skipped: Stocks to Watch today: Adani Enterprises, ICICI Bank, Biocon, Ola Electric - Business Standard
+2026-07-03 11:21:10,599 | INFO     | __main__ | Duplicate article skipped: Glenmark Pharmaceuticals launches Winlevi across key European markets - Business Standard
+2026-07-03 11:21:10,601 | INFO     | __main__ | Duplicate article skipped: Glenmark bags multi-regional rights to Hansoh Pharma's oncology drug for $1 B - BioSpectrum Asia
+2026-07-03 11:21:10,603 | INFO     | __main__ | Duplicate article skipped: Glenmark Launches Generic Sodium Phosphates Injection in US - Rediff MoneyWiz
+2026-07-03 11:21:10,605 | INFO     | __main__ | Duplicate article skipped: Glenmark Launches GLIPIQ For Type 2 Diabetes Patients In India; Weekly Treatment Starts At Rs 325 - ETV Bharat
+2026-07-03 11:21:10,606 | INFO     | __main__ | Duplicate article skipped: Why are pharma companies racing to launch semaglutide in India? - theweek.in
+2026-07-03 11:21:10,608 | INFO     | __main__ | Duplicate article skipped: Glenmark Pharmaceuticals launches Vancomycin Hydrochloride for Injection in U.S. - Business Standard
+2026-07-03 11:21:10,609 | INFO     | __main__ | Duplicate article skipped: Top stocks to buy today: Stock recommendations for December 18, 2025 - check list - The Times of India
+2026-07-03 11:21:10,610 | INFO     | __main__ | Duplicate article skipped: Bogus hypertension drug racket busted; 2 distributors held - The Times of India
+2026-07-03 11:21:10,612 | INFO     | __main__ | Duplicate article skipped: Khaitan & Co. advises Eris Group on its acquisition of a part of the dermatology portfolio of Glenmark Pharmaceuticals Limited - SCC Online
+2026-07-03 11:21:10,614 | INFO     | __main__ | Duplicate article skipped: HDFC AMC drops after cyber-security incident disclosure - Business Standard
+2026-07-03 11:21:10,615 | INFO     | __main__ | Duplicate article skipped: An Indian Drugmaker, Investigated by ProPublica Last Year, Has Recalled Two Dozen Medications Sold to U.S. Patients - ProPublica
+2026-07-03 11:21:10,617 | INFO     | __main__ | Duplicate article skipped: Most cancer drugs beyond ambit of price control mechanisms: Parl panel - Business Standard
+2026-07-03 11:21:10,620 | INFO     | __main__ | Duplicate article skipped: Glenmark Pharma to sell life sciences stake - The Times of India
+2026-07-03 11:21:10,622 | INFO     | __main__ | Duplicate article skipped: Detergent maker Nirma forays into APIs with Glenmark deal - The Times of India
+2026-07-03 11:21:10,624 | INFO     | __main__ | Duplicate article skipped: JB Chemicals & Pharmaceuticals to acquire Razel franchise from Glenmark in India, Nepal - The Times of India
+2026-07-03 11:21:10,626 | INFO     | __main__ | Duplicate article skipped: ‘Ordinary common man will be confused’; Bombay HC grants ad-interim injunction to Glenmark Pharmaceuticals for mark “ZITA-MET” against Gleck Pharma’s mark “XIGAMET” - SCC Online
+2026-07-03 11:21:10,628 | INFO     | __main__ | Duplicate article skipped: Glenmark Life Sciences stock: Nirma announces open offer at Rs 631.20 per share - Business Today
+2026-07-03 11:21:10,630 | INFO     | __main__ | Duplicate article skipped: 6 pharma stocks, Godavari Power, Hindustan Glass, Lemon Tree, VIP Ind to limelight on Sep 30 - BusinessLine
+2026-07-03 11:21:10,632 | INFO     | __main__ | Duplicate article skipped: Mumbai: Notice to Glenmark over Covid-19 drug price, 'false claims' - The Times of India
+2026-07-03 11:21:10,634 | INFO     | __main__ | Duplicate article skipped: India gets affordable drug to treat pulmonary fibrosis, Glenmark Pharma launches generic version of Nintedanib | Health - Hindustan Times
+2026-07-03 11:21:10,637 | INFO     | __main__ | Duplicate article skipped: Prudential announces strategic repositioning of its India operations - Business Standard
+2026-07-03 11:21:10,639 | INFO     | __main__ | Duplicate article skipped: Glenmark Pharma’s Kaizad Hazari Joins Arcelor Mittal Nippon Steel India as General Counsel - BW Legal World
+2026-07-03 11:21:10,641 | INFO     | __main__ | Duplicate article skipped: Nirma's new clothes: The journey of detergent brand towards healthcare - Business Standard
+2026-07-03 11:21:10,642 | INFO     | __main__ | Duplicate article skipped: Med agency asks hosps to recall batch of spurious BP drug - The Times of India
+2026-07-03 11:21:10,645 | INFO     | __main__ | Duplicate article skipped: Unethical human clinical trials for jobs, total violation of medical ethics says Civil Society - eNewsroom India
+2026-07-03 11:21:10,647 | INFO     | __main__ | Duplicate article skipped: Maruti Suzuki commissions 7 automated driving test tracks in Tamil Nadu - Business Standard
+2026-07-03 11:21:10,650 | INFO     | __main__ | Duplicate article skipped: Alivus Life Sciences Faces Rs 50 Lakh Environmental Penalty Following Plant Incident - scanx.trade
+2026-07-03 11:21:10,651 | INFO     | __main__ | Duplicate article skipped: Glenmark's Pithampur Plant in Madhya Pradesh, India Wins MPFCCI Outstanding Achievement Award 2014 for Excellence in Health & Safety - PR Newswire
+2026-07-03 11:21:10,654 | INFO     | __main__ | Duplicate article skipped: Dixon to make electronic components; Tata Electronics may invest Rs 2K cr - Business Standard
+2026-07-03 11:21:10,656 | INFO     | __main__ | Duplicate article skipped: SEBI orders Tata Motors to identify culprits of WhatsApp leak within 3 months - MediaNama
+2026-07-03 11:21:10,658 | INFO     | __main__ | Duplicate article skipped: More Than 11,000 Bottles of Blood Pressure Drugs Recalled Nationwide for “Cross Contamination” - The Healthy @Reader's Digest
+2026-07-03 11:21:10,659 | INFO     | __main__ | Duplicate article skipped: 3 Popular Pain Relievers Have Been Recalled Nationwide - The Healthy @Reader's Digest
+2026-07-03 11:21:10,662 | INFO     | __main__ | Duplicate article skipped: Expansion of ISRO’s telemedicine network - eHealth Magazine
+2026-07-03 11:21:10,664 | INFO     | __main__ | Duplicate article skipped: Indices trade with significant cuts; pharma share advance for 3rd day - Dailyhunt
+2026-07-03 11:21:10,666 | INFO     | __main__ | Duplicate article skipped: 4 Pharma stocks fall after CDSCO found 48 commonly used drugs failed to meet quality standards - Trade Brains
+2026-07-03 11:21:10,667 | INFO     | __main__ | Duplicate article skipped: Glenmark Pharma retrenches over 100 personnel from its consumer care division - BusinessLine
+2026-07-03 11:21:10,670 | INFO     | __main__ | Duplicate article skipped: Expecting India, US, Europe to contribute over 80% sales by 2021: Glenmark - Business Standard
+2026-07-03 11:21:10,672 | INFO     | __main__ | Duplicate article skipped: COVID-19: Glenmark launches country’s first nasal spray for patients - Business Today
+2026-07-03 11:21:10,673 | INFO     | __main__ | Duplicate article skipped: Stock Radar: Glenmark Pharma breaks out from a range to hit fresh record high in March 2026; what should i - The Economic Times
+2026-07-03 11:21:10,675 | INFO     | __main__ | Duplicate article skipped: Landmark Cars gets LoI for opening 'MG Select' dealerships in Ahmedabad & Kolkata - Business Standard
+2026-07-03 11:21:10,677 | INFO     | __main__ | Duplicate article skipped: Long-term Use of Muscle Relaxants Has Skyrocketed Since 2005 - FirstWord Pharma
+2026-07-03 11:21:10,679 | INFO     | __main__ | Duplicate article skipped: Trump tariff assault hits over 40 Indian stocks. Full list across key sectors for stock market investors - The Economic Times
+2026-07-03 11:21:10,682 | INFO     | __main__ | Duplicate article skipped: Landmark Cars share price zooms 7% after deal with JSW MG Motor; details - Business Standard
+2026-07-03 11:21:10,683 | INFO     | __main__ | Duplicate article skipped: Ahead of Market: 10 things that will decide stock market action on Monday - The Economic Times
+2026-07-03 11:21:10,686 | INFO     | __main__ | Duplicate article skipped: Ola Electric shares crashed 52% in six months; what lies ahead? - Business Today
+2026-07-03 11:21:10,688 | INFO     | __main__ | Duplicate article skipped: Auto component firm Kinetic Engineering targets Rs 1K cr revenue by 2029 - Business Standard
+2026-07-03 11:21:10,689 | INFO     | __main__ | Duplicate article skipped: Five Indian air force staff killed as transport plane crashes in Assam - Al Jazeera
+2026-07-03 11:21:10,691 | INFO     | __main__ | Duplicate article skipped: Several Indian workers killed in Dubai after minibus hits truck - The Times of India
+2026-07-03 11:21:10,692 | INFO     | __main__ | Duplicate article skipped: On Camera, Truck Rams Cars At UP Toll Booth, Drags Employee For 50 Metres - NDTV
+2026-07-03 11:21:10,695 | INFO     | __main__ | Duplicate article skipped: Employee transportation in India: Navigating safety, technology, and sustainability - The Economic Times
+2026-07-03 11:21:10,698 | INFO     | __main__ | Duplicate article skipped: Court rejects transport corporation financial crisis excuse, orders payout of earned leave salary to employee’s widow - The Indian Express
+2026-07-03 11:21:10,700 | INFO     | __main__ | Duplicate article skipped: Video: Speeding truck rams cars; impact flings toll worker onto bonnet, drags him - India Today
+2026-07-03 11:21:10,702 | INFO     | __main__ | Duplicate article skipped: Three Telangana Workers Killed in Dubai Road Accident, Repatriation Efforts Underway - The Morning Voice
+2026-07-03 11:21:10,704 | INFO     | __main__ | Duplicate article skipped: Rs 1 crore compensation to dependents of KSRTC employees who died in off-duty accidents - Deccan Herald
+2026-07-03 11:21:10,706 | INFO     | __main__ | Duplicate article skipped: Indian-origin billionaire announces Dh1m aid for UAE road crash victims: 6 Indians among 7 dead - The Times of India
+2026-07-03 11:21:10,707 | INFO     | __main__ | Duplicate article skipped: Accidents During Office Commute Covered Under Compensation Law: Supreme Court Clarifies - LawBeat
+2026-07-03 11:21:10,708 | INFO     | __main__ | Duplicate article skipped: Dubai Emirates Road crash: Six Indian expats and a Sri Lankan among 7 killed - Gulf News
+2026-07-03 11:21:10,710 | INFO     | __main__ | Duplicate article skipped: Two Girls Left Orphaned After Worker Transport Crash Claims Their Parents - Cambodianess
+2026-07-03 11:21:10,712 | INFO     | __main__ | Duplicate article skipped: Nashik hospital staff injured after head trapped in lift, accident caught on CCTV - India Today
+2026-07-03 11:21:10,714 | INFO     | __main__ | Duplicate article skipped: India Is Seeing Fewer, But More Deadly Road Accidents - Indiaspend
+2026-07-03 11:21:10,716 | INFO     | __main__ | Duplicate article skipped: Air India finds large-scale misuse of its leisure travel policy for staff, initiates corrective actions - The Economic Times
+2026-07-03 11:21:10,718 | INFO     | __main__ | Duplicate article skipped: Seven Indians killed, nine hurt in Dubai road accident - The Hindu
+2026-07-03 11:21:10,720 | INFO     | __main__ | Duplicate article skipped: Who Pays Cash For Company's Motor Crash - Mondaq
+2026-07-03 11:21:10,721 | INFO     | __main__ | Duplicate article skipped: Singapore To Ban Caged Lorries For Worker Transport From 2027 - BusinessToday Malaysia
+2026-07-03 11:21:10,723 | INFO     | __main__ | Duplicate article skipped: Sikh trucker crashes American dreams of many immigrants from Punjab - The Times of India
+2026-07-03 11:21:10,724 | INFO     | __main__ | Duplicate article skipped: US wants no truck with foreign drivers, suspends visas - The Times of India
+2026-07-03 11:21:10,726 | INFO     | __main__ | Duplicate article skipped: When a 16-day strike by transport employees and a bus accident on Deepavali shook Tamil Nadu in 2001 - The Hindu
+2026-07-03 11:21:10,729 | INFO     | __main__ | Duplicate article skipped: Work commute accidents covered under Employment Compensation Act| SCC Times - SCC Online
+2026-07-03 11:21:10,731 | INFO     | __main__ | Duplicate article skipped: Indian police arrest three rail staff over Odisha train disaster - Al Jazeera
+2026-07-03 11:21:10,732 | INFO     | __main__ | Duplicate article skipped: KSRTC signs agreements to provide individual ₹1 crore accident cover for employees - The Hindu
+2026-07-03 11:21:10,735 | INFO     | __main__ | Duplicate article skipped: Accident insurance for TSRTC employees increased to Rs 1 crore - Telangana Today
+2026-07-03 11:21:10,737 | INFO     | __main__ | Duplicate article skipped: UBI hands over insurance amount to family of TGSRTC employee who died of electrocution - Telangana Today
+2026-07-03 11:21:10,739 | INFO     | __main__ | Duplicate article skipped: Coal truck allegedly kills motorcyclists near Adani power plant – angry villagers torch trucks, buses - Adani Watch
+2026-07-03 11:21:10,741 | INFO     | __main__ | Duplicate article skipped: Video: Major Accident at Vishakhapatnam Steel Plant after molten iron spills, 10 feared dead - WION
+2026-07-03 11:21:10,742 | INFO     | __main__ | Duplicate article skipped: "I Tried, But...": Karnataka Driver Recounts Moment Truck Crashed Into Bus - NDTV
+2026-07-03 11:21:10,745 | INFO     | __main__ | Duplicate article skipped: 29-yr-old engineer from TN, guard killed in accidents - The Times of India
+2026-07-03 11:21:10,747 | INFO     | __main__ | Duplicate article skipped: What does the Air India crash mean for Boeing? - BBC
+2026-07-03 11:21:10,749 | INFO     | __main__ | Duplicate article skipped: Reversing truck in Ludhiana crushes construction worker on lunch break. - The Times of India
+2026-07-03 11:21:10,751 | INFO     | __main__ | Duplicate article skipped: Illegal Indian Immigrant Truck Driver, High On Drugs, Kills 3 In US Crash - NDTV
+2026-07-03 11:21:10,754 | INFO     | __main__ | Duplicate article skipped: National Health Mission contract employees in Karnataka now get personal accident and term insurance - The Hindu
+2026-07-03 11:21:10,756 | INFO     | __main__ | Duplicate article skipped: Coimbatore car showroom employee crushed to death - The Times of India
+2026-07-03 11:21:10,758 | INFO     | __main__ | Duplicate article skipped: State Department halts employment visas for truck drivers - Politico
+2026-07-03 11:21:10,760 | INFO     | __main__ | Duplicate article skipped: Unpaid salaries, opposition to privatisation: Why Karnataka transport workers are protesting - key points - The Times of India
+2026-07-03 11:21:10,762 | INFO     | __main__ | Duplicate article skipped: "He's Only 28": Family Of Indian-Origin Truck Driver Behind US Crash Call For Light Penalty - NDTV
+2026-07-03 11:21:10,764 | INFO     | __main__ | Duplicate article skipped: For first time, family of KSRTC driver killed in road accident to receive insurance of ₹1 crore - The Hindu
+2026-07-03 11:21:10,766 | INFO     | __main__ | Duplicate article skipped: 'Air India going through challenging time': N Chandrasekaran urges staff to focus on execution - The Economic Times
+2026-07-03 11:21:10,768 | INFO     | __main__ | Duplicate article skipped: Bengaluru’s Outer Ring Road braces for traffic surge as IT staff return to office; BMTC urges revival of - The Times of India
+2026-07-03 11:21:10,769 | INFO     | __main__ | Duplicate article skipped: Gig workers' stir: Riders say accidents, shrinking payouts drove strike call; restaurants bypassed apps t - The Times of India
+2026-07-03 11:21:10,771 | INFO     | __main__ | Duplicate article skipped: Air India's deadly crash could set back its ambitious growth plans - Travel Weekly
+2026-07-03 11:21:10,773 | INFO     | __main__ | Duplicate article skipped: Karnataka highway tragedy: 5 dead as Bengaluru-Gokarna bus catches fire in Chitradurga - The Times of India
+2026-07-03 11:21:10,774 | INFO     | __main__ | Duplicate article skipped: Flight check: Citizens on travel post-Air India tragedy - The New Indian Express
+2026-07-03 11:21:10,775 | INFO     | __main__ | Duplicate article skipped: Hunger, accidents and apathy killed migrants walking back home amid the Covid-19 lockdown - SabrangIndia
+2026-07-03 11:21:10,777 | INFO     | __main__ | Duplicate article skipped: Karnataka Road Transport Corporation increases relief amount for Employees' Family Welfare Scheme - ANI News
+2026-07-03 11:21:10,778 | INFO     | __main__ | Duplicate article skipped: Your grocery is delivered in 10 minutes! But how much are India’s gig workers paying for this? - The CSR Journal
+2026-07-03 11:21:10,781 | INFO     | __main__ | Duplicate article skipped: Pune crash: Porsche had no defect, technical issue, say company officials - India Today
+2026-07-03 11:21:10,783 | INFO     | __main__ | Duplicate article skipped: 1 dead, two injured as truck crashes into cab on e-way in Gurgaon - The Times of India
+2026-07-03 11:21:10,785 | INFO     | __main__ | Duplicate article skipped: KSRTC doubles compensation for natural deaths, families to get Rs 20 lakh from September 1 in Karnataka - The New Indian Express
+2026-07-03 11:21:10,788 | INFO     | __main__ | Duplicate article skipped: 'Barricades hurled in the air, workers dragged for 200 meters, bodies in pieces': How Delhi-Mumbai Expres - The Times of India
+2026-07-03 11:21:10,790 | INFO     | __main__ | Duplicate article skipped: Semi-truck driver arrested in deadly crash on Southern California freeway was in U.S. illegally, DHS says - CBS News
+2026-07-03 11:21:10,792 | INFO     | __main__ | Duplicate article skipped: Boeing CEO cancels air show appearance visit after India crash - Reuters
+2026-07-03 11:21:10,794 | INFO     | __main__ | Duplicate article skipped: Boeing experts and UK and US aviation officials join Air India crash investigation - The Guardian
+2026-07-03 11:21:10,796 | INFO     | __main__ | Duplicate article skipped: Insurance Company Can Be Made Liable Even If Transfer Of Vehicle Is Not Recorded: Allahabad High Court - Verdictum
+2026-07-03 11:21:10,798 | INFO     | __main__ | Duplicate article skipped: 2 Delhi Public Transport Employees Killed In Collision Between Buses - NDTV
+2026-07-03 11:21:10,799 | INFO     | __main__ | Duplicate article skipped: Supreme Court mandates compensation for accidents during office commute | India News - Hindustan Times
+2026-07-03 11:21:10,801 | INFO     | __main__ | Duplicate article skipped: Tragic death at 26: Bank employee run over by speeding truck in Bengaluru on pothole-ridden road - livemint.com
+2026-07-03 11:21:10,804 | INFO     | __main__ | Duplicate article skipped: Karnataka becomes first state to give Rs 1 crore insurance compensation for employees - ANI News
+2026-07-03 11:21:10,806 | INFO     | __main__ | Duplicate article skipped: 'I want to prevent a crash!': When a Boeing whistleblower, who exposed 'gaps' in aircraft, had warned of ' - The Economic Times
+2026-07-03 11:21:10,807 | INFO     | __main__ | Duplicate article skipped: Non-possession of valid Permit entitles Insurance Company to recover compensation paid, from the owner of vehicle: Delhi High Court - SCC Online
+2026-07-03 11:21:10,809 | INFO     | __main__ | Duplicate article skipped: 'When you learn to drive on Indian roads': Truck driver takes wrong U-turn, kills 3 in Florida - The Times of India
+2026-07-03 11:21:10,811 | INFO     | __main__ | Duplicate article skipped: How India’s Gig Worker Unions Are Fighting for Change - Nonprofit Quarterly
+2026-07-03 11:21:10,813 | INFO     | __main__ | Duplicate article skipped: SC Ruling on LMV Licenses May Ease Claim Disputes, Aid Gig Workers - MediaNama
+2026-07-03 11:21:10,815 | INFO     | __main__ | Duplicate article skipped: They Just Want to Get to Work Safely: Cambodian Garment Workers Urge Transport Reform - Cambodianess
+2026-07-03 11:21:10,817 | INFO     | __main__ | Duplicate article skipped: A Lorry Ride With Singapore’s Migrant Workers - The Diplomat – Asia-Pacific
+2026-07-03 11:21:10,820 | INFO     | __main__ | Duplicate article skipped: Deadly crash in California renews federal criticism of immigrant truck drivers - PBS
+2026-07-03 11:21:10,822 | INFO     | __main__ | Duplicate article skipped: 6 JSW Plant Workers Killed, 20 Seriously Injured After Speeding Truck Hits Their Bus In Odisha's Jharsuguda - India.Com
+2026-07-03 11:21:10,823 | INFO     | __main__ | Duplicate article skipped: Three Amazon employees escape unhurt as truck falls on their cab - The Times of India
+2026-07-03 11:21:10,825 | INFO     | __main__ | Duplicate article skipped: Gujarat: Cable wire of cargo ropeway snaps, 4 workers among 6 dead - The Indian Express
+2026-07-03 11:21:10,827 | INFO     | __main__ | Duplicate article skipped: Air India CEO’s messages to staff and frequent flyers - travelweekly.com.au
+2026-07-03 11:21:10,829 | INFO     | __main__ | Duplicate article skipped: ICE: Semi-truck driver connected to Hendricks Co deadly crash was in country illegally - WRTV
+2026-07-03 11:21:10,831 | INFO     | __main__ | Duplicate article skipped: Migrant driving semi tractor trailer truck that killed 3 in St. Lucie County was in U.S. illegally - Florida Politics
+2026-07-03 11:21:10,833 | INFO     | __main__ | Duplicate article skipped: Florida attorney general subpoenas employer of truck driver in fatal Turnpike crash - Treasure Coast News
+2026-07-03 11:21:10,835 | INFO     | __main__ | Duplicate article skipped: Union raises alarm over unsafe transport for hotel workers - FBC News
+2026-07-03 11:21:10,837 | INFO     | __main__ | Duplicate article skipped: A strike in Tamil Nadu - Frontline Magazine
+2026-07-03 11:21:10,839 | INFO     | __main__ | Duplicate article skipped: Samruddhi Expressway Accident Kills Seven Women Workers in Maharashtra - The South India Times
+2026-07-03 11:21:10,841 | INFO     | __main__ | Duplicate article skipped: Maharashtra News: MSRTC Employees To Get 53% DA From June 2025; ₹1 Crore Accident Insurance And Year-Long - Free Press Journal
+2026-07-03 11:21:10,842 | INFO     | __main__ | Duplicate article skipped: Second chance at life for Karnataka bus staff; KSRTC driver's heroics save the day - INDIA - GENERAL - keralakaumudi.com
+2026-07-03 11:21:10,844 | INFO     | __main__ | Duplicate article skipped: 23, Including US Defence Staff, Injured In Bus Accident Near Pentagon - NDTV
+2026-07-03 11:21:10,847 | INFO     | __main__ | Duplicate article skipped: Pune tragedy: 2 schoolchildren killed, 3 others injured as IT staff bus climbs footpath in Hinjewadi - The Times of India
+2026-07-03 11:21:10,849 | INFO     | __main__ | Duplicate article skipped: Gujarat Titans players, staff evacuated from team bus after short circuit causes breakdown | India News - Hindustan Times
+2026-07-03 11:21:10,851 | INFO     | __main__ | Duplicate article skipped: Colombia bus accident: School shuttle plunges into valley; 17 dead, 20 injured - The Times of India
+2026-07-03 11:21:10,853 | INFO     | __main__ | Duplicate article skipped: After IPL Final Loss, Gujarat Titans Team Bus Suffers Short Circuit; Players, Staff Evacuated After Smoke S - News18
+2026-07-03 11:21:10,855 | INFO     | __main__ | Duplicate article skipped: Watch: Air India SATS shuttle bus catches fire at Delhi airport Terminal 3 - CNBC TV18
+2026-07-03 11:21:10,857 | INFO     | __main__ | Duplicate article skipped: At least 21 killed as bus crashes into Kashmir gorge - Al Jazeera
+2026-07-03 11:21:10,859 | INFO     | __main__ | Duplicate article skipped: Seven including students, staff members injured as NIT Agartala bus falls into pond - The Indian Express
+2026-07-03 11:21:10,860 | INFO     | __main__ | Duplicate article skipped: Funds Crunch To Contract Staff: Mumbai Bus Crash Spotlights Crippled BEST - NDTV
+2026-07-03 11:21:10,863 | INFO     | __main__ | Duplicate article skipped: Fire breaks out in BMC staff bus on Eastern Express Highway in Mumbai's Kanjurmarg; no injuries - The Times of India
+2026-07-03 11:21:10,865 | INFO     | __main__ | Duplicate article skipped: 2 Killed, 20 Students Injured After School Bus Hits Truck In Rajasthan - NDTV
+2026-07-03 11:21:10,867 | INFO     | __main__ | Duplicate article skipped: Bengaluru: Probe shows human error led to KIA shuttle bus accident - The Times of India
+2026-07-03 11:21:10,870 | INFO     | __main__ | Duplicate article skipped: Upset Over Salary Cut, Driver Started Bus Fire That Killed 4 In Pune: Cops - NDTV
+2026-07-03 11:21:10,871 | INFO     | __main__ | Duplicate article skipped: "Exit Door Didn't Open": Pune Bus Catches Fire, 4 Employees Burn To Death - NDTV
+2026-07-03 11:21:10,873 | INFO     | __main__ | Duplicate article skipped: 4 dead, 10 injured after bus-tanker collision triggers massive fire on Gujarat highway - The Times of India
+2026-07-03 11:21:10,875 | INFO     | __main__ | Duplicate article skipped: Bengaluru Airport shuttle bus crashes into pole, 10 passengers injured - The Times of India
+2026-07-03 11:21:10,877 | INFO     | __main__ | Duplicate article skipped: Bengaluru airport shuttle bus crashes into pillar, 12 flyers hurt - The Times of India
+2026-07-03 11:21:10,880 | INFO     | __main__ | Duplicate article skipped: Bus ferrying employees of private co rams into Noida society wall, 1 dead - Business Standard
+2026-07-03 11:21:10,882 | INFO     | __main__ | Duplicate article skipped: Gujarat Titans team bus breaks down after IPL final as short circuit triggers smoke, players evacuated - The Indian Express
+2026-07-03 11:21:10,883 | INFO     | __main__ | Duplicate article skipped: Bus Crashes Into Pillar At Bengaluru Airport. Driver May Have Dozed Off - NDTV
+2026-07-03 11:21:10,886 | INFO     | __main__ | Duplicate article skipped: Death of TGSRTC driver sparks protests, anger among staff in Hyd - The Times of India
+2026-07-03 11:21:10,888 | INFO     | __main__ | Duplicate article skipped: NCR bus crash: How staff, students of nearby school helped victims - The Times of India
+2026-07-03 11:21:10,890 | INFO     | __main__ | Duplicate article skipped: Charity bus rides to fund staff’s treatment - The Times of India
+2026-07-03 11:21:10,891 | INFO     | __main__ | Duplicate article skipped: Nepal bus accident: 48 pilgrims, 2 bodies arrive through land route - Business Standard
+2026-07-03 11:21:10,893 | INFO     | __main__ | Duplicate article skipped: Bus Staff Who Saved Rishabh Pant To Be Honoured By Uttarakhand Government - NDTV
+2026-07-03 11:21:10,896 | INFO     | __main__ | Duplicate article skipped: Alert railway staff halt train as BMTC bus stalls on Bengaluru railway crossing - India Today
+2026-07-03 11:21:10,898 | INFO     | __main__ | Duplicate article skipped: 64 Sabarimala Pilgrims Injured As Bus Falls Into Gorge In Kerala - NDTV
+2026-07-03 11:21:10,900 | INFO     | __main__ | Duplicate article skipped: Teachers among 9 dead as tour bus plunges into gorge in India - Gulf Today
+2026-07-03 11:21:10,903 | INFO     | __main__ | Duplicate article skipped: Over dozen children injured as school bus falls into gorge in U’khand’s Haldwani - Telangana Today
+2026-07-03 11:21:10,905 | INFO     | __main__ | Duplicate article skipped: Cops To Question Lone Survivor Of Maharashtra Bus Accident - NDTV
+2026-07-03 11:21:10,908 | INFO     | __main__ | Duplicate article skipped: Meerut school bus catches fire, all 18 students rescued - The Times of India
+2026-07-03 11:21:10,917 | INFO     | __main__ | Duplicate article skipped: Maharashtra bus accident: Survivors break windows to flee raging fire - livemint.com
+2026-07-03 11:21:10,920 | INFO     | __main__ | Duplicate article skipped: 4 charred to death, 10 injured as staff bus of graphics printing firm catches fire in Pune - The Times of India
+2026-07-03 11:21:10,925 | INFO     | __main__ | Duplicate article skipped: Bus with Maruti’s staff hit by truck at signal, 36 injured - The Times of India
+2026-07-03 11:21:10,929 | INFO     | __main__ | Duplicate article skipped: IndiGo bus hits Air India employee - Bangalore Mirror
+2026-07-03 11:21:10,936 | INFO     | __main__ | Duplicate article skipped: At least 33 dead after bus in India plunges off mountain road - South China Morning Post
+2026-07-03 11:21:10,940 | INFO     | __main__ | Duplicate article skipped: Maharashtra bus accident: 25 killed, around eight injured due to tyre burst. 10 updates - livemint.com
+2026-07-03 11:21:10,984 | INFO     | __main__ | Duplicate article skipped: Several injured as bus overturns in Uttarakhand's Champawat - ANI News
+2026-07-03 11:21:11,029 | INFO     | __main__ | Duplicate article skipped: Army personnel among four detained for ‘assaulting’ bus staff, passengers in Himachal’s Hamirpur - ThePrint
+2026-07-03 11:21:11,032 | INFO     | __main__ | Duplicate article skipped: Court seizes govt bus for failure to compensate accident victim in Coimbatore - The Times of India
+2026-07-03 11:21:11,035 | INFO     | __main__ | Duplicate article skipped: 10 injured as bus collides with pole at Bengaluru airport - The Statesman
+2026-07-03 11:21:11,037 | INFO     | __main__ | Duplicate article skipped: Maharashtra: 33 killed as bus carrying university staff falls into gorge in Raigad district - The New Indian Express
+2026-07-03 11:21:11,038 | INFO     | __main__ | Duplicate article skipped: 22-year-old IT employee dies after being run over by bus in Kolkata - The Times of India
+2026-07-03 11:21:11,040 | INFO     | __main__ | Duplicate article skipped: Shuttle Bus crashes at Bengaluru airport leaving 10 injured - Telangana Today
+2026-07-03 11:21:11,042 | INFO     | __main__ | Duplicate article skipped: Mumbai: Woman, hotel staff killed as car rams into parked bus - The Times of India
+2026-07-03 11:21:11,044 | INFO     | __main__ | Duplicate article skipped: Raigad bus accident: When a WhatsApp group fell silent - The Times of India
+2026-07-03 11:21:11,046 | INFO     | __main__ | Duplicate article skipped: Bus accident in Raigad: Overnight rescue ops end, 30 bodies found - The Indian Express
+2026-07-03 11:21:11,048 | INFO     | __main__ | Duplicate article skipped: Chitradurga Bus Accident: Full List Of Passengers Onboard The Seabird Coach Bus - News18
+2026-07-03 11:21:11,050 | INFO     | __main__ | Duplicate article skipped: CT Quickies: From Ship Catching Fire To BEST Bus Accident, Here Are Some Recent Accident Updates - curlytales.com
+2026-07-03 11:21:11,051 | INFO     | __main__ | Duplicate article skipped: 6 Dead, 22 Injured After Private Bus Carrying School Staff Members Falls Into Gorge In Ladakh - India.Com
+2026-07-03 11:21:11,075 | INFO     | __main__ | Duplicate article skipped: Mumbai's BEST stir to continue as bus staff seek permanent jobs, equal pay - Business Standard
+2026-07-03 11:21:11,076 | INFO     | __main__ | Duplicate article skipped: Raigad bus accident: With 30 bodies recovered, NDRF concludes operation after 24 hours | India News - Hindustan Times
+2026-07-03 11:21:11,078 | INFO     | __main__ | Duplicate article skipped: IndiGo staffer killed in Bengaluru road accident, case filed for negligence - India Today
+2026-07-03 11:21:11,080 | INFO     | __main__ | Duplicate article skipped: Seven dead, 20 injured as bus plunges into gorge in Ladakh - IBTimes India
+2026-07-03 11:21:11,082 | INFO     | __main__ | Duplicate article skipped: One dead, 34 injured in bus accident near Bengaluru airport - The Times of India
+2026-07-03 11:21:11,084 | INFO     | __main__ | Duplicate article skipped: Bus accident in Raigad: University in shock, officials mourn death of colleagues - The Indian Express
+2026-07-03 11:21:11,085 | INFO     | __main__ | Duplicate article skipped: 25 techies injured in Basanti road crash - Telegraph India
+2026-07-03 11:21:11,087 | INFO     | __main__ | Duplicate article skipped: Fire in passenger shuttle bus at Chennai airport - The Times of India
+2026-07-03 11:21:11,088 | INFO     | __main__ | Duplicate article skipped: Security enhanced at Jammu hospitals to ensure safety of doctors, staff - Business Standard
+2026-07-03 11:21:11,090 | INFO     | __main__ | Duplicate article skipped: Video: 6 dead as SUV-bus collide on Delhi-Meerut Expressway in Ghaziabad - Hindustan Times
+2026-07-03 11:21:11,092 | INFO     | __main__ | Duplicate article skipped: Bus kills techie on Bypass - Telegraph India
+2026-07-03 11:21:11,093 | INFO     | __main__ | Duplicate article skipped: Maharashtra: 13 killed, three injured as bus falls into river in Kolhapur - Scroll.in
+2026-07-03 11:21:11,094 | INFO     | __main__ | Duplicate article skipped: Time running out in Canada for man who caused Humboldt Broncos bus crash - CBC
+2026-07-03 11:21:11,096 | INFO     | __main__ | Duplicate article skipped: 33 killed as bus carrying university staff falls into gorge in Maharashtra - The Tribune
+2026-07-03 11:21:11,097 | INFO     | __main__ | Duplicate article skipped: Andhra Pradesh: 35 injured after bus overturns in East Godavari - IBTimes India
+2026-07-03 11:21:11,099 | INFO     | __main__ | Duplicate article skipped: Jet Airways shuttle bus hits Air India aircraft in Kolkata - Indiablooms
+2026-07-03 11:21:11,100 | INFO     | __main__ | Duplicate article skipped: Peter Obi Commiserates With Families Of Lagos Bus-Train Crash Victims - Channels Television
+2026-07-03 11:21:11,101 | INFO     | __main__ | Duplicate article skipped: Burke County pupils, staff home after I-20 bus accident - The Augusta Chronicle
+2026-07-03 11:21:11,102 | INFO     | __main__ | Duplicate article skipped: Bhandup BEST Bus accident: Driver drove rashly, police tells court while opposing bail to accused - Mid-day
+2026-07-03 11:21:11,103 | INFO     | __main__ | Duplicate article skipped: Maharashtra bus accident: Death toll rises to 33, government announces ex-gratia of Rs 4 lakh to kin of deceased - India TV News
+2026-07-03 11:21:11,104 | INFO     | __main__ | Duplicate article skipped: Raigad accident: Lone survivor rescued, 33 dead as bus carrying university staff falls into gorge - DNA India
+2026-07-03 11:21:11,105 | INFO     | __main__ | Duplicate article skipped: 'Managed to jump out of bus in time', says lone survivor of Raigad accident who had death staring him in face - India TV News
+2026-07-03 11:21:11,106 | INFO     | __main__ | Duplicate article skipped: Karnataka Bus Accident at Bus Stand Leaves Two Year Old Child Dead and Several Injured - The South India Times
+2026-07-03 11:21:11,107 | INFO     | __main__ | Duplicate article skipped: 7 Deadliest Road Accidents In 7 Days In India - Times Now
+2026-07-03 11:21:11,108 | INFO     | __main__ | Duplicate article skipped: All 8 killed were Kerala school staff in Salem crash - NewsBytes
+2026-07-03 11:21:11,110 | INFO     | __main__ | Duplicate article skipped: India Unveils Landmark Safety Mandate for Heavy Commercial Vehicles - Global NCAP
+2026-07-03 11:21:11,111 | INFO     | __main__ | Duplicate article skipped: Tata Motors Commercial Vehicles Upgrades Entire Portfolio to ECE R29.03 - The Gold Standard for Truck Cabin Safety - EVreporter
+2026-07-03 11:21:11,113 | INFO     | __main__ | Duplicate article skipped: Indian truck driver arrested after 3-vehicle collision kills man in Indiana - India Today
+2026-07-03 11:21:11,115 | INFO     | __main__ | Duplicate article skipped: Government Mandates Advanced Safety Systems for Heavy Commercial Vehicles - Autocar Professional
+2026-07-03 11:21:11,117 | INFO     | __main__ | Duplicate article skipped: Truck driver in country illegally was under influence of drugs in California crash that killed 3: Police - ABC News - Breaking News, Latest News and Videos
+2026-07-03 11:21:11,119 | INFO     | __main__ | Duplicate article skipped: Florida truck crash sparks SC battle over immigrant driver licences - Business Standard
+2026-07-03 11:21:11,120 | INFO     | __main__ | Duplicate article skipped: Oregon: Indian man charged with criminally negligent homicide after crash kills two — what probe revealed - The Times of India
+2026-07-03 11:21:11,121 | INFO     | __main__ | Duplicate article skipped: US Pauses Visas For Foreign Truck Drivers After Indian Man's Deadly Crash - NDTV
+2026-07-03 11:21:11,124 | INFO     | __main__ | Duplicate article skipped: Indian Who Arrived In US Illegally Arrested For Causing Multi-Vehicle Crash In California - ETV Bharat
+2026-07-03 11:21:11,126 | INFO     | __main__ | Duplicate article skipped: Trump honours girl injured in crash by illegal Indian truck driver - Rediff
+2026-07-03 11:21:11,127 | INFO     | __main__ | Duplicate article skipped: Indian-origin truck driver behind Florida crash that killed 3 pleads not guilty | Hindustan Times - Hindustan Times
+2026-07-03 11:21:11,129 | INFO     | __main__ | Duplicate article skipped: Tata Motors launches 17 trucks, expands EV range and adopts latest European crash norms - CNBC TV18
+2026-07-03 11:21:11,131 | INFO     | __main__ | Duplicate article skipped: Who is Kamalpreet Singh? Indian truck driver charged in fatal Washington crash - Moneycontrol.com
+2026-07-03 11:21:11,133 | INFO     | __main__ | Duplicate article skipped: Did Tata Motors shares really crash 40%? What the demerger plunge actually means - The Economic Times
+2026-07-03 11:21:11,134 | INFO     | __main__ | Duplicate article skipped: Team Trump Flags "Disturbing Pattern" After "Illegal" Indian Trucker Kills 3 - NDTV
+2026-07-03 11:21:11,136 | INFO     | __main__ | Duplicate article skipped: ‘Criminal illegal aliens’: White House flags 'disturbing pattern' after Indian trucker crash in Californi - The Times of India
+2026-07-03 11:21:11,137 | INFO     | __main__ | Duplicate article skipped: Tata Motors shares crash 40%: Is the Tata stock really down? - India Today
+2026-07-03 11:21:11,138 | INFO     | __main__ | Duplicate article skipped: US accident: Family of Indian-origin truck driver Jashanpreet Singh trashes intoxication claims - Moneycontrol.com
+2026-07-03 11:21:11,139 | INFO     | __main__ | Duplicate article skipped: 'Endangering American lives': Work visas for foreign truck drivers paused; announcement after Harjinder S - The Times of India
+2026-07-03 11:21:11,140 | INFO     | __main__ | Duplicate article skipped: 11 Indian truck drivers arrested in US, all found to be illegals with commercial licenses - The Times of India
+2026-07-03 11:21:11,141 | INFO     | __main__ | Duplicate article skipped: Another truck driver, Sarbjeet Parmar, charged in US for 2024 road crash in Montana, he blamed wind for t - The Times of India
+2026-07-03 11:21:11,143 | INFO     | __main__ | Duplicate article skipped: Florida crash: Indian trucker, Harjinder Singh, who killed 3, fails English, road tests; answered only 2 - The Times of India
+2026-07-03 11:21:11,144 | INFO     | __main__ | Duplicate article skipped: Florida road crash: Tarn Taran family reacts after social backlash against arrested truck driver Harjinder Singh - The Indian Express
+2026-07-03 11:21:11,145 | INFO     | __main__ | Duplicate article skipped: ‘Illegal’ Indian trucker arrested in crash that killed newlyweds - The American Bazaar
+2026-07-03 11:21:11,147 | INFO     | __main__ | Duplicate article skipped: Watch: Indian truck driver brought to Florida for trial - Harjinder Singh's deadly U-turn pauses US work - The Times of India
+2026-07-03 11:21:11,149 | INFO     | __main__ | Duplicate article skipped: Immigrant truck driver postones plea in Deschutes County Court after fatal crash - Oregon Public Broadcasting - OPB
+2026-07-03 11:21:11,150 | INFO     | __main__ | Duplicate article skipped: Illegal immigrant truck driver from India arrested in deadly California hit-and-run after Biden release - Fox News
+2026-07-03 11:21:11,152 | INFO     | __main__ | Duplicate article skipped: Row over Indian-origin truck driver Harjinder Singh: California Guv's office says he entered US under Tru - The Times of India
+2026-07-03 11:21:11,153 | INFO     | __main__ | Duplicate article skipped: India Developing An BNCAP Like Safety Crash Test Program For Commercial Vehicles And E-Rickshaws - ACKO Drive
+2026-07-03 11:21:11,154 | INFO     | __main__ | Duplicate article skipped: US halts visas for foreign truck drivers, days after fatal crash involving Indian driver - The Indian Express
+2026-07-03 11:21:11,155 | INFO     | __main__ | Duplicate article skipped: US stops visas for truck drivers after crash involving Indian man kills 3 - South China Morning Post
+2026-07-03 11:21:11,156 | INFO     | __main__ | Duplicate article skipped: Truck driver in fatal Florida crash repeatedly failed driving tests, official says. What to know - AP News
+2026-07-03 11:21:11,157 | INFO     | __main__ | Duplicate article skipped: India has a Killer Commercial Vehicles problem: Led to more than 70k deaths - The Times of India
+2026-07-03 11:21:11,158 | INFO     | __main__ | Duplicate article skipped: Florida road crash: US court denies bail to arrested Indian-origin truck driver Harjinder Singh - Indiablooms
+2026-07-03 11:21:11,159 | INFO     | __main__ | Duplicate article skipped: 30 Indians among illegal immigrant truck drivers arrested in US, face deportation - The New Indian Express
+2026-07-03 11:21:11,161 | INFO     | __main__ | Duplicate article skipped: Delhi truck crash: Why city's nighttime roads are becoming racing tracks for reckless commercial vehicles - The Times of India
+2026-07-03 11:21:11,162 | INFO     | __main__ | Duplicate article skipped: Brother of Truck Driver in Deadly ‘Illegal’ U-Turn Crash Arrested by ICE - Newsweek
+2026-07-03 11:21:11,164 | INFO     | __main__ | Duplicate article skipped: Truck driver charged with killing newlyweds in horrid crash is illegal migrant given license in Newsom’s California: feds - New York Post
+2026-07-03 11:21:11,167 | INFO     | __main__ | Duplicate article skipped: How Indian-origin truck driver caused 8-car crash on US highway, killing 3 - Firstpost
+2026-07-03 11:21:11,168 | INFO     | __main__ | Duplicate article skipped: AC cabin rule should be followed by crash test norms for CVs: Daimler India CV - ET Auto
+2026-07-03 11:21:11,170 | INFO     | __main__ | Duplicate article skipped: Florida AG sues California, Washington for issuing commercial licenses to undocumented truck drivers following deadly Turnpike crash - CBS News
+2026-07-03 11:21:11,171 | INFO     | __main__ | Duplicate article skipped: Safety assessment rating for trucks, heavy vehicles on lines of Bharat NCAP soon: Nitin Gadkari - The Economic Times
+2026-07-03 11:21:11,173 | INFO     | __main__ | Duplicate article skipped: 'How was he hired': Florida crash truck driver Harjinder Singh's employer subpoenaed, asked to provide al - The Times of India
+2026-07-03 11:21:11,174 | INFO     | __main__ | Duplicate article skipped: Heavy vehicles turn city roads into risky tracks - The Times of India
+2026-07-03 11:21:11,175 | INFO     | __main__ | Duplicate article skipped: It’s Official: ADAS Becomes Mandatory For Indian Trucks And Buses - Cartoq
+2026-07-03 11:21:11,176 | INFO     | __main__ | Duplicate article skipped: Florida truck crash by Indian driver sparks row between Trump adminstration, California governor | Hindustan Times - Hindustan Times
+2026-07-03 11:21:11,178 | INFO     | __main__ | Duplicate article skipped: India Mandates Advanced Safety Features for Commercial Vehicles from 2026 - Cartoq
+2026-07-03 11:21:11,179 | INFO     | __main__ | Duplicate article skipped: India to Introduce Safety Rating System for Commercial Trucks - Cartoq
+2026-07-03 11:21:11,180 | INFO     | __main__ | Duplicate article skipped: White House flags loopholes after California road crash: 'Criminal aliens issued licenses' | World News - Hindustan Times
+2026-07-03 11:21:11,182 | INFO     | __main__ | Duplicate article skipped: Indian truck drivers to be possibly worst hit by US pause on worker visas - livemint.com
+2026-07-03 11:21:11,184 | INFO     | __main__ | Duplicate article skipped: Beyond Passive Recording: Why India’s Commercial Fleets Are Ready for an AI Dash Cam Mandate - Telematics Wire
+2026-07-03 11:21:11,185 | INFO     | __main__ | Duplicate article skipped: US truck driver visa pause just start of wider work visa scrutiny: Decoded - Business Standard
+2026-07-03 11:21:11,187 | INFO     | __main__ | Duplicate article skipped: Who is Jashanpreet Singh? California Truck Crash Suspect is Illegal Migrant - Newsweek
+2026-07-03 11:21:11,188 | INFO     | __main__ | Duplicate article skipped: The DOT says it wants to make trucking safer, but some see an 'immigration raid' - NPR
+2026-07-03 11:21:11,189 | INFO     | __main__ | Duplicate article skipped: US tightens truck driver licenses for non-citizens after Florida crash - Reuters
+2026-07-03 11:21:11,190 | INFO     | __main__ | Duplicate article skipped: Examining authenticity of petition seeking clemency for truck driver in deadly Florida U-turn crash - Snopes
+2026-07-03 11:21:11,192 | INFO     | __main__ | Duplicate article skipped: Illegal migrant truck driver suspect in deadly Florida crash was given work permit under Biden after being denied by Trump: DHS - New York Post
+2026-07-03 11:21:11,193 | INFO     | __main__ | Duplicate article skipped: Immigrant truck driver postpones plea in Deschutes County Court after fatal crash - NPR for Oregonians
+2026-07-03 11:21:11,195 | INFO     | __main__ | Duplicate article skipped: Truck sales crash 60%; Ashok Leyland sees decline of 70% in August - Business Standard
+2026-07-03 11:21:11,197 | INFO     | __main__ | Duplicate article skipped: Driver in Fatal Florida U-Turn Crash Denied Bond, Faces Deportation - Newsweek
+2026-07-03 11:21:11,198 | INFO     | __main__ | Duplicate article skipped: Auto sales crash 12% in Q1, worst since 2008-09 global financial turmoil - The Times of India
+2026-07-03 11:21:11,200 | INFO     | __main__ | Duplicate article skipped: Washington investigates truck driver’s license in fatal Florida crash caught on camera - OregonLive.com
+2026-07-03 11:21:11,202 | INFO     | __main__ | Duplicate article skipped: Semi driver in deadly Southern California crash an illegal immigrant, DHS says - KTLA
+2026-07-03 11:21:11,203 | INFO     | __main__ | Duplicate article skipped: Person dies following Depew crash that involves motorcycle, commercial vehicle - WGRZ
+2026-07-03 11:21:11,205 | INFO     | __main__ | Duplicate article skipped: Expert reveals how illegal immigrant trucker may have gotten commercial license before fatal Florida crash - Fox News
+2026-07-03 11:21:11,206 | INFO     | __main__ | Duplicate article skipped: New video shows truck driver accused in deadly Florida crash speaking English in prior stop - NBC 6 South Florida
+2026-07-03 11:21:11,207 | INFO     | __main__ | Duplicate article skipped: Truck driver facing deportation after crash kills 3 on Florida Turnpike - USA Today
+2026-07-03 11:21:11,208 | INFO     | __main__ | Duplicate article skipped: Illegal migrant truck driver in deadly Florida crash failed English, road sign tests — despite getting licenses from 2 sanctuary states - New York Post
+2026-07-03 11:21:11,212 | INFO     | __main__ | Duplicate article skipped: California Issued Commercial CDLs to Illegal Alien Truck Drivers - California Globe
+2026-07-03 11:21:11,216 | INFO     | __main__ | Duplicate article skipped: Who is Kamalpreet Singh? Another Indian trucker charged in Washington crash is an illegal migrant - financialexpress.com
+2026-07-03 11:21:11,218 | INFO     | __main__ | Duplicate article skipped: Indian-origin truck driver accused in Florida crash failed English, road sign tests - financialexpress.com
+2026-07-03 11:21:11,219 | INFO     | __main__ | Duplicate article skipped: 200,000 immigrant truck drivers, many Indian, face licence cancellations after fatal Florida crash crackdown - The Australia Today

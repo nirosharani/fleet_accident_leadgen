@@ -13,6 +13,7 @@ from filters import FilterEngine
 from models import EvaluationResult
 from rss_scraper import RSSScraper
 from csv_exporter import CSVExporter
+from reporting import ProcessingStats
 from utils import (
     generate_sha256,
     normalize_headline,
@@ -52,6 +53,9 @@ def main() -> None:
     print(f"First run detected: {first_run}")
     print("Project ready.")
     print()
+
+    stats = ProcessingStats()
+    stats.start()
 
     # ---- First run / daily mode message ----
     if first_run:
@@ -93,14 +97,20 @@ def main() -> None:
     scraper = RSSScraper()
     queries = scraper.generate_search_queries()
     print(f"Total search queries: {len(queries)}")
+    stats.set_queries_generated(len(queries))
 
     articles = scraper.fetch_all()
     print(f"Total RSS feeds fetched: {len(scraper.search_urls)}")
+    stats.set_feeds_fetched(len(scraper.search_urls))
     print(f"Total unique articles collected: {len(articles)}")
+    stats.set_articles_collected(len(articles))
+    stats.set_unique_articles(len(articles))
 
     if not articles:
         print()
         print("No articles to process.")
+        stats.set_csv_records_exported(0)
+        stats.generate()
         db.close()
         return
 
@@ -133,6 +143,7 @@ def main() -> None:
 
         if db.article_exists(article.url, url_hash):
             duplicate_count += 1
+            stats.duplicate_skipped()
             print(f"DUPLICATE | {article.title}")
             logger.info("Duplicate article skipped: %s", article.title)
             continue
@@ -167,6 +178,8 @@ def main() -> None:
                 )
                 db_inserts += 1
                 accepted_count += 1
+                stats.article_accepted()
+                stats.incident_saved()
                 print(f"ACCEPTED  | Score: {result.score} | {article.title}")
             else:
                 db.save_rejection(
@@ -177,6 +190,8 @@ def main() -> None:
                 )
                 db_inserts += 1
                 rejected_count += 1
+                stats.article_rejected()
+                stats.rejection_saved()
                 print(f"REJECTED  | {result.reason} | {article.title}")
 
         except Exception as e:
@@ -207,6 +222,8 @@ def main() -> None:
         print(f"CSV Export Completed.")
         print(f"Exported Records: {export_count}")
         print(f"Output File: {file_path}")
+    stats.set_csv_records_exported(export_count)
+    stats.generate()
     print()
 
     db.close()

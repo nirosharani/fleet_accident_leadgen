@@ -1,0 +1,40 @@
+--- Run: 2026-07-03 11:19:46 ---
+======================================================
+Fleet Accident Lead Generation Report
+======================================================
+
+RSS Queries Generated:       42
+RSS Feeds Fetched:           30
+RSS Articles Collected:      100
+Unique Articles:             95
+Accepted Articles:           3
+Rejected Articles:           1
+Duplicates Skipped:          1
+Incident Records Saved:      3
+Rejected Records Saved:      1
+CSV Records Exported:        3
+Execution Time:              0s
+
+======================================================
+======================================================
+
+--- Run: 2026-07-03 11:21:11 ---
+======================================================
+Fleet Accident Lead Generation Report
+======================================================
+
+RSS Queries Generated:       43
+RSS Feeds Fetched:           43
+RSS Articles Collected:      917
+Unique Articles:             917
+Accepted Articles:           0
+Rejected Articles:           2
+Duplicates Skipped:          915
+Incident Records Saved:      0
+Rejected Records Saved:      2
+CSV Records Exported:        0
+Execution Time:              39s
+
+======================================================
+======================================================
+
