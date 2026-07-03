@@ -70,12 +70,23 @@ def parse_args() -> argparse.Namespace:
         default=None,
         help="Custom output directory for CSV export",
     )
+    parser.add_argument(
+        "--debug",
+        action="store_true",
+        help="Enable debug mode with verbose logging and stack traces",
+    )
     return parser.parse_args()
 
 
 def main() -> None:
     """Entry point: parse arguments, apply overrides, run the pipeline."""
     args = parse_args()
+
+    if hasattr(args, "debug") and args.debug:
+        import logging
+        logging.getLogger().setLevel(logging.DEBUG)
+        for handler in logging.getLogger().handlers:
+            handler.setLevel(logging.DEBUG)
 
     # ---- Runtime Configuration Display ----
     days_display = (
@@ -320,5 +331,22 @@ def main() -> None:
     db.close()
 
 
+def _main_entry() -> None:
+    """Wrapper around main() that catches unexpected exceptions and logs them."""
+    try:
+        main()
+    except Exception:
+        import traceback
+        logger.exception("Unhandled exception in pipeline: %s", traceback.format_exc())
+        print()
+        print("=" * 54)
+        print("PIPELINE FAILED")
+        print("=" * 54)
+        print("An unexpected error occurred. Check logs/fleet.log for details.")
+        print("Run with --debug to see the full error trace.")
+        print()
+        sys.exit(1)
+
+
 if __name__ == "__main__":
-    main()
+    _main_entry()

@@ -8095,3 +8095,235 @@
 2026-07-03 11:36:00,320 | INFO     | __main__ | Duplicate article skipped: Who is Kamalpreet Singh? Another Indian trucker charged in Washington crash is an illegal migrant - financialexpress.com
 2026-07-03 11:36:00,321 | INFO     | __main__ | Duplicate article skipped: Indian-origin truck driver accused in Florida crash failed English, road sign tests - financialexpress.com
 2026-07-03 11:36:00,322 | INFO     | __main__ | Duplicate article skipped: 200,000 immigrant truck drivers, many Indian, face licence cancellations after fatal Florida crash crackdown - The Australia Today
+2026-07-03 11:43:58,619 | INFO     | rss_scraper | Collected 0 unique articles from 0 entries
+2026-07-03 11:43:58,709 | INFO     | rss_scraper | Collected 0 unique articles from 0 entries
+2026-07-03 11:43:58,711 | INFO     | rss_scraper | Generated 43 search queries
+2026-07-03 11:43:58,717 | INFO     | rss_scraper | Fetched 1 entries from http://example.com/rss
+2026-07-03 11:43:58,721 | WARNING  | rss_scraper | Bozo feed (attempt 1/3): http://example.com/rss — Parse error
+2026-07-03 11:44:00,723 | WARNING  | rss_scraper | Bozo feed (attempt 2/3): http://example.com/rss — Parse error
+2026-07-03 11:44:04,724 | WARNING  | rss_scraper | Bozo feed (attempt 3/3): http://example.com/rss — Parse error
+2026-07-03 11:44:04,724 | ERROR    | rss_scraper | All 3 retries exhausted for http://example.com/rss
+2026-07-03 11:44:04,831 | INFO     | rss_scraper | Fetched 0 entries from http://example.com/rss
+2026-07-03 11:44:04,833 | ERROR    | rss_scraper | HTTP error (attempt 1/3): http://example.com/rss — 404
+2026-07-03 11:44:06,834 | ERROR    | rss_scraper | HTTP error (attempt 2/3): http://example.com/rss — 404
+2026-07-03 11:44:10,835 | ERROR    | rss_scraper | HTTP error (attempt 3/3): http://example.com/rss — 404
+2026-07-03 11:44:10,836 | ERROR    | rss_scraper | All 3 retries exhausted for http://example.com/rss
+2026-07-03 11:44:10,839 | ERROR    | rss_scraper | HTTP error (attempt 1/3): http://example.com/rss — Connection refused
+2026-07-03 11:44:12,841 | ERROR    | rss_scraper | HTTP error (attempt 2/3): http://example.com/rss — Connection refused
+2026-07-03 11:44:16,842 | ERROR    | rss_scraper | HTTP error (attempt 3/3): http://example.com/rss — Connection refused
+2026-07-03 11:44:16,843 | ERROR    | rss_scraper | All 3 retries exhausted for http://example.com/rss
+2026-07-03 11:44:16,851 | INFO     | rss_scraper | Fetched 1 entries from http://example.com/rss
+2026-07-03 11:44:16,854 | ERROR    | rss_scraper | Timeout (attempt 1/3): http://example.com/rss
+2026-07-03 11:44:18,855 | ERROR    | rss_scraper | Timeout (attempt 2/3): http://example.com/rss
+2026-07-03 11:44:22,857 | ERROR    | rss_scraper | Timeout (attempt 3/3): http://example.com/rss
+2026-07-03 11:44:22,857 | ERROR    | rss_scraper | All 3 retries exhausted for http://example.com/rss
+2026-07-03 11:44:22,859 | ERROR    | rss_scraper | Failed to normalize article entry: 'NoneType' object has no attribute 'get'
+2026-07-03 11:46:03,964 | INFO     | rss_scraper | Collected 2 unique articles from 3 entries
+2026-07-03 11:46:03,965 | INFO     | rss_scraper | Collected 0 unique articles from 0 entries
+2026-07-03 11:46:03,967 | INFO     | rss_scraper | Generated 43 search queries
+2026-07-03 11:46:03,971 | INFO     | rss_scraper | Fetched 1 entries from http://example.com/rss
+2026-07-03 11:46:03,974 | WARNING  | rss_scraper | Bozo feed (attempt 1/3): http://example.com/rss — Parse error
+2026-07-03 11:46:05,975 | WARNING  | rss_scraper | Bozo feed (attempt 2/3): http://example.com/rss — Parse error
+2026-07-03 11:46:09,995 | WARNING  | rss_scraper | Bozo feed (attempt 3/3): http://example.com/rss — Parse error
+2026-07-03 11:46:09,996 | ERROR    | rss_scraper | All 3 retries exhausted for http://example.com/rss
+2026-07-03 11:46:10,002 | INFO     | rss_scraper | Fetched 0 entries from http://example.com/rss
+2026-07-03 11:46:10,006 | ERROR    | rss_scraper | HTTP error (attempt 1/3): http://example.com/rss — 404
+2026-07-03 11:46:12,008 | ERROR    | rss_scraper | HTTP error (attempt 2/3): http://example.com/rss — 404
+2026-07-03 11:46:16,010 | ERROR    | rss_scraper | HTTP error (attempt 3/3): http://example.com/rss — 404
+2026-07-03 11:46:16,011 | ERROR    | rss_scraper | All 3 retries exhausted for http://example.com/rss
+2026-07-03 11:46:16,013 | ERROR    | rss_scraper | HTTP error (attempt 1/3): http://example.com/rss — Connection refused
+2026-07-03 11:46:18,014 | ERROR    | rss_scraper | HTTP error (attempt 2/3): http://example.com/rss — Connection refused
+2026-07-03 11:46:22,015 | ERROR    | rss_scraper | HTTP error (attempt 3/3): http://example.com/rss — Connection refused
+2026-07-03 11:46:22,016 | ERROR    | rss_scraper | All 3 retries exhausted for http://example.com/rss
+2026-07-03 11:46:22,022 | INFO     | rss_scraper | Fetched 1 entries from http://example.com/rss
+2026-07-03 11:46:22,026 | ERROR    | rss_scraper | Timeout (attempt 1/3): http://example.com/rss
+2026-07-03 11:46:24,027 | ERROR    | rss_scraper | Timeout (attempt 2/3): http://example.com/rss
+2026-07-03 11:46:28,029 | ERROR    | rss_scraper | Timeout (attempt 3/3): http://example.com/rss
+2026-07-03 11:46:28,029 | ERROR    | rss_scraper | All 3 retries exhausted for http://example.com/rss
+2026-07-03 11:46:28,031 | ERROR    | rss_scraper | Failed to normalize article entry: 'NoneType' object has no attribute 'get'
+2026-07-03 11:47:29,774 | INFO     | rss_scraper | Collected 2 unique articles from 3 entries
+2026-07-03 11:47:29,775 | INFO     | rss_scraper | Collected 0 unique articles from 0 entries
+2026-07-03 11:47:29,776 | INFO     | rss_scraper | Generated 43 search queries
+2026-07-03 11:47:29,779 | INFO     | rss_scraper | Fetched 1 entries from http://example.com/rss
+2026-07-03 11:47:29,781 | WARNING  | rss_scraper | Bozo feed (attempt 1/3): http://example.com/rss — Parse error
+2026-07-03 11:47:31,783 | WARNING  | rss_scraper | Bozo feed (attempt 2/3): http://example.com/rss — Parse error
+2026-07-03 11:47:35,784 | WARNING  | rss_scraper | Bozo feed (attempt 3/3): http://example.com/rss — Parse error
+2026-07-03 11:47:35,785 | ERROR    | rss_scraper | All 3 retries exhausted for http://example.com/rss
+2026-07-03 11:47:35,791 | INFO     | rss_scraper | Fetched 0 entries from http://example.com/rss
+2026-07-03 11:47:35,794 | ERROR    | rss_scraper | HTTP error (attempt 1/3): http://example.com/rss — 404
+2026-07-03 11:47:37,797 | ERROR    | rss_scraper | HTTP error (attempt 2/3): http://example.com/rss — 404
+2026-07-03 11:47:41,799 | ERROR    | rss_scraper | HTTP error (attempt 3/3): http://example.com/rss — 404
+2026-07-03 11:47:41,800 | ERROR    | rss_scraper | All 3 retries exhausted for http://example.com/rss
+2026-07-03 11:47:41,803 | ERROR    | rss_scraper | HTTP error (attempt 1/3): http://example.com/rss — Connection refused
+2026-07-03 11:47:43,805 | ERROR    | rss_scraper | HTTP error (attempt 2/3): http://example.com/rss — Connection refused
+2026-07-03 11:47:47,807 | ERROR    | rss_scraper | HTTP error (attempt 3/3): http://example.com/rss — Connection refused
+2026-07-03 11:47:47,808 | ERROR    | rss_scraper | All 3 retries exhausted for http://example.com/rss
+2026-07-03 11:47:47,813 | INFO     | rss_scraper | Fetched 1 entries from http://example.com/rss
+2026-07-03 11:47:47,815 | ERROR    | rss_scraper | Timeout (attempt 1/3): http://example.com/rss
+2026-07-03 11:47:49,816 | ERROR    | rss_scraper | Timeout (attempt 2/3): http://example.com/rss
+2026-07-03 11:47:53,818 | ERROR    | rss_scraper | Timeout (attempt 3/3): http://example.com/rss
+2026-07-03 11:47:53,818 | ERROR    | rss_scraper | All 3 retries exhausted for http://example.com/rss
+2026-07-03 11:47:53,820 | ERROR    | rss_scraper | Failed to normalize article entry: 'NoneType' object has no attribute 'get'
+2026-07-03 11:48:14,788 | INFO     | main | Initializing logger.
+2026-07-03 11:48:14,790 | INFO     | main | Configuration loaded.
+2026-07-03 11:48:14,792 | INFO     | main | Company watchlist loaded.
+2026-07-03 11:48:14,947 | INFO     | rss_scraper | Generated 7 search queries
+2026-07-03 11:48:18,150 | INFO     | rss_scraper | Fetched 74 entries from https://news.google.com/rss/search?q=Sun+Pharmaceutical+Industries+accident+India
+2026-07-03 11:48:19,591 | INFO     | rss_scraper | Fetched 18 entries from https://news.google.com/rss/search?q=Sun+Pharmaceutical+Industries+fleet+accident
+2026-07-03 11:48:20,742 | INFO     | rss_scraper | Fetched 80 entries from https://news.google.com/rss/search?q=Sun+Pharmaceutical+Industries+employee+transport
+2026-07-03 11:48:21,613 | INFO     | rss_scraper | Fetched 46 entries from https://news.google.com/rss/search?q=Sun+Pharmaceutical+Industries+vehicle+crash
+2026-07-03 11:48:22,808 | INFO     | rss_scraper | Fetched 79 entries from https://news.google.com/rss/search?q=+employee+transport+accident+India
+2026-07-03 11:48:23,887 | INFO     | rss_scraper | Fetched 79 entries from https://news.google.com/rss/search?q=+staff+bus+accident+India
+2026-07-03 11:48:24,932 | INFO     | rss_scraper | Fetched 76 entries from https://news.google.com/rss/search?q=+commercial+vehicle+crash+India
+2026-07-03 11:48:25,091 | INFO     | rss_scraper | Collected 424 unique articles from 452 entries
+2026-07-03 11:48:25,096 | INFO     | main | Duplicate article skipped: Sun Pharma, Alkem Labs, other pharma stocks gain despite stock market crash; Nifty Pharma rises for fourth day in a row - livemint.com
+2026-07-03 11:48:25,097 | INFO     | main | Duplicate article skipped: India Sees Semaglutide Prices Crash to $15 Monthly Post Patent Expiry - NAVLIN DAILY
+2026-07-03 11:48:25,097 | INFO     | main | Duplicate article skipped: Sun Pharma shares tumble 4% as firm closes in on $12-billion Organon acquisition. What’s spooking investor - The Economic Times
+2026-07-03 11:48:25,099 | INFO     | main | Duplicate article skipped: Speeding SUV kills food delivery agent on Sun Pharma Road - The Times of India
+2026-07-03 11:48:25,100 | INFO     | main | Duplicate article skipped: Sun Pharma, Dr Reddy's, Glenmark launch generic semaglutide in India - Business Standard
+2026-07-03 11:48:25,101 | INFO     | main | Duplicate article skipped: Tata Steel worker died of chest and pelvis injuries - BBC
+2026-07-03 11:48:25,102 | INFO     | main | Duplicate article skipped: Pharma stocks crash! Sun Pharma, Biocon, Cipla, Laurus Labs, Divis, Zydus Life, Alkem Labs, Dr. Reddy shares - India.Com
+2026-07-03 11:48:25,102 | INFO     | main | Duplicate article skipped: Pharma stocks crash due to Trump tariffs - Value Research
+2026-07-03 11:48:25,103 | INFO     | main | Duplicate article skipped: Sensex crashes 1,000 points: Why is stock market falling today? - India Today
+2026-07-03 11:48:25,105 | INFO     | main | Duplicate article skipped: Sun Pharma hit by US tariff risk, but earnings impact to remain limited - Business Standard
+2026-07-03 11:48:25,106 | INFO     | main | Duplicate article skipped: India's Sun Pharma flags revenue hit from IT 'incident' - Reuters
+2026-07-03 11:48:25,108 | INFO     | main | Duplicate article skipped: Trump’s 100% tariffs on pharma: Sun Pharma, Biocon, Cipla & other pharmaceutical stocks tank; jitters on - The Times of India
+2026-07-03 11:48:25,109 | INFO     | main | Duplicate article skipped: Sun Pharma, Coforge: Indian businesses go shopping abroad as growth slows at home - BBC
+2026-07-03 11:48:25,110 | INFO     | main | Duplicate article skipped: Dr Reddy’s, Sun Pharma and other pharma stocks fall up to 3% as Trump threatens 25% tariff on India - The Economic Times
+2026-07-03 11:48:25,111 | INFO     | main | Duplicate article skipped: Ozempic copies set to crash to $14 in India as generic GLP-1 era starts - Business Standard
+2026-07-03 11:48:25,112 | INFO     | main | Duplicate article skipped: Trump’s 100% tariffs on branded drugs: Which Indian pharma stocks are most vulnerable? Experts weigh in - The Times of India
+2026-07-03 11:48:25,113 | INFO     | main | Duplicate article skipped: Dr Reddy's, Sun: Pharma stocks can crash up to 30% on Trump's 100% tariff - Business Standard
+2026-07-03 11:48:25,114 | INFO     | main | Duplicate article skipped: Sun Pharma to acquire US-based Organon in $11.75 billion deal, among biggest overseas buys by Indian firm - The Times of India
+2026-07-03 11:48:25,115 | INFO     | main | Duplicate article skipped: Sun, Lupin, Dr Reddy's drop up to 4%; why are pharma stocks falling today? - Business Standard
+2026-07-03 11:48:25,116 | INFO     | main | Duplicate article skipped: Sun Pharmaceuticals to see drop in revenue owing to IT security incident - Business Standard
+2026-07-03 11:48:25,117 | INFO     | main | Duplicate article skipped: Sun Pharma share price: Why did stocks of India's top pharmaceutical firm fall? - India Today
+2026-07-03 11:48:25,117 | INFO     | main | Duplicate article skipped: Sun Pharma suffers IT breach, says core systems not affected - Fierce Pharma
+2026-07-03 11:48:25,118 | INFO     | main | Duplicate article skipped: Sun Pharma share slips 2% as USFDA flags 8 observations for Halol facility - Business Standard
+2026-07-03 11:48:25,119 | INFO     | main | Duplicate article skipped: Pharma giants want to crash the skincare party. It will be a long haul. - livemint.com
+2026-07-03 11:48:25,126 | INFO     | main | Duplicate article skipped: Sun Pharma shares in focus after muted Q2 earnings. Nuvama maintains hold with Rs 1,800 target - The Economic Times
+2026-07-03 11:48:25,127 | INFO     | main | Duplicate article skipped: India’s largest drugmaker Sun Pharma weighs $10 billion Organon acquisition to deepen US presence, reports - Firstpost
+2026-07-03 11:48:25,127 | INFO     | main | Duplicate article skipped: Drug Major Sun Pharma Hit By Ransomware Attack: 5 Facts - NDTV
+2026-07-03 11:48:25,157 | INFO     | main | Duplicate article skipped: Sun Pharma to acquire US-listed Organon for $11.75 billion in one of India’s largest pharma deals - The Times of India
+2026-07-03 11:48:25,158 | INFO     | main | Duplicate article skipped: Sun Pharma's Unloxcyt posts 50% response rate in skin cancer study - Business Standard
+2026-07-03 11:48:25,159 | INFO     | main | Duplicate article skipped: 'Discover and Make in India' to drive innovation in pharma, says Dilip Shanghvi, Founder & Managing Direct - The Economic Times
+2026-07-03 11:48:25,160 | INFO     | main | Duplicate article skipped: Sun Pharma shares rally 4% as Q3 profit surges 16% YoY; co announces interim dividend - The Economic Times
+2026-07-03 11:48:25,161 | INFO     | main | Duplicate article skipped: SPARC shares crash 19% after Psoriasis drug fails to deliver in trials - Moneycontrol.com
+2026-07-03 11:48:25,162 | INFO     | main | Duplicate article skipped: Sun Pharma receives regulatory approval to sell generic Wegovy in India - Business Standard
+2026-07-03 11:48:25,163 | INFO     | main | Duplicate article skipped: Cyrus Mistry: Billionaire former Tata chairman dies in car crash - BBC
+2026-07-03 11:48:25,164 | INFO     | main | Duplicate article skipped: Sun Pharma, Cipla recall products in US over manufacturing issues: USFDA - The Economic Times
+2026-07-03 11:48:25,167 | INFO     | main | Duplicate article skipped: Sun Pharma Eyes Stronger US Presence With USD 10 Billion Organon Acquisition - News18
+2026-07-03 11:48:25,168 | INFO     | main | Duplicate article skipped: Trade Spotlight: How should you trade Goodluck India, CreditAccess, Sun Pharma, Gravita India, Ratnamani... - Moneycontrol.com
+2026-07-03 11:48:25,169 | INFO     | main | Duplicate article skipped: Compliance review: Sun Pharma’s Halol plant gets 8 USFDA observations; company vows remedial steps after - The Times of India
+2026-07-03 11:48:25,171 | INFO     | main | Duplicate article skipped: Pharma stocks in demand; Torrent hits new high; Natco up 6% on huge volumes - Business Standard
+2026-07-03 11:48:25,172 | INFO     | main | Duplicate article skipped: Pharma department refuses to name 30 doctors in bribery tangle - The Times of India
+2026-07-03 11:48:25,174 | INFO     | main | Duplicate article skipped: Sun Pharma, Bayer partner for diabetes-linked kidney disease medicine - Business Standard
+2026-07-03 11:48:25,175 | INFO     | main | Duplicate article skipped: Sun Pharma, officials including Dilip Shanghvi settle case of alleged market norms violation with Sebi - The Times of India
+2026-07-03 11:48:25,176 | INFO     | main | Duplicate article skipped: Sun Pharma gets rights for marketing cerebral ischemic stroke drug Sovateltide under brand name Tyvalzi... - Medical Dialogues
+2026-07-03 11:48:25,177 | INFO     | main | Duplicate article skipped: LITU alumnus Kirti Ganorkar is Sun Pharma’s MD - The Times of India
+2026-07-03 11:48:25,177 | INFO     | main | Duplicate article skipped: Sun Pharma Advanced Research Shares Crash 16%; What’s Triggering Investors Jitters? - Goodreturns
+2026-07-03 11:48:25,178 | INFO     | main | Duplicate article skipped: Sensex ends 1,000 points as weak monsoon forecast, Iran uncertainty spook investors - India Today
+2026-07-03 11:48:25,178 | INFO     | main | Duplicate article skipped: Sun Pharma partners with RCB as principal sponsor for 3 yrs, starting 2026 - Business Standard
+2026-07-03 11:48:25,179 | INFO     | main | Duplicate article skipped: China halts sale of Sun Pharma drug used to treat dementia - The Economic Times
+2026-07-03 11:48:25,180 | INFO     | main | Duplicate article skipped: Information security incident occurred at Sun Pharma, impacted IT assets isolated - Medical Dialogues
+2026-07-03 11:48:25,180 | INFO     | main | Duplicate article skipped: Sun Pharma eyes revenue hit due to ransomware attack - The Economic Times
+2026-07-03 11:48:25,182 | INFO     | main | Duplicate article skipped: 10 pharma firms launch semaglutide in India; Nomura sees ₹12k-cr mkt - Business Standard
+2026-07-03 11:48:25,184 | INFO     | main | Duplicate article skipped: Curbs on Sun Pharma - Telegraph India
+2026-07-03 11:48:25,184 | INFO     | main | Duplicate article skipped: Sun Pharma Q3 result announced; profit rises nearly four-fold - The Times of India
+2026-07-03 11:48:25,185 | INFO     | main | Duplicate article skipped: Sun Pharma shares close at 548.70 on BSE and 549.50 on NSE - The Times of India
+2026-07-03 11:48:25,186 | INFO     | main | Duplicate article skipped: Sun Pharma shares fall 7.5% after whistleblower email to Sebi - livemint.com
+2026-07-03 11:48:25,187 | INFO     | main | Duplicate article skipped: Fire disrupts production at GSK Pharma's contract manufacturing site - Business Standard
+2026-07-03 11:48:25,188 | INFO     | main | Duplicate article skipped: Aurobindo incurring loss at China Plant, hopes to achieve break-even by Q4 - Business Standard
+2026-07-03 11:48:25,189 | INFO     | main | Duplicate article skipped: Threat in Your Medicine Cabinet: The FDA’s Gamble on America’s Drugs - ProPublica
+2026-07-03 11:48:25,190 | INFO     | main | Duplicate article skipped: Sensex settles 850 pts lower, Nifty below 24,750: US tariff worries among key factors behind market... - Moneycontrol.com
+2026-07-03 11:48:25,190 | INFO     | main | Duplicate article skipped: Indian pharmaceutical giant warns of revenue loss, litigation after ransomware attack - The Record from Recorded Future News
+2026-07-03 11:48:25,191 | INFO     | main | Duplicate article skipped: Sun Pharma Q4 preview: Analysts expect 18% jump in profit; check details - Business Standard
+2026-07-03 11:48:25,192 | INFO     | main | Duplicate article skipped: Pharma Stocks in Red as Dalal Street Bleeds; Biocon, Piramal Pharma, Sun Pharma Among Top Losers; Know Reasons - Goodreturns
+2026-07-03 11:48:25,193 | INFO     | main | Duplicate article skipped: Sun Pharma launches Fexuprazan tablets 40 mg in India - Business Standard
+2026-07-03 11:48:25,194 | INFO     | main | Duplicate article skipped: After Sun Pharma stock crash, co-promoter likely to quit Jaypee Infra race - Business Standard
+2026-07-03 11:48:25,195 | INFO     | main | Duplicate article skipped: Sun Pharma shares crash over 13% amid reports of fresh whistleblower complaint - The Statesman
+2026-07-03 11:48:25,196 | INFO     | main | Duplicate article skipped: Black Friday: Sensex crashes over 1,000 pts, Nifty sinks below 22,900; Trump tariffs among key factors to... - Moneycontrol.com
+2026-07-03 11:48:25,197 | INFO     | main | Duplicate article skipped: Stock Market Crash Today: Nifty Below 24,000, Sensex Tumbles 770 Points; Know Why Market is Falling? - Goodreturns
+2026-07-03 11:48:25,198 | INFO     | main | Duplicate article skipped: Pharmaceutical giant Cencora reports cyberattack - The Record from Recorded Future News
+2026-07-03 11:48:25,199 | INFO     | main | Duplicate article skipped: Sun Pharma cyber attack Confirmed, Hackers Access 17TB Data - The Cyber Express
+2026-07-03 11:48:25,200 | INFO     | main | Duplicate article skipped: Sun Pharma founder Dilip Shanghvi's net worth takes a $14 billion nose dive in 2 years - IBTimes India
+2026-07-03 11:48:25,203 | INFO     | main | Duplicate article skipped: Ranbaxy in kitty, Sun Pharma to focus on R&D, global reach - India.Com
+2026-07-03 11:48:25,204 | INFO     | main | Duplicate article skipped: Rs 10,000-crore opportunity: Sun Pharma, Lupin, Torrent to lead 2026 weight-loss market as Ozempic patent expires - financialexpress.com
+2026-07-03 11:48:25,204 | INFO     | main | Duplicate article skipped: Emcure Pharma Shares Fall on ED Thapar Controversy, Past Scrutiny - Whalesbook
+2026-07-03 11:48:25,205 | INFO     | main | Duplicate article skipped: Sun Pharma to acquire Russian company in Rs 410 crore deal - India TV News
+2026-07-03 11:48:25,206 | INFO     | main | Duplicate article skipped: Speeding SUV driven by teen returning from wedding party kills delivery agent in Vadodara - The Indian Express
+2026-07-03 11:48:25,206 | INFO     | main | Duplicate article skipped: ‘Toxic’ syrup banned in MP after 11 children die: Dy CM initially denied deaths; now orders seizure of syru... - Bhaskar English
+2026-07-03 11:48:25,207 | INFO     | main | Duplicate article skipped: Why Demand for Car Accident Lawyers Is Surging and What It Means for Commercial Fleets - FieldLogix
+2026-07-03 11:48:25,208 | INFO     | main | Duplicate article skipped: Juvenile e-bike rider struck on Manatee Avenue - Anna Maria Island Sun
+2026-07-03 11:48:25,209 | INFO     | main | Duplicate article skipped: Multiple medical helicopters called to Darke County multi-vehicle crash - Dayton Daily News
+2026-07-03 11:48:25,210 | INFO     | main | Duplicate article skipped: Teen driver killed in crash in Rolling Meadows industrial park - Chicago Sun-Times
+2026-07-03 11:48:25,211 | INFO     | main | Duplicate article skipped: Police say medical issue likely factor in three-vehicle crash in Jamestown - Jamestown Sun
+2026-07-03 11:48:25,211 | INFO     | main | Duplicate article skipped: 1 child dead after accident involving farm equipment - Springfield News-Sun
+2026-07-03 11:48:25,212 | INFO     | main | Duplicate article skipped: Two killed in a horrific crash! - Daily Sun
+2026-07-03 11:48:25,212 | INFO     | main | Duplicate article skipped: Fire crews, medical helicopters called to scene of multi-vehicle crash in Dauphin County - local21news.com
+2026-07-03 11:48:25,213 | INFO     | main | Duplicate article skipped: Air India crash probe focuses on engine, flaps; India orders safety checks on 787 fleet - Reuters
+2026-07-03 11:48:25,213 | INFO     | main | Duplicate article skipped: No accident insurance claim if driver is drunk: Consumer commission - The Times of India
+2026-07-03 11:48:25,214 | INFO     | main | Duplicate article skipped: 10 most affordable accident insurance providers in the Philippines - Insurance Business
+2026-07-03 11:48:25,215 | INFO     | main | Duplicate article skipped: Witness describes scene of chaos after women and child hit in Horseshoe Bay bus accident - Vancouver Sun
+2026-07-03 11:48:25,216 | INFO     | main | Duplicate article skipped: Elderly man killed in crash involving LAPD vehicle - KTLA
+2026-07-03 11:48:25,216 | INFO     | main | Duplicate article skipped: Insurance co can reject claim if vehicle is overloaded: NCDRC - Business Standard
+2026-07-03 11:48:25,217 | INFO     | main | Duplicate article skipped: Juvenile injured in accident involving Harford sheriff’s deputy’s vehicle - Baltimore Sun
+2026-07-03 11:48:25,218 | INFO     | main | Duplicate article skipped: Taneytown man dies in single-vehicle crash - Baltimore Sun
+2026-07-03 11:48:25,219 | INFO     | main | Duplicate article skipped: Sun Pharma shares jump 7% as India's largest drugmaker to buy U.S. firm Organon in $11.75 billion deal - CNBC
+2026-07-03 11:48:25,220 | INFO     | main | Duplicate article skipped: Sun Pharmaceutical acquires US-based Organon in $11.75 billion deal - Business Standard
+2026-07-03 11:48:25,221 | INFO     | main | Duplicate article skipped: Sun Pharma wins trademark case against Navi Mumbai company - The Economic Times
+2026-07-03 11:48:25,223 | INFO     | main | Duplicate article skipped: Sun Pharma Incorporates New USA Unit, Sun Pharma America - scanx.trade
+2026-07-03 11:48:25,224 | INFO     | main | Duplicate article skipped: Sun Pharma to acquire U.S. firm Organon in $11.75 billion deal - The Hindu
+2026-07-03 11:48:25,225 | INFO     | main | Duplicate article skipped: Sun Pharmaceutical Industries Ltd. Share Price Live Today - CNBC TV18
+2026-07-03 11:48:25,226 | INFO     | main | Duplicate article skipped: Q4 results: Sun Pharma, Hindalco, Eicher Motors, NTPC Green, Fortis, Info Edge, Colgate, others to declare earnings on May 22 - Upstox
+2026-07-03 11:48:25,226 | INFO     | main | Duplicate article skipped: From Tourism to Tea: How GST Reforms Will Transform Sikkim’s Economy - PIB
+2026-07-03 11:48:25,227 | INFO     | main | Duplicate article skipped: Sun Pharma Schedules Q4FY26 Results Announcement and Earnings Call for 22 May 2026 - scanx.trade
+2026-07-03 11:48:25,229 | INFO     | main | Duplicate article skipped: Sun Pharma most exposed Indian company to Trump's new tariff threat, warns Jefferies - The Economic Times
+2026-07-03 11:48:25,230 | INFO     | main | Duplicate article skipped: Indian billionaire to visit Vietnam’s Ha Long Bay with 4,500 employees - Theinvestor
+2026-07-03 11:48:25,231 | INFO     | main | Duplicate article skipped: Q2 Results: Sun Pharma, Grasim, Britannia, Blue Star, Astral, Delhivery, others to post earnings on Nov 5; check list - Upstox
+2026-07-03 11:48:25,277 | INFO     | main | Duplicate article skipped: Dilip Shanghvi has built Sun Pharma by making bold bets. And he's not done yet - Forbes India
+2026-07-03 11:48:56,450 | INFO     | rss_scraper | Collected 2 unique articles from 3 entries
+2026-07-03 11:48:56,451 | INFO     | rss_scraper | Collected 0 unique articles from 0 entries
+2026-07-03 11:48:56,452 | INFO     | rss_scraper | Generated 43 search queries
+2026-07-03 11:48:56,454 | INFO     | rss_scraper | Fetched 1 entries from http://example.com/rss
+2026-07-03 11:48:56,456 | WARNING  | rss_scraper | Bozo feed (attempt 1/3): http://example.com/rss — Parse error
+2026-07-03 11:48:58,458 | WARNING  | rss_scraper | Bozo feed (attempt 2/3): http://example.com/rss — Parse error
+2026-07-03 11:49:02,459 | WARNING  | rss_scraper | Bozo feed (attempt 3/3): http://example.com/rss — Parse error
+2026-07-03 11:49:02,460 | ERROR    | rss_scraper | All 3 retries exhausted for http://example.com/rss
+2026-07-03 11:49:02,466 | INFO     | rss_scraper | Fetched 0 entries from http://example.com/rss
+2026-07-03 11:49:02,470 | ERROR    | rss_scraper | HTTP error (attempt 1/3): http://example.com/rss — 404
+2026-07-03 11:49:04,471 | ERROR    | rss_scraper | HTTP error (attempt 2/3): http://example.com/rss — 404
+2026-07-03 11:49:08,472 | ERROR    | rss_scraper | HTTP error (attempt 3/3): http://example.com/rss — 404
+2026-07-03 11:49:08,473 | ERROR    | rss_scraper | All 3 retries exhausted for http://example.com/rss
+2026-07-03 11:49:08,475 | ERROR    | rss_scraper | HTTP error (attempt 1/3): http://example.com/rss — Connection refused
+2026-07-03 11:49:10,476 | ERROR    | rss_scraper | HTTP error (attempt 2/3): http://example.com/rss — Connection refused
+2026-07-03 11:49:14,477 | ERROR    | rss_scraper | HTTP error (attempt 3/3): http://example.com/rss — Connection refused
+2026-07-03 11:49:14,479 | ERROR    | rss_scraper | All 3 retries exhausted for http://example.com/rss
+2026-07-03 11:49:14,485 | INFO     | rss_scraper | Fetched 1 entries from http://example.com/rss
+2026-07-03 11:49:14,487 | ERROR    | rss_scraper | Timeout (attempt 1/3): http://example.com/rss
+2026-07-03 11:49:16,489 | ERROR    | rss_scraper | Timeout (attempt 2/3): http://example.com/rss
+2026-07-03 11:49:20,490 | ERROR    | rss_scraper | Timeout (attempt 3/3): http://example.com/rss
+2026-07-03 11:49:20,491 | ERROR    | rss_scraper | All 3 retries exhausted for http://example.com/rss
+2026-07-03 11:49:20,492 | ERROR    | rss_scraper | Failed to normalize article entry: 'NoneType' object has no attribute 'get'
+2026-07-03 11:49:43,923 | INFO     | rss_scraper | Collected 2 unique articles from 3 entries
+2026-07-03 11:49:43,925 | INFO     | rss_scraper | Collected 0 unique articles from 0 entries
+2026-07-03 11:49:43,926 | INFO     | rss_scraper | Generated 43 search queries
+2026-07-03 11:49:43,928 | INFO     | rss_scraper | Fetched 1 entries from http://example.com/rss
+2026-07-03 11:49:43,932 | WARNING  | rss_scraper | Bozo feed (attempt 1/3): http://example.com/rss — Parse error
+2026-07-03 11:49:45,933 | WARNING  | rss_scraper | Bozo feed (attempt 2/3): http://example.com/rss — Parse error
+2026-07-03 11:49:49,935 | WARNING  | rss_scraper | Bozo feed (attempt 3/3): http://example.com/rss — Parse error
+2026-07-03 11:49:49,936 | ERROR    | rss_scraper | All 3 retries exhausted for http://example.com/rss
+2026-07-03 11:49:49,942 | INFO     | rss_scraper | Fetched 0 entries from http://example.com/rss
+2026-07-03 11:49:49,947 | ERROR    | rss_scraper | HTTP error (attempt 1/3): http://example.com/rss — 404
+2026-07-03 11:49:51,948 | ERROR    | rss_scraper | HTTP error (attempt 2/3): http://example.com/rss — 404
+2026-07-03 11:49:55,950 | ERROR    | rss_scraper | HTTP error (attempt 3/3): http://example.com/rss — 404
+2026-07-03 11:49:55,951 | ERROR    | rss_scraper | All 3 retries exhausted for http://example.com/rss
+2026-07-03 11:49:55,954 | ERROR    | rss_scraper | HTTP error (attempt 1/3): http://example.com/rss — Connection refused
+2026-07-03 11:49:57,956 | ERROR    | rss_scraper | HTTP error (attempt 2/3): http://example.com/rss — Connection refused
+2026-07-03 11:50:01,957 | ERROR    | rss_scraper | HTTP error (attempt 3/3): http://example.com/rss — Connection refused
+2026-07-03 11:50:01,958 | ERROR    | rss_scraper | All 3 retries exhausted for http://example.com/rss
+2026-07-03 11:50:01,964 | INFO     | rss_scraper | Fetched 1 entries from http://example.com/rss
+2026-07-03 11:50:01,966 | ERROR    | rss_scraper | Timeout (attempt 1/3): http://example.com/rss
+2026-07-03 11:50:03,968 | ERROR    | rss_scraper | Timeout (attempt 2/3): http://example.com/rss
+2026-07-03 11:50:07,969 | ERROR    | rss_scraper | Timeout (attempt 3/3): http://example.com/rss
+2026-07-03 11:50:07,970 | ERROR    | rss_scraper | All 3 retries exhausted for http://example.com/rss
+2026-07-03 11:50:07,972 | ERROR    | rss_scraper | Failed to normalize article entry: 'NoneType' object has no attribute 'get'

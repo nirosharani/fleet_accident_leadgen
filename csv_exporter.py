@@ -88,3 +88,6 @@ class CSVExporter:
         except OSError as e:
             logger.error("Failed to write CSV file %s: %s", file_path, e)
             raise
+        except csv.Error as e:
+            logger.error("CSV write error for %s: %s", file_path, e)
+            raise

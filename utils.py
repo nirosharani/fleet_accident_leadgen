@@ -25,6 +25,8 @@ def generate_sha256(text: str) -> str:
     Strips leading/trailing whitespace before hashing.
     Returns a 64-character hex string. Empty strings are handled gracefully.
     """
+    if not isinstance(text, str):
+        return hashlib.sha256(b"").hexdigest().lower()
     sanitized = text.strip()
     return hashlib.sha256(sanitized.encode("utf-8")).hexdigest().lower()
 
@@ -48,15 +50,19 @@ def normalize_url(url: str) -> str:
 
     Strips utm_source, utm_medium, utm_campaign, gclid, fbclid
     while preserving the original path and remaining query parameters.
+    Returns the original URL on parse failure.
     """
-    parsed = urlparse(url)
-    query_params = parse_qs(parsed.query, keep_blank_values=True)
-    cleaned_params = {
-        k: v for k, v in query_params.items() if k.lower() not in TRACKING_PARAMS
-    }
-    new_query = urlencode(cleaned_params, doseq=True) if cleaned_params else ""
-    cleaned = parsed._replace(query=new_query)
-    return urlunparse(cleaned)
+    try:
+        parsed = urlparse(url)
+        query_params = parse_qs(parsed.query, keep_blank_values=True)
+        cleaned_params = {
+            k: v for k, v in query_params.items() if k.lower() not in TRACKING_PARAMS
+        }
+        new_query = urlencode(cleaned_params, doseq=True) if cleaned_params else ""
+        cleaned = parsed._replace(query=new_query)
+        return urlunparse(cleaned)
+    except Exception:
+        return url
 
 
 def parse_article_date(date_string: str) -> Optional[datetime]:
