@@ -5,15 +5,16 @@ Tracks pipeline metrics during execution and generates a formatted
 report for both console display and persistent logging.
 """
 
-import logging
 import os
 from datetime import datetime
 from typing import Optional
 
+from logger import get_logger
+
 _LOG_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "logs")
 _SUMMARY_LOG = os.path.join(_LOG_DIR, "run_summary.log")
 
-logger = logging.getLogger(__name__)
+logger = get_logger(__name__)
 
 
 class ProcessingStats:

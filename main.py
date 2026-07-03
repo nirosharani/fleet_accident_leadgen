@@ -7,11 +7,8 @@ sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 sys.stdout.reconfigure(errors="replace")
 
 from logger import get_logger
-from config import RSS_TIMEOUT, MAX_RETRIES
-from company_data import WATCHLIST, EXCLUDED_COMPANIES
 from database import DatabaseManager
 from filters import FilterEngine
-from models import EvaluationResult
 from rss_scraper import RSSScraper
 from csv_exporter import CSVExporter
 from reporting import ProcessingStats
@@ -78,17 +75,17 @@ def parse_args() -> argparse.Namespace:
     return parser.parse_args()
 
 
-def main() -> None:
-    """Entry point: parse arguments, apply overrides, run the pipeline."""
-    args = parse_args()
-
+def _setup_debug_logging(args: argparse.Namespace) -> None:
+    """Enable debug-level logging on all handlers when --debug is passed."""
     if hasattr(args, "debug") and args.debug:
         import logging
         logging.getLogger().setLevel(logging.DEBUG)
         for handler in logging.getLogger().handlers:
             handler.setLevel(logging.DEBUG)
 
-    # ---- Runtime Configuration Display ----
+
+def _print_runtime_config(args: argparse.Namespace) -> None:
+    """Display the effective runtime configuration."""
     days_display = (
         "Default (first-run/daily)" if args.days is None else str(args.days)
     )
@@ -107,7 +104,9 @@ def main() -> None:
     print(f"Output Directory: {out_dir}")
     print()
 
-    # ---- Apply argument overrides to modules ----
+
+def _apply_runtime_overrides(args: argparse.Namespace) -> None:
+    """Apply CLI argument overrides to module-level configuration values."""
     if args.days is not None:
         _filters.FIRST_RUN_DAYS = args.days
 
@@ -117,7 +116,15 @@ def main() -> None:
     if args.output_dir is not None:
         _csv_exporter._OUTPUT_DIR = os.path.abspath(args.output_dir)
 
-    # ---- Standard startup ----
+
+def _initialize_database(
+    args: argparse.Namespace,
+) -> tuple:
+    """Connect to the database, create tables, seed company master.
+
+    Returns:
+        A tuple of (DatabaseManager, first_run: bool, company_count: int).
+    """
     print("=" * 54)
     print("Fleet Accident Lead Generation System")
     print("=" * 54)
@@ -132,8 +139,6 @@ def main() -> None:
     db.seed_company_master()
     first_run = db.is_first_run()
 
-    # When --days is provided, force first_run to True so the filter
-    # engine uses the (already overridden) FIRST_RUN_DAYS value.
     if args.days is not None:
         first_run = True
 
@@ -148,10 +153,11 @@ def main() -> None:
     print("Project ready.")
     print()
 
-    stats = ProcessingStats()
-    stats.start()
+    return db, first_run, company_total
 
-    # ---- First run / daily / custom mode message ----
+
+def _print_run_mode(args: argparse.Namespace, first_run: bool) -> None:
+    """Display the effective search mode (first-run / daily / custom days)."""
     if args.days is not None:
         print(f"Searching previous {args.days} days.")
     elif first_run:
@@ -162,7 +168,9 @@ def main() -> None:
         print("Searching previous 24 hours.")
     print()
 
-    # ---- Utility self-test ----
+
+def _run_utility_self_test() -> None:
+    """Execute utility function self-test and display results."""
     print("--- Utility Self-Test ---")
     sha = generate_sha256("  Hello World  ")
     print(f"SHA-256 generated: {sha}")
@@ -187,7 +195,13 @@ def main() -> None:
     ts = current_timestamp()
     print(f"Timestamp created: {ts}")
 
-    # ---- RSS Scraper ----
+
+def _run_rss_scraper(stats: ProcessingStats) -> tuple:
+    """Generate search queries, fetch all RSS feeds, and collect articles.
+
+    Returns:
+        A tuple of (RSSScraper instance, list of Article instances).
+    """
     print()
     print("--- RSS Scraper ---")
     scraper = RSSScraper()
@@ -202,31 +216,49 @@ def main() -> None:
     stats.set_articles_collected(len(articles))
     stats.set_unique_articles(len(articles))
 
+    return scraper, articles
+
+
+def _handle_empty_articles(stats: ProcessingStats, db: DatabaseManager) -> None:
+    """Gracefully exit when no articles were collected."""
+    print()
+    print("No articles to process.")
+    stats.set_csv_records_exported(0)
+    stats.generate()
+    db.close()
+
+
+def _display_first_articles(articles: list) -> None:
+    """Display the first 5 collected articles."""
     if not articles:
-        print()
-        print("No articles to process.")
-        stats.set_csv_records_exported(0)
-        stats.generate()
-        db.close()
         return
-
-    if articles:
+    print()
+    print("First 5 articles:")
+    print("-" * 70)
+    for i, article in enumerate(articles[:5], 1):
+        print(f"{i}. Headline:      {article.title}")
+        print(f"   Published Date: {article.published}")
+        print(f"   Source URL:     {article.url}")
         print()
-        print("First 5 articles:")
-        print("-" * 70)
-        for i, article in enumerate(articles[:5], 1):
-            print(f"{i}. Headline:      {article.title}")
-            print(f"   Published Date: {article.published}")
-            print(f"   Source URL:     {article.url}")
-            print()
 
-    # ---- Processing Pipeline ----
+
+def _process_articles(
+    args: argparse.Namespace,
+    articles: list,
+    db: DatabaseManager,
+    engine: FilterEngine,
+    first_run: bool,
+    stats: ProcessingStats,
+) -> tuple:
+    """Evaluate each article, write results to database, update counters.
+
+    Returns:
+        A tuple of (accepted_count, rejected_count, duplicate_count,
+        db_inserts).
+    """
     print()
     print("--- Processing Pipeline ---")
     print()
-
-    engine = FilterEngine()
-    start_time = time.perf_counter()
 
     accepted_count = 0
     rejected_count = 0
@@ -298,9 +330,18 @@ def main() -> None:
             print(f"ERROR     | {article.title}")
             continue
 
-    elapsed = time.perf_counter() - start_time
+    return accepted_count, rejected_count, duplicate_count, db_inserts
 
-    # ---- Summary ----
+
+def _print_pipeline_summary(
+    articles: list,
+    accepted_count: int,
+    rejected_count: int,
+    duplicate_count: int,
+    db_inserts: int,
+    elapsed: float,
+) -> None:
+    """Print the post-pipeline summary to the console."""
     print()
     print("=" * 39)
     print("SUMMARY")
@@ -314,7 +355,13 @@ def main() -> None:
     print("Execution Completed.")
     print()
 
-    # ---- CSV Export ----
+
+def _handle_csv_export(
+    args: argparse.Namespace,
+    db: DatabaseManager,
+    stats: ProcessingStats,
+) -> None:
+    """Export accepted incidents to CSV unless disabled by flags."""
     if not args.dry_run and not args.no_export:
         print("--- CSV Export ---")
         file_path, export_count = CSVExporter.export_incidents(db)
@@ -326,8 +373,46 @@ def main() -> None:
     else:
         stats.set_csv_records_exported(0)
 
-    stats.generate()
 
+def main() -> None:
+    """Parse arguments, apply overrides, initialise database, run pipeline."""
+    args = parse_args()
+
+    _setup_debug_logging(args)
+    _print_runtime_config(args)
+    _apply_runtime_overrides(args)
+
+    db, first_run, _company_total = _initialize_database(args)
+
+    stats = ProcessingStats()
+    stats.start()
+
+    _print_run_mode(args, first_run)
+
+    _run_utility_self_test()
+
+    _scraper, articles = _run_rss_scraper(stats)
+
+    if not articles:
+        _handle_empty_articles(stats, db)
+        return
+
+    _display_first_articles(articles)
+
+    engine = FilterEngine()
+    pipeline_start = time.perf_counter()
+    accepted, rejected, duplicates, inserts = _process_articles(
+        args, articles, db, engine, first_run, stats,
+    )
+    pipeline_elapsed = time.perf_counter() - pipeline_start
+
+    _print_pipeline_summary(
+        articles, accepted, rejected, duplicates, inserts, pipeline_elapsed,
+    )
+
+    _handle_csv_export(args, db, stats)
+
+    stats.generate()
     db.close()
 
 

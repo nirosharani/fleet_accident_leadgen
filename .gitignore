@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Logs
+logs/
+*.log
+
+# SQLite temporary files
+database/*.db-shm
+database/*.db-wal
+database/fleet.db
+
+# CSV output
+output/
+reports/
+
+# VS Code
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db

@@ -1,12 +1,12 @@
 import os
 import sqlite3
-import logging
 from datetime import datetime
 from typing import Optional
 
 from company_data import WATCHLIST
+from logger import get_logger
 
-logger = logging.getLogger(__name__)
+logger = get_logger(__name__)
 
 _DB_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "database")
 _DB_PATH = os.path.join(_DB_DIR, "fleet.db")

@@ -1,12 +1,12 @@
 import csv
-import logging
 import os
 from datetime import datetime
 from typing import Tuple
 
 from database import DatabaseManager
+from logger import get_logger
 
-logger = logging.getLogger(__name__)
+logger = get_logger(__name__)
 
 _OUTPUT_DIR = os.path.join(os.path.dirname(os.path.abspath(__file__)), "output")
 

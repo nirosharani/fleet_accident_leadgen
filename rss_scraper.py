@@ -79,6 +79,16 @@ class RSSScraper:
         logger.info("Generated %d search queries", len(urls))
         return urls
 
+    @staticmethod
+    def _sleep_with_backoff(attempt: int) -> None:
+        """Sleep with exponential backoff if retries remain.
+
+        Args:
+            attempt: The current attempt number (1-indexed).
+        """
+        if attempt < MAX_RETRIES:
+            time.sleep(2 ** attempt)
+
     def fetch_feed(self, url: str) -> list:
         """Download and parse one RSS feed with retry logic.
 
@@ -112,8 +122,7 @@ class RSSScraper:
                         "Bozo feed (attempt %d/%d): %s — %s",
                         attempt, MAX_RETRIES, url, exc,
                     )
-                    if attempt < MAX_RETRIES:
-                        time.sleep(2 ** attempt)
+                    self._sleep_with_backoff(attempt)
                     continue
 
                 logger.info(
@@ -126,24 +135,17 @@ class RSSScraper:
                     "Timeout (attempt %d/%d): %s",
                     attempt, MAX_RETRIES, url,
                 )
-                if attempt < MAX_RETRIES:
-                    time.sleep(2 ** attempt)
-
             except requests.exceptions.RequestException as e:
                 logger.error(
                     "HTTP error (attempt %d/%d): %s — %s",
                     attempt, MAX_RETRIES, url, e,
                 )
-                if attempt < MAX_RETRIES:
-                    time.sleep(2 ** attempt)
-
             except Exception as e:
                 logger.error(
                     "Unexpected error (attempt %d/%d): %s — %s",
                     attempt, MAX_RETRIES, url, e,
                 )
-                if attempt < MAX_RETRIES:
-                    time.sleep(2 ** attempt)
+            self._sleep_with_backoff(attempt)
 
         logger.error("All %d retries exhausted for %s", MAX_RETRIES, url)
         return []

@@ -3,7 +3,6 @@ DAILY_LOOKBACK_HOURS = 24
 MINIMUM_SCORE = 60
 RSS_TIMEOUT = 10
 MAX_RETRIES = 3
-MAX_RESULTS_PER_RUN = 20
 COMPANY_QUERY_LIMIT = 10  # Max companies to query per RSS run (0 = no limit)
 
 POSITIVE_KEYWORDS = [
@@ -18,13 +17,6 @@ NEGATIVE_KEYWORDS = [
     "sports", "entertainment", "movie", "film", "celebrity",
     "politics", "election", "cricket", "football",
     "weather forecast", "stock market", "ipo",
-]
-
-EXCLUDED_COMPANIES = [
-    "delhivery", "blue dart", "dtdc", "fedex", "dhl",
-    "ups", "ecom express", "xpressbees", "shadowfax",
-    "uber", "ola", "rapido", "zomato", "swiggy",
-    "amazon logistics", "flipkart logistics",
 ]
 
 INDIAN_STATES = [

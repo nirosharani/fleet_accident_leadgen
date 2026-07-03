@@ -1,8 +1,8 @@
-import logging
 import re
 from typing import Optional, Tuple
 
 from company_data import EXCLUDED_COMPANIES, WATCHLIST
+from logger import get_logger
 from config import (
     ACCIDENT_CONTEXT_SCORE,
     ACCIDENT_KEYWORDS,
@@ -31,7 +31,7 @@ _CORPORATE_SUFFIXES = {
     "pharmaceuticals", "enterprises",
 }
 
-logger = logging.getLogger(__name__)
+logger = get_logger(__name__)
 
 
 def _keyword_match(text: str, keywords: list[str]) -> bool:
