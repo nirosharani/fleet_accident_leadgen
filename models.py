@@ -35,6 +35,15 @@ class RejectedArticle:
 
 
 @dataclass
+class EvaluationResult:
+    accepted: bool
+    company: Optional[str]
+    score: int
+    confidence: str
+    reason: Optional[str]
+
+
+@dataclass
 class SearchStatistics:
     total_articles_fetched: int = 0
     articles_rejected: int = 0

@@ -20,10 +20,14 @@ class DatabaseManager:
         self.connection: Optional[sqlite3.Connection] = None
 
     def connect(self) -> None:
-        """Create the database directory and connect to SQLite."""
+        """Create the database directory, connect to SQLite, and enable
+        :class:`sqlite3.Row` access so query results can be indexed by
+        column name.
+        """
         try:
             os.makedirs(_DB_DIR, exist_ok=True)
             self.connection = sqlite3.connect(self.db_path)
+            self.connection.row_factory = sqlite3.Row
             self.connection.execute("PRAGMA journal_mode=WAL")
             logger.info("Connected to database at %s", self.db_path)
         except sqlite3.Error as e:
@@ -104,7 +108,7 @@ class DatabaseManager:
     def seed_company_master(self) -> int:
         """Insert all companies from WATCHLIST into company_master.
 
-        Returns the number of new rows inserted.
+        Returns the total number of rows in company_master after seeding.
         """
         if not self.connection:
             raise RuntimeError("Database not connected. Call connect() first.")
@@ -127,7 +131,9 @@ class DatabaseManager:
             logger.error("Failed to seed company master: %s", e)
             raise
 
-        return inserted
+        cursor.execute("SELECT COUNT(*) FROM company_master")
+        total = cursor.fetchone()[0]
+        return total
 
     def is_first_run(self) -> bool:
         """Return True if incident_records is empty, otherwise False."""
@@ -174,6 +180,31 @@ class DatabaseManager:
             return row[0] if row else None
         except sqlite3.Error as e:
             logger.error("Failed to get company sector: %s", e)
+            raise
+
+    def fetch_all_incidents(self) -> list[sqlite3.Row]:
+        """Return all rows from incident_records as a list of sqlite3.Row objects.
+
+        Each row provides column access by name (e.g. row["company"]).
+        Returns an empty list if there are no incidents.
+        """
+        if not self.connection:
+            raise RuntimeError("Database not connected. Call connect() first.")
+
+        try:
+            cursor = self.connection.cursor()
+            cursor.execute("""
+                SELECT company, sector, headline, summary,
+                       incident_date, source_url, source_type,
+                       score, confidence, outreach_hook, created_at
+                FROM incident_records
+                ORDER BY created_at DESC
+            """)
+            rows = cursor.fetchall()
+            logger.debug("Fetched %d incident records", len(rows))
+            return rows
+        except sqlite3.Error as e:
+            logger.error("Failed to fetch incidents: %s", e)
             raise
 
     def save_seen_article(
