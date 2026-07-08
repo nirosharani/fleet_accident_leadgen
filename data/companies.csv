@@ -1,0 +1,512 @@
+company_name,sector,employees,country,aliases
+Reliance Industries,Energy,227000,India,Reliance|RIL
+Indian Oil Corporation,Energy,33000,India,IOC|IOCL
+Bharat Petroleum Corporation,Energy,13000,India,BPCL|Bharat Petroleum
+Hindustan Petroleum Corporation,Energy,11000,India,HPCL|Hindustan Petroleum
+Oil and Natural Gas Corporation,Energy,27000,India,ONGC
+Oil India Limited,Energy,8000,India,OIL
+Coal India,Mining,250000,India,CIL
+NTPC,Energy,77000,India,National Thermal Power Corporation
+Power Grid Corporation of India,Energy,11000,India,Power Grid|PGCIL
+National Aluminium Company,Mining,7000,India,NALCO
+Hindalco Industries,Mining,36000,India,Hindalco
+JSW Steel,Manufacturing,38000,India,JSW
+Tata Steel,Manufacturing,65000,India,Tata Steel
+Steel Authority of India,Manufacturing,125000,India,SAIL
+Jindal Steel & Power,Manufacturing,35000,India,JSPL
+Bharat Heavy Electricals,Manufacturing,45000,India,BHEL
+Larsen & Toubro,Manufacturing,43000,India,L&T|Larsen and Toubro
+Siemens India,Manufacturing,10000,India,Siemens
+ABB India,Manufacturing,8000,India,ABB
+Cummins India,Manufacturing,6000,India,Cummins
+Thermax,Manufacturing,6000,India,Thermax
+Kirloskar Brothers,Manufacturing,5000,India,Kirloskar
+Bharat Forge,Manufacturing,12000,India,Bharat Forge
+Escorts Kubota,Manufacturing,10000,India,Escorts|Escorts Kubota
+Voltas,Manufacturing,12000,India,Voltas
+Blue Star,Manufacturing,5000,India,Blue Star
+Godrej & Boyce,Manufacturing,15000,India,Godrej|Godrej and Boyce
+Amara Raja Batteries,Manufacturing,12000,India,Amara Raja
+Exide Industries,Manufacturing,10000,India,Exide
+Supreme Industries,Manufacturing,5000,India,Supreme
+Astral Poly Technik,Manufacturing,4000,India,Astral|Astral Pipes
+Finolex Industries,Manufacturing,5000,India,Finolex
+Tata Motors,Manufacturing,93000,India,Tata Motors
+Mahindra & Mahindra,Manufacturing,60000,India,M&M|Mahindra
+Maruti Suzuki India,Manufacturing,40000,India,Maruti|Maruti Suzuki
+Ashok Leyland,Manufacturing,25000,India,Ashok Leyland
+Bajaj Auto,Manufacturing,10000,India,Bajaj Auto
+Hero MotoCorp,Manufacturing,9000,India,Hero|Hero Honda
+Honda Motorcycle & Scooter India,Manufacturing,25000,India,HMSI|Honda India
+TVS Motor Company,Manufacturing,14000,India,TVS
+Eicher Motors,Manufacturing,12000,India,Eicher|Royal Enfield
+Adani Enterprises,Manufacturing,25000,India,Adani
+Adani Ports & SEZ,Manufacturing,5000,India,APSEZ|Adani Ports
+Adani Green Energy,Energy,3000,India,AGEL|Adani Green
+Adani Power,Energy,8000,India,Adani Power
+Adani Transmission,Energy,4000,India,Adani Transmission
+Tata Power,Energy,12000,India,Tata Power
+NHPC,Energy,6000,India,National Hydroelectric Power Corporation
+SJVN,Energy,3000,India,SJVN
+Torrent Power,Energy,5000,India,Torrent Power
+JSW Energy,Energy,4000,India,JSW Energy
+Vedanta Limited,Mining,55000,India,Vedanta
+Hindustan Zinc,Mining,25000,India,HZL|Hindustan Zinc
+NMDC,Mining,7000,India,NMDC|National Mineral Development Corporation
+MOIL,Mining,5000,India,MOIL|Manganese Ore India
+Sun Pharmaceutical Industries,Pharma,37000,India,Sun Pharma|Sun Pharmaceutical
+Dr. Reddy's Laboratories,Pharma,20000,India,Dr Reddy's|DRL
+Cipla,Pharma,25000,India,Cipla
+Lupin,Pharma,20000,India,Lupin
+Aurobindo Pharma,Pharma,22000,India,Aurobindo
+Divis Laboratories,Pharma,9000,India,Divis|Divi's
+Cadila Healthcare,Pharma,15000,India,Zydus Cadila|Zydus
+Torrent Pharmaceuticals,Pharma,14000,India,Torrent Pharma
+Biocon,Pharma,12000,India,Biocon
+Glenmark Pharmaceuticals,Pharma,13000,India,Glenmark
+Alkem Laboratories,Pharma,14000,India,Alkem
+Ipca Laboratories,Pharma,12000,India,Ipca
+Mankind Pharma,Pharma,15000,India,Mankind
+Syngene International,Pharma,6000,India,Syngene
+Piramal Pharma,Pharma,8000,India,Piramal
+Granules India,Pharma,5000,India,Granules
+Laurus Labs,Pharma,7000,India,Laurus
+Ajanta Pharma,Pharma,5000,India,Ajanta
+Hetero Labs,Pharma,10000,India,Hetero
+Strides Pharma Science,Pharma,5000,India,Strides|Strides Pharma
+Natco Pharma,Pharma,4000,India,Natco
+Jubilant Pharmova,Pharma,7000,India,Jubilant|Jubilant Pharma
+Sanofi India,Pharma,3000,India,Sanofi
+Abbott India,Pharma,4000,India,Abbott
+Pfizer India,Pharma,3000,India,Pfizer
+Novartis India,Pharma,2000,India,Novartis
+GSK Pharmaceuticals,Pharma,3000,India,GSK|GlaxoSmithKline
+Neuland Laboratories,Pharma,2000,India,Neuland
+Shilpa Medicare,Pharma,3000,India,Shilpa Medicare
+Eris Lifesciences,Pharma,3000,India,Eris
+FDC Limited,Pharma,4000,India,FDC
+Elder Pharmaceuticals,Pharma,3000,India,Elder
+Wockhardt,Pharma,7000,India,Wockhardt
+Unichem Laboratories,Pharma,4000,India,Unichem
+Zydus Lifesciences,Pharma,25000,India,Zydus Lifesciences
+Hindustan Unilever,FMCG,16000,India,HUL|Hindustan Lever
+ITC,FMCG,36000,India,ITC Limited
+Nestle India,FMCG,8000,India,Nestle
+Britannia Industries,FMCG,12000,India,Britannia
+Marico,FMCG,5000,India,Marico
+Dabur India,FMCG,6000,India,Dabur
+Godrej Consumer Products,FMCG,8000,India,GCPL|Godrej Consumer
+Colgate-Palmolive India,FMCG,4000,India,Colgate
+Asian Paints,FMCG,7000,India,Asian Paints
+Tata Consumer Products,FMCG,5000,India,Tata Consumer|TCPL
+Adani Wilmar,FMCG,8000,India,Adani Wilmar|Fortune
+Parle Agro,FMCG,10000,India,Parle
+MTR Foods,FMCG,3000,India,MTR
+Pepsico India,FMCG,12000,India,Pepsi|PepsiCo India
+Coca-Cola India,FMCG,8000,India,Coca Cola|Coke India
+Emami,FMCG,3000,India,Emami
+Procter & Gamble India,FMCG,5000,India,P&G India
+Bajaj Consumer Care,FMCG,2000,India,Bajaj Consumer
+Haldiram's,FMCG,10000,India,Haldiram
+Amul,FMCG,20000,India,GCMMF|Amul
+Milkfood,FMCG,2000,India,Milkfood
+Heritage Foods,FMCG,3000,India,Heritage
+Vadilal Industries,FMCG,3000,India,Vadilal
+Zydus Wellness,FMCG,2000,India,Zydus Wellness
+Nirma,FMCG,12000,India,Nirma
+Jyothy Labs,FMCG,3000,India,Jyothy|Jyothy Labs
+Patanjali Ayurved,FMCG,50000,India,Patanjali
+Ruchi Soya Industries,FMCG,4000,India,Ruchi Soya
+Bata India,Retail,12000,India,Bata
+Reliance Retail,Retail,100000,India,Reliance Retail
+Trent,Retail,10000,India,Trent|Westside
+Shoppers Stop,Retail,8000,India,Shoppers Stop
+Future Retail,Retail,20000,India,Big Bazaar|Future Group
+D-Mart,Retail,35000,India,Avenue Supermarts|DMart
+V-Mart Retail,Retail,5000,India,V-Mart
+Aditya Birla Fashion & Retail,Retail,15000,India,ABFRL|Pantaloons
+Vibgyor Brands,Retail,2000,India,Vibgyor
+Metro Brands,Retail,4000,India,Metro|Metro Shoes
+Titan Company,Retail,25000,India,Titan
+Kalyan Jewellers,Retail,10000,India,Kalyan Jewellers
+PC Jeweller,Retail,5000,India,PC Jeweller
+Malabar Gold & Diamonds,Retail,20000,India,Malabar Gold
+Joyalukkas,Retail,10000,India,Joyalukkas
+Reliance Jewels,Retail,15000,India,Reliance Jewels
+Tata Cliq,Retail,3000,India,Tata Cliq
+Flipkart,Retail,40000,India,Flipkart
+Amazon India,Retail,100000,India,Amazon
+Myntra,Retail,5000,India,Myntra
+Nykaa,Retail,5000,India,Nykaa|FSN E-Commerce
+Tata Consultancy Services,IT,615000,India,TCS|Tata Consultancy Services
+Infosys,IT,336000,India,Infosys
+Wipro,IT,240000,India,Wipro
+HCL Technologies,IT,225000,India,HCL|HCL Tech
+Tech Mahindra,IT,146000,India,TechM|Tech Mahindra
+LTI Mindtree,IT,80000,India,LTIM|LTI Mindtree
+Mphasis,IT,40000,India,Mphasis
+Persistent Systems,IT,23000,India,Persistent
+Coforge,IT,25000,India,Coforge
+L&T Technology Services,IT,20000,India,LTTS|L&T Tech
+Hexaware Technologies,IT,25000,India,Hexaware
+KPIT Technologies,IT,12000,India,KPIT
+Cyient,IT,15000,India,Cyient
+Zensar Technologies,IT,12000,India,Zensar
+Sonata Software,IT,8000,India,Sonata
+Birlasoft,IT,12000,India,Birlasoft
+Cognizant Technology Solutions,IT,350000,India,Cognizant|CTS
+IBM India,IT,150000,India,IBM
+Accenture India,IT,200000,India,Accenture
+Capgemini India,IT,150000,India,Capgemini
+Oracle India,IT,40000,India,Oracle
+Microsoft India,IT,20000,India,Microsoft
+SAP Labs India,IT,15000,India,SAP
+Google India,IT,10000,India,Google
+State Bank of India,Banking,245000,India,SBI|State Bank
+HDFC Bank,Banking,170000,India,HDFC Bank
+ICICI Bank,Banking,110000,India,ICICI Bank
+Axis Bank,Banking,65000,India,Axis Bank
+Kotak Mahindra Bank,Banking,50000,India,Kotak Bank|Kotak Mahindra
+Punjab National Bank,Banking,110000,India,PNB
+Canara Bank,Banking,90000,India,Canara Bank
+Bank of Baroda,Banking,80000,India,BoB|Bank of Baroda
+Union Bank of India,Banking,75000,India,Union Bank
+Indian Bank,Banking,50000,India,Indian Bank
+Bank of India,Banking,55000,India,BOI|Bank of India
+Central Bank of India,Banking,35000,India,Central Bank
+IDBI Bank,Banking,30000,India,IDBI
+Yes Bank,Banking,25000,India,Yes Bank
+IndusInd Bank,Banking,35000,India,IndusInd
+Federal Bank,Banking,20000,India,Federal Bank
+IDFC First Bank,Banking,25000,India,IDFC First
+South Indian Bank,Banking,15000,India,SIB|South Indian Bank
+RBL Bank,Banking,15000,India,RBL|Ratnakar Bank
+Bandhan Bank,Banking,45000,India,Bandhan Bank
+AU Small Finance Bank,Banking,20000,India,AU Bank
+Bajaj Finance,Banking,25000,India,Bajaj Finance
+Aditya Birla Capital,Banking,15000,India,Aditya Birla Capital
+HDFC Life Insurance,Banking,25000,India,HDFC Life
+LIC of India,Banking,115000,India,LIC|Life Insurance Corporation
+SBI Life Insurance,Banking,15000,India,SBI Life
+ICICI Prudential Life Insurance,Banking,20000,India,ICICI Prudential
+ICICI Lombard General Insurance,Banking,15000,India,ICICI Lombard
+Bharatiya Reserve Bank Note Mudran,Banking,5000,India,BRBNM
+National Payments Corporation of India,Banking,3000,India,NPCI
+Bharti Airtel,Telecom,68000,India,Airtel|Bharti Airtel
+Reliance Jio,Telecom,100000,India,Jio|Reliance Jio
+Vodafone Idea,Telecom,90000,India,Vi|Vodafone Idea
+BSNL,Telecom,60000,India,BSNL|Bharat Sanchar Nigam
+MTNL,Telecom,22000,India,MTNL|Mahanagar Telephone Nigam
+Tata Communications,Telecom,15000,India,Tata Comm
+Tejas Networks,Telecom,3000,India,Tejas
+Sterlite Technologies,Telecom,6000,India,Sterlite|STL
+Vindhya Telelinks,Telecom,2000,India,Vindhya
+RailTel Corporation of India,Telecom,5000,India,RailTel
+TCIL,Telecom,3000,India,TCIL|Telecommunications Consultants India
+ITI Limited,Telecom,10000,India,ITI
+Apollo Hospitals,Healthcare,90000,India,Apollo Hospitals
+Max Healthcare,Healthcare,25000,India,Max Healthcare
+Fortis Healthcare,Healthcare,23000,India,Fortis
+Narayana Health,Healthcare,25000,India,Narayana Health|NH
+Manipal Hospitals,Healthcare,20000,India,Manipal
+Medanta Medicity,Healthcare,5000,India,Medanta
+KIMS Hospitals,Healthcare,10000,India,KIMS|Krishna Institute
+Aster DM Healthcare,Healthcare,20000,India,Aster
+Thyrocare Technologies,Healthcare,3000,India,Thyrocare
+Metropolis Healthcare,Healthcare,5000,India,Metropolis
+Dr Lal PathLabs,Healthcare,4000,India,Lal PathLabs
+Redcliffe Labs,Healthcare,3000,India,Redcliffe
+Vijaya Diagnostic Centre,Healthcare,3000,India,Vijaya Diagnostics
+Kailash Hospital,Healthcare,2000,India,Kailash
+Hinduja Hospital,Healthcare,3000,India,Hinduja
+Sir Ganga Ram Hospital,Healthcare,3000,India,Ganga Ram
+Nanavati Hospital,Healthcare,2500,India,Nanavati
+Jupiter Hospital,Healthcare,2000,India,Jupiter
+Ruby Hall Clinic,Healthcare,2000,India,Ruby Hall
+Care Hospitals,Healthcare,4000,India,Care Hospitals
+Columbia Asia Hospitals,Healthcare,5000,India,Columbia Asia
+Global Hospitals,Healthcare,3000,India,Global Hospitals
+Artemis Hospitals,Healthcare,2500,India,Artemis
+Max Super Speciality Hospital,Healthcare,5000,India,Max Super Speciality
+Indraprastha Apollo Hospital,Healthcare,4000,India,Indraprastha Apollo
+InterGlobe Aviation,Aviation,25000,India,IndiGo|InterGlobe
+SpiceJet,Aviation,8000,India,SpiceJet
+Air India,Aviation,20000,India,Air India
+Vistara,Aviation,15000,India,Vistara
+Akasa Air,Aviation,5000,India,Akasa Air
+GoFirst,Aviation,7000,India,GoAir|Go First
+Air India Express,Aviation,5000,India,Air India Express
+Alliance Air,Aviation,3000,India,Alliance Air
+Air Asia India,Aviation,5000,India,Air Asia
+Blue Dart Aviation,Aviation,2000,India,Blue Dart Aviation
+Bird Worldwide Flight Services,Aviation,3000,India,Bird
+GMR Airports,Aviation,8000,India,GMR|GMR Airports
+Adani Airports,Aviation,5000,India,Adani Airports
+AAI,Aviation,25000,India,AAI|Airports Authority of India
+Bird Group,Aviation,3000,India,Bird Group
+Menzies Aviation India,Aviation,2000,India,Menzies
+Celebi Aviation,Aviation,2000,India,Celebi
+DFS Aviation,Aviation,2000,India,DFS
+Ultimate Aviation Services,Aviation,2000,India,Ultimate Aviation
+Panasonic Aviation India,Aviation,2000,India,Panasonic Aviation
+UltraTech Cement,Cement,22000,India,UltraTech
+Ambuja Cements,Cement,10000,India,Ambuja
+ACC Limited,Cement,12000,India,ACC|Associated Cement Companies
+Shree Cement,Cement,8000,India,Shree Cement
+Dalmia Bharat,Cement,10000,India,Dalmia Bharat|Dalmia
+Ramco Cements,Cement,6000,India,Ramco
+JK Cement,Cement,5000,India,JK Cement
+Birla Corporation,Cement,7000,India,Birla Corp|MP Birla
+India Cements,Cement,8000,India,India Cements
+Prism Johnson,Cement,4000,India,Prism|Prism Cement
+HeidelbergCement India,Cement,3000,India,Heidelberg
+Star Cement,Cement,3000,India,Star Cement
+My Home Industries,Cement,3000,India,My Home Cement
+JSW Cement,Cement,4000,India,JSW Cement
+Chettinad Cement,Cement,3000,India,Chettinad
+KCP Limited,Cement,3000,India,KCP
+Deccan Cements,Cement,2000,India,Deccan
+Penna Cement,Cement,2500,India,Penna
+Sagar Cements,Cement,2000,India,Sagar
+Nuvoco Vistas,Cement,8000,India,Nuvoco|Nuvoco Vistas
+Coal India Limited,Mining,250000,India,CIL|Coal India
+NMDC Limited,Mining,7000,India,NMDC|National Mineral Development Corporation
+Hindustan Zinc Limited,Mining,25000,India,HZL|Hindustan Zinc
+National Aluminium Company,Mining,7000,India,NALCO
+Vedanta Limited,Mining,55000,India,Vedanta|Vedanta Resources
+MOIL Limited,Mining,5000,India,MOIL|Manganese Ore India
+Madhya Pradesh Power Generating Co,Mining,5000,India,MPPGCL
+Gujarat Mineral Development Corp,Mining,3000,India,GMDC
+Orissa Mining Corporation,Mining,5000,India,OMC
+Karnataka Power Corporation,Mining,5000,India,KPCL
+Rajasthan State Mines & Minerals,Mining,3000,India,RSMML
+Tamil Nadu Minerals,Mining,2000,India,TAMIN
+Gujarat NRE Coke,Mining,3000,India,Gujarat NRE
+Bihar State Mineral Development Corp,Mining,2000,India,BSMDC
+West Bengal Mineral Development,Mining,2000,India,WBMDTC
+Hutti Gold Mines,Mining,3000,India,Hutti
+Bharat Gold Mines,Mining,2000,India,BGML
+IBM,Mining,20000,India,IBM|Indian Bureau of Mines
+Singareni Collieries Company,Mining,60000,India,SCCL|Singareni
+Delhi Metro Rail Corporation,Infrastructure,15000,India,DMRC|Delhi Metro
+NHAI,Infrastructure,5000,India,NHAI|National Highways Authority
+NBCC India,Infrastructure,8000,India,NBCC
+IRCON International,Infrastructure,7000,India,Ircon
+RVNL,Infrastructure,5000,India,RVNL|Rail Vikas Nigam
+NCC Limited,Infrastructure,10000,India,NCC
+GMR Infrastructure,Infrastructure,8000,India,GMR Infra
+L&T Infrastructure,Infrastructure,15000,India,L&T Infra|Larsen & Toubro Infra
+Hindustan Construction Company,Infrastructure,10000,India,HCC|HCC Infra
+Simplex Infrastructures,Infrastructure,5000,India,Simplex
+Sadbhav Engineering,Infrastructure,5000,India,Sadbhav
+KNR Constructions,Infrastructure,5000,India,KNR
+Ashoka Buildcon,Infrastructure,5000,India,Ashoka
+PNC Infratech,Infrastructure,4000,India,PNC
+J Kumar Infraprojects,Infrastructure,3000,India,J Kumar
+HG Infra Engineering,Infrastructure,5000,India,HG Infra
+Dilip Buildcon,Infrastructure,12000,India,Dilip Buildcon|DBL
+Welspun Enterprises,Infrastructure,3000,India,Welspun Infra
+Punj Lloyd,Infrastructure,10000,India,Punj Lloyd
+AECOM India,Infrastructure,5000,India,AECOM
+Maruti Suzuki India Limited,Automotive,40000,India,Maruti Suzuki
+Tata Motors Limited,Automotive,93000,India,Tata Motors
+Mahindra & Mahindra Limited,Automotive,60000,India,M&M|Mahindra
+Bajaj Auto Limited,Automotive,10000,India,Bajaj Auto
+Hero MotoCorp Limited,Automotive,9000,India,Hero MotoCorp|Hero
+TVS Motor Company Limited,Automotive,14000,India,TVS Motor
+Eicher Motors Limited,Automotive,12000,India,Eicher Motors|Royal Enfield
+Ashok Leyland Limited,Automotive,25000,India,Ashok Leyland
+Force Motors,Automotive,3000,India,Force Motors
+SML Isuzu,Automotive,2000,India,SML|SML Isuzu
+Hindustan Motors,Automotive,3000,India,Hindustan Motors
+JBM Auto,Automotive,5000,India,JBM
+Motherson Sumi Systems,Automotive,15000,India,Motherson|Motherson Sumi
+Bosch India,Automotive,20000,India,Bosch
+ZF India,Automotive,5000,India,ZF
+Continental India,Automotive,5000,India,Continental
+Valeo India,Automotive,4000,India,Valeo
+Denso India,Automotive,3000,India,Denso
+Mando India,Automotive,3000,India,Mando
+Rane Holdings,Automotive,5000,India,Rane
+Endurance Technologies,Automotive,5000,India,Endurance
+Sundram Fasteners,Automotive,4000,India,Sundram
+GKN Automotive India,Automotive,3000,India,GKN
+Samvardhana Motherson Group,Automotive,40000,India,Samvardhana Motherson|SMG
+Kalyani Group,Automotive,25000,India,Kalyani|Bharat Forge
+BorgWarner India,Automotive,3000,India,BorgWarner
+Schaeffler India,Automotive,3000,India,Schaeffler
+SKF India,Automotive,3000,India,SKF
+Timken India,Automotive,2000,India,Timken
+Magna India,Automotive,5000,India,Magna
+Lumax Industries,Automotive,4000,India,Lumax
+Ola Electric,Automotive,8000,India,Ola Electric
+Ather Energy,Automotive,3000,India,Ather
+Wabco India,Automotive,3000,India,Wabco
+Hal India,Aviation,25000,India,HAL|Hindustan Aeronautics
+BEML,Manufacturing,10000,India,BEML
+Cochin Shipyard,Manufacturing,5000,India,Cochin Shipyard
+Mazagon Dock Shipbuilders,Manufacturing,15000,India,MDL|Mazagon Dock
+Garden Reach Shipbuilders,Manufacturing,8000,India,GRSE
+Goa Shipyard,Manufacturing,3000,India,GSL
+Hindustan Shipyard,Manufacturing,5000,India,HSL
+Titagarh Wagons,Manufacturing,5000,India,Titagarh
+Texmaco Rail,Manufacturing,3000,India,Texmaco
+Alstom India,Manufacturing,4000,India,Alstom
+Bombardier India,Manufacturing,5000,India,Bombardier
+GE India,Manufacturing,20000,India,GE|General Electric
+Honeywell India,Manufacturing,15000,India,Honeywell
+3M India,Manufacturing,3000,India,3M
+Philips India,Manufacturing,5000,India,Philips
+Panasonic India,Manufacturing,8000,India,Panasonic
+LG Electronics India,Manufacturing,15000,India,LG India
+Samsung India,Manufacturing,25000,India,Samsung India
+Whirlpool India,Manufacturing,6000,India,Whirlpool
+Havells India,Manufacturing,10000,India,Havells
+Polycab India,Manufacturing,8000,India,Polycab
+KEI Industries,Manufacturing,5000,India,KEI
+RR Kabel,Manufacturing,3000,India,RR Kabel
+V-Guard Industries,Manufacturing,5000,India,V-Guard
+Bajaj Electricals,Manufacturing,10000,India,Bajaj Electricals
+Crompton Greaves,Manufacturing,12000,India,Crompton|CG
+Orient Electric,Manufacturing,3000,India,Orient Electric
+Syska Group,Manufacturing,3000,India,Syska
+Wipro Lighting,Manufacturing,3000,India,Wipro Lighting
+Signify India,Manufacturing,4000,India,Signify|Philips Lighting
+Jaquar Group,Manufacturing,5000,India,Jaquar
+HSIL,Manufacturing,4000,India,HSIL|Hindware
+Somany Ceramics,Manufacturing,3000,India,Somany
+Kajaria Ceramics,Manufacturing,5000,India,Kajaria
+Johnson Tiles,Manufacturing,3000,India,Johnson
+Cera Sanitaryware,Manufacturing,2000,India,Cera
+Roca Bathroom Products,Manufacturing,3000,India,Roca
+TOTO India,Manufacturing,2000,India,TOTO
+Kohler India,Manufacturing,3000,India,Kohler
+NTT Data India,IT,50000,India,NTT Data
+DXC Technology India,IT,30000,India,DXC
+Atos India,IT,20000,India,Atos
+Tietoevry India,IT,10000,India,Tietoevry|Tieto
+Fujitsu India,IT,15000,India,Fujitsu
+Hitachi Vantara India,IT,5000,India,Hitachi Vantara
+NEC India,IT,5000,India,NEC
+Dell Technologies India,IT,35000,India,Dell
+Hewlett Packard Enterprise India,IT,20000,India,HPE
+Lenovo India,IT,10000,India,Lenovo
+Cisco Systems India,IT,15000,India,Cisco
+Juniper Networks India,IT,3000,India,Juniper
+VMware India,IT,10000,India,VMware
+Salesforce India,IT,10000,India,Salesforce
+Adobe India,IT,8000,India,Adobe
+ServiceNow India,IT,4000,India,ServiceNow
+Workday India,IT,3000,India,Workday
+SAP India,IT,15000,India,SAP India
+Red Hat India,IT,3000,India,Red Hat
+Intel India,IT,12000,India,Intel
+NVIDIA India,IT,4000,India,NVIDIA
+AMD India,IT,3000,India,AMD
+Qualcomm India,IT,5000,India,Qualcomm
+Broadcom India,IT,3000,India,Broadcom
+Texas Instruments India,IT,3000,India,Texas Instruments|TI
+Microchip Technology India,IT,2000,India,Microchip
+MediaTek India,IT,3000,India,MediaTek
+Zoho Corporation,IT,12000,India,Zoho
+Freshworks,IT,5000,India,Freshworks
+Druva,IT,2000,India,Druva
+Postman,IT,2000,India,Postman
+BrowserStack,IT,2000,India,BrowserStack
+Chargebee,IT,2000,India,Chargebee
+Unacademy,IT,3000,India,Unacademy
+Byju's,IT,15000,India,Byjus|Think & Learn
+UpGrad,IT,3000,India,UpGrad
+Swiggy,IT,6000,India,Swiggy
+Zomato,IT,6000,India,Zomato
+Ola,IT,5000,India,Ola|ANI Technologies
+Uber India,IT,5000,India,Uber
+Rapido,IT,2000,India,Rapido
+Ola Electric Mobility,Automotive,8000,India,Ola Electric
+Ather Energy Private Limited,Automotive,3000,India,Ather Energy
+Bounce,Automotive,2000,India,Bounce
+Yulu,Automotive,2000,India,Yulu
+Punjab National Bank,Banking,110000,India,PNB
+Bank of Baroda,Banking,80000,India,BoB
+Canara Bank,Banking,90000,India,Canara
+Union Bank of India,Banking,75000,India,Union Bank
+Indian Overseas Bank,Banking,25000,India,IOB
+UCO Bank,Banking,30000,India,UCO Bank
+Central Bank of India,Banking,35000,India,Central Bank
+Bank of Maharashtra,Banking,15000,India,BOM
+Dena Bank,Banking,10000,India,Dena Bank (now merged)
+Vijaya Bank,Banking,15000,India,Vijaya Bank (now merged)
+Syndicate Bank,Banking,30000,India,Syndicate Bank (now merged)
+Oriental Bank of Commerce,Banking,20000,India,OBC (now merged)
+Allahabad Bank,Banking,20000,India,Allahabad Bank (now merged)
+United Bank of India,Banking,15000,India,United Bank (now merged)
+Corporation Bank,Banking,15000,India,Corporation Bank (now merged)
+Andhra Bank,Banking,15000,India,Andhra Bank (now merged)
+Indian Bank,Banking,50000,India,Indian Bank (merged with Allahabad Bank)
+Tata Teleservices,Telecom,10000,India,TTSL|Tata Tele
+Tikona Infinet,Telecom,2000,India,Tikona
+ACT Fibernet,Telecom,5000,India,ACT|Atria Convergence Technologies
+Hathway Cable & Datacom,Telecom,5000,India,Hathway
+Siti Networks,Telecom,8000,India,Siti|Siti Cable
+DEN Networks,Telecom,5000,India,DEN
+GTPL Hathway,Telecom,3000,India,GTPL
+Ortel Communications,Telecom,2000,India,Ortel
+Tata Sky,Telecom,5000,India,Tata Sky
+Dish TV,Telecom,5000,India,Dish TV
+Sun TV Network,Media,3000,India,Sun TV
+Zee Entertainment,Media,5000,India,Zee|Zee TV
+Star India,Media,8000,India,Star India|Star TV
+Viacom18,Media,5000,India,Viacom18|MTV India|Colors TV
+Sony Pictures Networks India,Media,3000,India,Sony India|SPN
+Times Network,Media,3000,India,Times Now|Times Network
+Network18,Media,5000,India,Network18|CNN-News18
+NDTV,Media,2000,India,NDTV
+TV Today Network,Media,2000,India,TV Today|Aaj Tak
+Jagran Prakashan,Media,8000,India,Jagran|Dainik Jagran
+HT Media,Media,5000,India,Hindustan Times|HT
+Times Group,Media,10000,India,The Times of India|Bennett Coleman
+India Today Group,Media,5000,India,India Today|Living Media
+Outlook Group,Media,2000,India,Outlook
+Hindustan Media Ventures,Media,3000,India,Hindustan
+ABP Group,Media,5000,India,ABP|Ananda Bazar Patrika
+Malayala Manorama,Media,5000,India,Malayala Manorama|Manorama
+Mathrubhumi,Media,3000,India,Mathrubhumi
+Dinamalar,Media,2000,India,Dinamalar
+Dinakaran,Media,2000,India,Dinakaran
+Aditya Birla Group,Diversified,130000,India,Aditya Birla|ABG
+Tata Group,Diversified,700000,India,Tata Group|Tata Sons
+Reliance Industries Limited,Diversified,227000,India,Reliance Industries|RIL
+Mahindra Group,Diversified,250000,India,Mahindra Group
+Godrej Group,Diversified,50000,India,Godrej Group
+RP-Sanjiv Goenka Group,Diversified,30000,India,RPG Group
+Shapoorji Pallonji Group,Diversified,50000,India,Shapoorji Pallonji|SP Group
+Murugappa Group,Diversified,50000,India,Murugappa
+TVS Group,Diversified,50000,India,TVS Group
+CK Birla Group,Diversified,30000,India,CK Birla
+Bajaj Group,Diversified,40000,India,Bajaj Group
+Wadia Group,Diversified,30000,India,Wadia|Wadia Group
+Mafatlal Group,Diversified,20000,India,Mafatlal
+Singhania Family Group,Diversified,25000,India,Singhania|JK Group
+Chaudhary Group,Diversified,20000,India,CG|Chaudhary Group
+Mittal Group,Diversified,20000,India,Mittal
+Hero Group,Diversified,25000,India,Hero Group
+DLF Limited,Real Estate,5000,India,DLF
+Godrej Properties,Real Estate,3000,India,Godrej Properties
+Prestige Estates,Real Estate,5000,India,Prestige
+Oberoi Realty,Real Estate,3000,India,Oberoi
+Brigade Group,Real Estate,5000,India,Brigade
+Sobha Limited,Real Estate,8000,India,Sobha
+Lodha Group,Real Estate,5000,India,Lodha|Macrotech Developers
+Kolte-Patil Developers,Real Estate,3000,India,Kolte-Patil
+Puravankara,Real Estate,4000,India,Puravankara
+Phoenix Mills,Real Estate,3000,India,Phoenix Mills
+Embassy Group,Real Estate,5000,India,Embassy
+Ganesh Housing,Real Estate,2000,India,Ganesh Housing
+Sunteck Realty,Real Estate,2000,India,Sunteck
+Keystone Realtors,Real Estate,2000,India,Keystone|Rustomjee
+Signature Global,Real Estate,2000,India,Signature Global
+M3M India,Real Estate,3000,India,M3M
+Adani Realty,Real Estate,3000,India,Adani Realty
+Hiranandani Group,Real Estate,5000,India,Hiranandani
+Vasant Group,Real Estate,2000,India,Vasant Group
+Mantri Developers,Real Estate,3000,India,Mantri

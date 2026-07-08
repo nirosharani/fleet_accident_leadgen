@@ -12,6 +12,8 @@ from filters import FilterEngine
 from rss_scraper import RSSScraper
 from csv_exporter import CSVExporter
 from reporting import ProcessingStats
+from src.repositories.company_repository import CompanyRepository
+from src.services.company_matcher import CompanyMatcher
 from utils import (
     generate_sha256,
     normalize_headline,
@@ -399,7 +401,10 @@ def main() -> None:
 
     _display_first_articles(articles)
 
-    engine = FilterEngine()
+    repo = CompanyRepository(db.connection)
+    matcher = CompanyMatcher(repo)
+    matcher.load_cache()
+    engine = FilterEngine(company_matcher=matcher)
     pipeline_start = time.perf_counter()
     accepted, rejected, duplicates, inserts = _process_articles(
         args, articles, db, engine, first_run, stats,

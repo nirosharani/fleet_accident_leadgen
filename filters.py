@@ -57,7 +57,14 @@ class FilterEngine:
     """Validates articles through a series of configurable filtering steps.
 
     Each validation method is self-contained so it can be tested independently.
+
+    When a ``company_matcher`` is provided, ``detect_target_company`` and
+    ``detect_excluded_company`` delegate to it instead of using the
+    hardcoded ``WATCHLIST`` / ``EXCLUDED_COMPANIES`` from ``company_data.py``.
     """
+
+    def __init__(self, company_matcher=None) -> None:
+        self._company_matcher = company_matcher
 
     def _company_variants(self, company: str) -> list[str]:
         """Generate variant forms of a company name for flexible matching.
@@ -76,7 +83,11 @@ class FilterEngine:
         return variants
 
     def detect_target_company(self, article: Article) -> Optional[str]:
-        """Search article text for a watchlist company name.
+        """Search article text for a watchlist or database company name.
+
+        When a ``CompanyMatcher`` is available it is used for matching;
+        otherwise falls back to the hardcoded ``WATCHLIST`` from
+        ``company_data.py`` for backward compatibility.
 
         Matches the full company name (and variants with common corporate
         suffixes stripped) as a case-insensitive substring against the
@@ -85,11 +96,14 @@ class FilterEngine:
         """
         if not article.title and not article.summary:
             return None
-        text = f"{article.title} {article.summary}".lower()
+        text = f"{article.title} {article.summary}"
+        if self._company_matcher is not None:
+            return self._company_matcher.match(text)
+        text_lower = text.lower()
         for sector, companies in WATCHLIST.items():
             for company in companies:
                 for variant in self._company_variants(company):
-                    if variant in text:
+                    if variant in text_lower:
                         logger.debug("Target company detected: %s (matched via '%s')", company, variant)
                         return company
         return None
@@ -97,15 +111,22 @@ class FilterEngine:
     def detect_excluded_company(self, article: Article) -> bool:
         """Check whether an excluded company name appears in article text.
 
+        When a ``CompanyMatcher`` is available it is used for matching;
+        otherwise falls back to the hardcoded ``EXCLUDED_COMPANIES`` from
+        ``company_data.py`` for backward compatibility.
+
         Uses whole-word matching (word boundaries) to avoid false positives
         from short company names matching inside unrelated words.
         """
         if not article.title and not article.summary:
             return False
-        text = f"{article.title} {article.summary}".lower()
+        text = f"{article.title} {article.summary}"
+        if self._company_matcher is not None:
+            return self._company_matcher.is_excluded(text)
+        text_lower = text.lower()
         for company in EXCLUDED_COMPANIES:
             pattern = re.compile(r'\b' + re.escape(company.lower()) + r'\b')
-            if pattern.search(text):
+            if pattern.search(text_lower):
                 logger.debug("Excluded company detected: %s", company)
                 return True
         return False

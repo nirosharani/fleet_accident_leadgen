@@ -3,8 +3,9 @@ import sqlite3
 from datetime import datetime
 from typing import Optional
 
-from company_data import WATCHLIST
 from logger import get_logger
+from src.loaders.company_loader import CompanyLoader
+from src.repositories.company_repository import CompanyRepository
 
 logger = get_logger(__name__)
 
@@ -53,7 +54,8 @@ class DatabaseManager:
                 CREATE TABLE IF NOT EXISTS company_master (
                     id INTEGER PRIMARY KEY AUTOINCREMENT,
                     company_name TEXT UNIQUE NOT NULL,
-                    sector TEXT NOT NULL
+                    sector TEXT NOT NULL,
+                    aliases TEXT
                 )
             """)
 
@@ -98,6 +100,11 @@ class DatabaseManager:
                 )
             """)
 
+            try:
+                cursor.execute("ALTER TABLE company_master ADD COLUMN aliases TEXT")
+            except sqlite3.OperationalError:
+                pass
+
             self.connection.commit()
             logger.info("All database tables created successfully.")
         except sqlite3.Error as e:
@@ -106,34 +113,45 @@ class DatabaseManager:
             raise
 
     def seed_company_master(self) -> int:
-        """Insert all companies from WATCHLIST into company_master.
-
-        Returns the total number of rows in company_master after seeding.
-        """
         if not self.connection:
             raise RuntimeError("Database not connected. Call connect() first.")
 
+        repo = CompanyRepository(self.connection)
+        cursor = self.connection.cursor()
+        cursor.execute("SELECT COUNT(*) FROM company_master")
+        existing = cursor.fetchone()[0]
+
+        if existing > 0:
+            logger.info(
+                "company_master already contains %d rows — skipping seed.",
+                existing,
+            )
+            return existing
+
+        loader = CompanyLoader()
+        records = loader.load()
         inserted = 0
+
         try:
-            cursor = self.connection.cursor()
-            for sector, companies in WATCHLIST.items():
-                for company_name in companies:
-                    cursor.execute(
-                        "INSERT OR IGNORE INTO company_master (company_name, sector) VALUES (?, ?)",
-                        (company_name, sector),
-                    )
-                    if cursor.rowcount > 0:
-                        inserted += 1
+            for record in records:
+                aliases_str = "|".join(record["aliases"]) if record["aliases"] else None
+                repo.insert_company(
+                    company_name=record["company_name"],
+                    sector=record["sector"],
+                    aliases=aliases_str,
+                )
+                inserted += 1
             self.connection.commit()
-            logger.info("Seeded %d new companies into company_master.", inserted)
+            logger.info(
+                "Seeded %d companies from CSV into company_master.",
+                inserted,
+            )
         except sqlite3.Error as e:
             self.connection.rollback()
             logger.error("Failed to seed company master: %s", e)
             raise
 
-        cursor.execute("SELECT COUNT(*) FROM company_master")
-        total = cursor.fetchone()[0]
-        return total
+        return repo.count()
 
     def is_first_run(self) -> bool:
         """Return True if incident_records is empty, otherwise False."""
